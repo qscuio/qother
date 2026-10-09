@@ -1,0 +1,328 @@
+{
+  "plan_version": 1,
+  "status": "proposal",
+  "base_commit": "2a9eb8acf95f21b3ac8bc70aed681eccd53e9aa9",
+  "script_path": "docs/opening/cosmic-origin/script.md",
+  "scope": "三段互相独立的原创规划示例；非连续样片、非生产分镜、不修改冻结脚本",
+  "fps": 24,
+  "timing_status": "provisional; no narration measured",
+  "shots": [
+    {
+      "shot_id": "CAM-DEMO-01",
+      "existing_shot_id": null,
+      "cue_ref": "script.md 段2；生产cue待授权映射",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "why": "让空间各处间距变化可见，固定相机避免把拉远误读为膨胀",
+      "subject": {
+        "object": "局部抽象分布场",
+        "start": "较密分布",
+        "change": "各处相邻间距伸展",
+        "end": "较疏状态",
+        "physical_motion": "空间膨胀的非比例示意，不是中心向外喷射"
+      },
+      "framing": {
+        "size": "关系全景",
+        "composition": "主变化置于中上区；底部15%留字幕，既有向导区避让",
+        "height_angle_up": "无全局宇宙上下；画面上方为局部up",
+        "start_end_bbox": "provisional：先据实际素材确定；不声称已做遮挡验证"
+      },
+      "camera_path": {
+        "mode": "2d",
+        "move_id": "M00",
+        "coordinates": "画幅归一化x右y下；scale以初始裁切为1",
+        "start": "固定全画幅",
+        "path": "无摄影变化",
+        "end": "固定全画幅",
+        "look_at": "画面关系中心；不是宇宙中心"
+      },
+      "lens_intent": {
+        "intent": "保持一致投影便于比较",
+        "projection": "orthographic illustrative",
+        "sensor_mm": null,
+        "focal_mm": null,
+        "reason": "非物理镜头，不虚构传感器或焦距",
+        "dof": "none"
+      },
+      "duration": {
+        "seconds": 8,
+        "status": "provisional",
+        "basis": "仅便于读设计的无声测试窗口，不是实际旁白时长",
+        "holds_move_seconds": [
+          1,
+          6,
+          1
+        ]
+      },
+      "ease": {
+        "camera": "static",
+        "physical": "独立模型/示意演化；不跟随相机缓动",
+        "reason": "区分观看者起止和物质过程"
+      },
+      "parallax": {
+        "type": "none",
+        "layers": "无",
+        "disclaimer": "不表达实际空间距离或测得速度"
+      },
+      "transitions": {
+        "in": {
+          "type": "cut",
+          "state": "early-hot-dense",
+          "motivation": "开始解释热密膨胀"
+        },
+        "out": {
+          "type": "cut",
+          "state": "micro-explanation",
+          "motivation": "转到阻挡光的微观机制",
+          "cue": "微观过程示意；非比例"
+        },
+        "audio": "原旁白不改；切点待实际录音"
+      },
+      "scientific_risks": [
+        {
+          "risk": "中心爆炸或边界",
+          "mitigation": "不画中心源、外部空壳和膨胀边缘",
+          "residual": "待科学与实际画面复核"
+        },
+        {
+          "risk": "早期星空错置",
+          "mitigation": "本镜无恒星背景",
+          "residual": "待科学与实际画面复核"
+        }
+      ],
+      "qa": [
+        {
+          "check": "冻结相机后主体变化仍存在；冻结主体后相机运动不被解释为物理演化",
+          "expected": "两种运动可分别辨认",
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "check": "首中末帧与实际字幕/向导区域、段落时序一起复核",
+          "expected": "无遮挡、无提前显示后时代对象",
+          "status": "not_run",
+          "evidence": null
+        }
+      ],
+      "information_delta": "从只知道早期热密，进到看懂局部各处间距增大；新增信息由分布状态变化承担，而非相机拉远",
+      "removal_loss": "缺少空间膨胀与中心喷射的视觉区别",
+      "atmosphere_exception": null
+    },
+    {
+      "shot_id": "CAM-DEMO-02",
+      "existing_shot_id": null,
+      "cue_ref": "script.md 段2—3；此处是候选解释层设计，不替换实际cue",
+      "source_ids": [
+        "C01"
+      ],
+      "why": "分清光传播变化与恒星出现",
+      "subject": {
+        "object": "带明确图例的自由电子/光路符号",
+        "start": "光路多次折转",
+        "change": "明确时间省略到约38万年后，部分电子与核结合",
+        "end": "较长光路可读",
+        "physical_motion": "定性微观过程示意，非真实光速或测量轨迹"
+      },
+      "framing": {
+        "size": "微观过程特写示意",
+        "composition": "主变化置于中上区；底部15%留字幕，既有向导区避让",
+        "height_angle_up": "无全局宇宙上下；画面上方为局部up",
+        "start_end_bbox": "provisional：先据实际素材确定；不声称已做遮挡验证"
+      },
+      "camera_path": {
+        "mode": "2d",
+        "move_id": "M00",
+        "coordinates": "画幅归一化x右y下；scale以初始裁切为1",
+        "start": "固定图解",
+        "path": "无相机运动；以独立示意状态更新",
+        "end": "固定图解",
+        "look_at": "画面关系中心；不是宇宙中心"
+      },
+      "lens_intent": {
+        "intent": "固定比较，不加浅景深",
+        "projection": "orthographic illustrative",
+        "sensor_mm": null,
+        "focal_mm": null,
+        "reason": "非物理镜头，不虚构传感器或焦距",
+        "dof": "none"
+      },
+      "duration": {
+        "seconds": 10,
+        "status": "provisional",
+        "basis": "仅便于读设计的无声测试窗口，不是实际旁白时长",
+        "holds_move_seconds": [
+          1,
+          8,
+          1
+        ]
+      },
+      "ease": {
+        "camera": "static",
+        "physical": "独立模型/示意演化；不跟随相机缓动",
+        "reason": "区分观看者起止和物质过程"
+      },
+      "parallax": {
+        "type": "none",
+        "layers": "无",
+        "disclaimer": "不表达实际空间距离或测得速度"
+      },
+      "transitions": {
+        "in": {
+          "type": "cut",
+          "state": "micro-explanation",
+          "cue": "微观过程示意；非比例"
+        },
+        "out": {
+          "type": "cut",
+          "state": "post-recombination",
+          "motivation": "结束机制解释，后续需独立建立暗时代"
+        },
+        "audio": "跨段涉及约38万年后的原旁白；不得提前移到段2之前"
+      },
+      "scientific_risks": [
+        {
+          "risk": "复合等于第一颗星亮起",
+          "mitigation": "无恒星；光路不是新中心光源",
+          "residual": "待科学与实际画面复核"
+        },
+        {
+          "risk": "几秒成为真实耗时",
+          "mitigation": "清楚年代跳跃与时间压缩提示",
+          "residual": "待科学与实际画面复核"
+        }
+      ],
+      "qa": [
+        {
+          "check": "冻结相机后主体变化仍存在；冻结主体后相机运动不被解释为物理演化",
+          "expected": "两种运动可分别辨认",
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "check": "首中末帧与实际字幕/向导区域、段落时序一起复核",
+          "expected": "无遮挡、无提前显示后时代对象",
+          "status": "not_run",
+          "evidence": null
+        }
+      ],
+      "information_delta": "从只知道光难远行，进到看懂电子结合后散射减少、光路变长的定性关系",
+      "removal_loss": "缺少复合与传播条件改变之间的可见机制",
+      "atmosphere_exception": null
+    },
+    {
+      "shot_id": "CAM-DEMO-03",
+      "existing_shot_id": null,
+      "cue_ref": "script.md 段5；独立示例，和前两镜不连续覆盖全稿",
+      "source_ids": [
+        "C01",
+        "C03"
+      ],
+      "why": "用有限横移读出云团局部密度关系；若固定更清楚则退回M00",
+      "subject": {
+        "object": "首代恒星出现前的不均匀原初气体云团艺术复原",
+        "start": "局部较密区域已在环境中定位",
+        "change": "在单独事件轨道示意物质汇聚",
+        "end": "较密区域仍连于周围云团",
+        "physical_motion": "引力收缩的定性复原，未给真实速度"
+      },
+      "framing": {
+        "size": "关系全景",
+        "composition": "主变化置于中上区；底部15%留字幕，既有向导区避让",
+        "height_angle_up": "无全局宇宙上下；画面上方为局部up",
+        "start_end_bbox": "provisional：先据实际素材确定；不声称已做遮挡验证"
+      },
+      "camera_path": {
+        "mode": "2.5d",
+        "move_id": "M03",
+        "coordinates": "画幅归一化x右y下；scale以初始裁切为1",
+        "start": {
+          "viewport_center": [
+            0.48,
+            0.5
+          ]
+        },
+        "path": "横移0.04画宽；仅轻微分层视差",
+        "end": {
+          "viewport_center": [
+            0.52,
+            0.5
+          ]
+        },
+        "look_at": "画面关系中心；不是宇宙中心"
+      },
+      "lens_intent": {
+        "intent": "中等范围环境关系；不假称真实摄影穿云",
+        "projection": "layered 2.5d illustration",
+        "sensor_mm": null,
+        "focal_mm": null,
+        "reason": "非物理镜头，不虚构传感器或焦距",
+        "dof": "none"
+      },
+      "duration": {
+        "seconds": 8,
+        "status": "provisional",
+        "basis": "仅便于读设计的无声测试窗口，不是实际旁白时长",
+        "holds_move_seconds": [
+          1,
+          6,
+          1
+        ]
+      },
+      "ease": {
+        "camera": "smoothstep on middle interval, hold at both ends",
+        "physical": "独立模型/示意演化；不跟随相机缓动",
+        "reason": "区分观看者起止和物质过程"
+      },
+      "parallax": {
+        "type": "illustrative",
+        "layers": "前景稀薄原初气体/中景原初气体云团/远景暗背景；无尘埃、无后代恒星富集材料",
+        "disclaimer": "不表达实际空间距离或测得速度"
+      },
+      "transitions": {
+        "in": {
+          "type": "cut",
+          "state": "cloud-established",
+          "cue": "后续年代；艺术复原",
+          "motivation": "重新建立成星环境"
+        },
+        "out": {
+          "type": "hold",
+          "state": "cloud-concentrated",
+          "motivation": "保留结果给旁白理解"
+        },
+        "audio": "本镜不从复合直接无缝接来；中间原文未删除"
+      },
+      "scientific_risks": [
+        {
+          "risk": "摄影视差冒充密度变化",
+          "mitigation": "物理变化与相机分层分开检查",
+          "residual": "待科学与实际画面复核"
+        },
+        {
+          "risk": "二维云层成为真实测量深度",
+          "mitigation": "标艺术复原，不能读出距离",
+          "residual": "待科学与实际画面复核"
+        }
+      ],
+      "qa": [
+        {
+          "check": "冻结相机后主体变化仍存在；冻结主体后相机运动不被解释为物理演化",
+          "expected": "两种运动可分别辨认",
+          "status": "not_run",
+          "evidence": null
+        },
+        {
+          "check": "首中末帧与实际字幕/向导区域、段落时序一起复核",
+          "expected": "无遮挡、无提前显示后时代对象",
+          "status": "not_run",
+          "evidence": null
+        }
+      ],
+      "information_delta": "从只知道气体分布不均，进到看懂物质向局部密区汇聚；横移仅辅助空间关系",
+      "removal_loss": "若既有镜头未讲清，删去将失去环境与密区的联系；若固定镜已讲清则本运动方案可删",
+      "atmosphere_exception": null
+    }
+  ]
+}

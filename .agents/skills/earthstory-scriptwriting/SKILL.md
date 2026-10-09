@@ -15,6 +15,8 @@ description: Develop and substantially revise Chinese documentary narration for 
 
 ## 从意思到篇章，再到句子
 
+选主线、重排信息或处理多时间尺度时，读[结构选择器与方法库](../../../docs/writing/structure-methods.md)相关部分：按理解困难选择顺时、因果、证据、对照或编织等结构，再考虑倒叙、照应及戏剧框架。每种都有前提和反例；成熟方法是工具，不是强加英雄冲突的模板。需借鉴著名作品时读[创作来源与案例](../../../docs/writing/structure-sources-and-cases.md)，只迁移经核验的具体手法，不用名家标签替代解释。
+
 先选证据与中心细节，决定讲述视角和信息次序。让相邻段之间有真实关系，按需要详写关键变化、概述过渡。先写连续旁白，再排镜头；既有十五秒网格只能作比较基线。无须问题式开头、固定三幕、统一段数或每段悬念。
 
 写作或修改时，指出当下阻碍读者的具体问题，再选择最小有效方法：缺少解释就补有依据的机制，次序混乱就重组，意思清楚才做句段精修。保留已经好的文字。语气不确定时可内部试一小段；按[参考登记](../../../docs/writing/reference-registry.json)核实具体版本和接受范围，没有明确接受的样段不立为标准。操作尺度见[中文改写示例](../../../docs/writing/deslop-examples.md)。
@@ -30,5 +32,7 @@ description: Develop and substantially revise Chinese documentary narration for 
 短样段交付正文与必要的证据／待核说明即可。完整分集交付干净 `script.md`，将来源、画面语义、旧镜号对应、风险及版本状态留在仓库已有伴随文件；不要把制作批注写进旁白。未同步的镜头或数据明确标为待同步，不重用旧 ID。
 
 按[共同验收](../../../docs/writing/editorial-rubric.md)做适用的复述、推断和文本口读检查，报告具体结果。模型模拟不是真人审美证据；未录音就不能称已试音，字数计时只能是估算。先修最高影响的问题，再复核事实；不以禁词、句数或总分验收文学质量。
+
+本次若包含声画设计，再交 `$earthstory-cinematography`：沿用净稿版本、段落功能、前后知识、来源与事实限定，接口见[结构方法](../../../docs/writing/structure-methods.md#交给镜头设计的接口)。冻结稿仅报告适配问题，未经许可不改正文。
 
 结构已成立后的局部精修用 `$earthstory-deslop`；阅读稿与制作资料整理用 `$earthstory-document-editing`。方法出处与读取限制见[研究索引](../../../docs/writing/research-index.md)。
