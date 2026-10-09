@@ -11,7 +11,7 @@
 - [已确认方向与待定事项](docs/decisions.md)
 - [画面与制作规范](docs/production-style.md)
 - [研究来源与核查规范](docs/research-sources.md)
-- [分集结构化数据](data/episodes.json)
+- [分集结构化数据](data/episodes.json) 与 [来源索引数据](data/sources.json)
 
 ## 当前方向
 

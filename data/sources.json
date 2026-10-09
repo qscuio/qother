@@ -1,0 +1,642 @@
+[
+  {
+    "id": "S01",
+    "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+    "title": "USGS：地球的年龄"
+  },
+  {
+    "id": "S02",
+    "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+    "title": "ICS国际年代地层表2026/06"
+  },
+  {
+    "id": "S03",
+    "url": "https://science.nasa.gov/moon/formation/",
+    "title": "NASA：月球的形成"
+  },
+  {
+    "id": "S04",
+    "url": "https://science.nasa.gov/earth/earth-observatory/ancient-crystals-suggest-earlier-ocean/",
+    "title": "NASA：古老晶体与早期海洋线索"
+  },
+  {
+    "id": "S05",
+    "url": "https://www.nhm.ac.uk/discover/origin-of-life-on-earth.html",
+    "title": "伦敦自然历史博物馆：生命起源"
+  },
+  {
+    "id": "S06",
+    "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins",
+    "title": "史密森尼：早期生命与动物起源"
+  },
+  {
+    "id": "S07",
+    "url": "https://home.nps.gov/articles/000/proterozoic-eon.htm",
+    "title": "美国国家公园管理局：元古宙"
+  },
+  {
+    "id": "S08",
+    "url": "https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/geological-timechart/",
+    "title": "英国地质调查局：地质年代表"
+  },
+  {
+    "id": "S09",
+    "url": "https://www.giss.nasa.gov/research/features/201508_slushball/",
+    "title": "NASA GISS：雪球地球可能有未封冻海域"
+  },
+  {
+    "id": "S10",
+    "url": "https://www.nhm.ac.uk/discover/the-cambrian-period.html",
+    "title": "伦敦自然历史博物馆：寒武纪"
+  },
+  {
+    "id": "S11",
+    "url": "https://naturalhistory.si.edu/research/paleobiology/collections-overview/burgess-shale",
+    "title": "史密森尼：布尔吉斯页岩"
+  },
+  {
+    "id": "S12",
+    "url": "https://www.nps.gov/articles/000/ordovician-period.htm",
+    "title": "美国国家公园管理局：奥陶纪"
+  },
+  {
+    "id": "S13",
+    "url": "https://www.nhm.ac.uk/discover/what-is-mass-extinction-and-are-we-facing-a-sixth-one.html",
+    "title": "伦敦自然历史博物馆：何谓大灭绝"
+  },
+  {
+    "id": "S14",
+    "url": "https://www.nps.gov/articles/000/silurian-period.htm",
+    "title": "美国国家公园管理局：志留纪"
+  },
+  {
+    "id": "S15",
+    "url": "https://www.nps.gov/articles/000/devonian-period.htm",
+    "title": "美国国家公园管理局：泥盆纪"
+  },
+  {
+    "id": "S16",
+    "url": "https://www.nhm.ac.uk/discover/news/2024/march/earliest-fossilised-forest-discovered-in-somerset.html",
+    "title": "伦敦自然历史博物馆：萨默塞特早期森林"
+  },
+  {
+    "id": "S17",
+    "url": "https://home.nps.gov/articles/000/pennsylvanian-period.htm",
+    "title": "美国国家公园管理局：宾夕法尼亚亚纪与成煤"
+  },
+  {
+    "id": "S18",
+    "url": "https://www.nps.gov/articles/000/permian-period.htm",
+    "title": "美国国家公园管理局：二叠纪"
+  },
+  {
+    "id": "S19",
+    "url": "https://www.nps.gov/articles/000/triassic-period.htm",
+    "title": "美国国家公园管理局：三叠纪"
+  },
+  {
+    "id": "S20",
+    "url": "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/synapsid-parareptiles.html",
+    "title": "伦敦自然历史博物馆：前新生代合弓类馆藏"
+  },
+  {
+    "id": "S21",
+    "url": "https://www.nps.gov/articles/000/jurassic-period.htm",
+    "title": "美国国家公园管理局：侏罗纪"
+  },
+  {
+    "id": "S22",
+    "url": "https://www.nhm.ac.uk/discover/why-are-birds-the-only-surviving-dinosaurs.html",
+    "title": "伦敦自然历史博物馆：幸存的恐龙为何是鸟类"
+  },
+  {
+    "id": "S23",
+    "url": "https://www.nps.gov/articles/000/cretaceous-period.htm",
+    "title": "美国国家公园管理局：白垩纪"
+  },
+  {
+    "id": "S24",
+    "url": "https://www.nhm.ac.uk/discover/dinosaur-extinction.html",
+    "title": "伦敦自然历史博物馆：非鸟恐龙灭绝"
+  },
+  {
+    "id": "S25",
+    "url": "https://www.nps.gov/articles/000/paleogene-period.htm",
+    "title": "美国国家公园管理局：古近纪"
+  },
+  {
+    "id": "S26",
+    "url": "https://www.nps.gov/articles/000/neogene-period.htm",
+    "title": "美国国家公园管理局：新近纪"
+  },
+  {
+    "id": "S27",
+    "url": "https://humanorigins.si.edu/human-characteristics/walking-upright",
+    "title": "史密森尼人类起源项目：直立行走"
+  },
+  {
+    "id": "S28",
+    "url": "https://www.nps.gov/articles/000/quaternary-period.htm",
+    "title": "美国国家公园管理局：第四纪"
+  },
+  {
+    "id": "S29",
+    "url": "https://humanorigins.si.edu/evidence",
+    "title": "史密森学会｜人类演化证据"
+  },
+  {
+    "id": "S30",
+    "url": "https://humanorigins.si.edu/human-characteristics/tools-food",
+    "title": "史密森学会｜工具与食物"
+  },
+  {
+    "id": "S31",
+    "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus",
+    "title": "史密森学会｜直立人"
+  },
+  {
+    "id": "S32",
+    "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens",
+    "title": "史密森学会｜智人"
+  },
+  {
+    "id": "S33",
+    "url": "https://www.nhm.ac.uk/discover/who-were-the-neanderthals.html",
+    "title": "伦敦自然史博物馆｜尼安德特人"
+  },
+  {
+    "id": "S34",
+    "url": "https://wifi.nhm.ac.uk/discover/when-how-did-modern-humans-homo-sapiens-spread-out-of-africa.html",
+    "title": "伦敦自然史博物馆｜智人的扩散"
+  },
+  {
+    "id": "S35",
+    "url": "https://humanorigins.si.edu/human-characteristics/language-symbols",
+    "title": "史密森学会｜语言与符号"
+  },
+  {
+    "id": "S36",
+    "url": "https://home.nps.gov/whsa/learn/nature/fossilized-footprints.htm",
+    "title": "美国国家公园管理局｜白沙足迹"
+  },
+  {
+    "id": "S37",
+    "url": "https://profiles.si.edu/display/sro_109973",
+    "title": "史密森学会｜近东农业起源研究"
+  },
+  {
+    "id": "S38",
+    "url": "https://whc.unesco.org/en/list/1405",
+    "title": "UNESCO｜恰塔霍裕克"
+  },
+  {
+    "id": "S39",
+    "url": "https://www.ucl.ac.uk/rice/history-rice",
+    "title": "伦敦大学学院｜稻作历史"
+  },
+  {
+    "id": "S40",
+    "url": "https://www.homepages.ucl.ac.uk/~tcrndfu/articles/china%20overview%20pre.pdf",
+    "title": "伦敦大学学院｜中国农业考古综述"
+  },
+  {
+    "id": "S41",
+    "url": "https://whc.unesco.org/en/list/887",
+    "title": "UNESCO｜库克早期农业遗址"
+  },
+  {
+    "id": "S42",
+    "url": "https://www.si.edu/newsdesk/releases/ancient-dna-continues-rewrite-corns-9000-year-society-shaping-history",
+    "title": "史密森学会｜古DNA与玉米驯化"
+  },
+  {
+    "id": "S43",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities",
+    "title": "大都会博物馆｜最初城市的艺术"
+  },
+  {
+    "id": "S44",
+    "url": "https://www.metmuseum.org/es/essays/the-origins-of-writing",
+    "title": "大都会博物馆｜文字的起源"
+  },
+  {
+    "id": "S45",
+    "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
+    "title": "大都会博物馆｜古埃及艺术教学资源"
+  },
+  {
+    "id": "S46",
+    "url": "https://whc.unesco.org/en/list/138/",
+    "title": "UNESCO｜摩亨佐达罗"
+  },
+  {
+    "id": "S47",
+    "url": "https://whc.unesco.org/en/list/1592",
+    "title": "UNESCO｜良渚古城遗址"
+  },
+  {
+    "id": "S48",
+    "url": "https://afe.easia.columbia.edu/special/china_4000bce_bronze.htm",
+    "title": "哥伦比亚大学｜中国青铜时代"
+  },
+  {
+    "id": "S49",
+    "url": "https://afe.easia.columbia.edu/tps/topic_index.htm",
+    "title": "哥伦比亚大学｜亚洲历史主题索引"
+  },
+  {
+    "id": "S50",
+    "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/nubia/kerma.html",
+    "title": "伦敦大学学院｜克尔马"
+  },
+  {
+    "id": "S51",
+    "url": "https://whc.unesco.org/en/list/1269/",
+    "title": "UNESCO｜卡拉尔—苏佩圣城"
+  },
+  {
+    "id": "S52",
+    "url": "https://www.metmuseum.org/ja/essays/olmec-art",
+    "title": "大都会博物馆｜奥尔梅克艺术"
+  },
+  {
+    "id": "S53",
+    "url": "https://anch.sas.upenn.edu/news/0921-eric-cline-gwu-%E2%80%9C1177-bc-and-after-collapse-and-survival-civilizations%E2%80%9D",
+    "title": "宾夕法尼亚大学｜青铜时代崩溃与延续"
+  },
+  {
+    "id": "S54",
+    "url": "https://www.metmuseum.org/ja/essays/mycenaean-civilization",
+    "title": "大都会博物馆｜迈锡尼社会"
+  },
+  {
+    "id": "S55",
+    "url": "https://www.metmuseum.org/ja/essays/ancient-greek-colonization-and-trade-and-their-influence-on-greek-art",
+    "title": "大都会博物馆｜希腊海外建城与贸易"
+  },
+  {
+    "id": "S56",
+    "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Roman_Art_A_Resource_for_Educators.pdf",
+    "title": "大都会博物馆｜罗马艺术教学资源"
+  },
+  {
+    "id": "S57",
+    "url": "https://afe.easia.columbia.edu/cosmos/main/class_materials.htm",
+    "title": "哥伦比亚大学｜儒家与道家教学资源"
+  },
+  {
+    "id": "S58",
+    "url": "https://depts.washington.edu/silkroad/exhibit/mauryans/essay.html",
+    "title": "华盛顿大学｜孔雀王朝与阿育王"
+  },
+  {
+    "id": "S59",
+    "url": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c",
+    "title": "大都会博物馆｜阿契美尼德波斯帝国"
+  },
+  {
+    "id": "S60",
+    "url": "https://www.metmuseum.org/pt/essays/gandhara",
+    "title": "大都会博物馆｜犍陀罗"
+  },
+  {
+    "id": "S61",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires",
+    "title": "大都会博物馆｜秦汉时代"
+  },
+  {
+    "id": "S62",
+    "url": "https://whc.unesco.org/en/list/1336/",
+    "title": "UNESCO｜麦罗埃岛考古遗址"
+  },
+  {
+    "id": "S63",
+    "url": "https://whc.unesco.org/en/list/15/",
+    "title": "UNESCO｜阿克苏姆"
+  },
+  {
+    "id": "S64",
+    "url": "https://www.metmuseum.org/TOAH/hd/teot/hd_teot.htm",
+    "title": "大都会博物馆｜特奥蒂瓦坎"
+  },
+  {
+    "id": "S65",
+    "url": "https://www.metmuseum.org/fr/essays/moche-portrait-head-vessels",
+    "title": "大都会博物馆｜莫切肖像陶器"
+  },
+  {
+    "id": "S66",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/topical-essays/posts/sasanians",
+    "title": "大都会博物馆｜萨珊王朝"
+  },
+  {
+    "id": "S67",
+    "url": "https://www.metmuseum.org/ja/essays/byzantium-ca-330-1453",
+    "title": "大都会艺术博物馆：拜占庭（约330—1453年）"
+  },
+  {
+    "id": "S68",
+    "url": "https://www.metmuseum.org/de/essays/carolingian-art",
+    "title": "大都会艺术博物馆：加洛林艺术"
+  },
+  {
+    "id": "S69",
+    "url": "https://www.metmuseum.org/it/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-one/introduction",
+    "title": "大都会艺术博物馆：伊斯兰信仰与早期历史导读"
+  },
+  {
+    "id": "S70",
+    "url": "https://www.metmuseum.org/es/essays/the-art-of-the-abbasid-period-750-1258",
+    "title": "大都会艺术博物馆：阿拔斯时期艺术"
+  },
+  {
+    "id": "S71",
+    "url": "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704",
+    "title": "联合国教科文组织：丝绸之路概览"
+  },
+  {
+    "id": "S72",
+    "url": "https://www.metmuseum.org/de/essays/tang-dynasty-618-906",
+    "title": "大都会艺术博物馆：唐朝（618—907年）"
+  },
+  {
+    "id": "S73",
+    "url": "https://www.metmuseum.org/de/toah/ht/07/sss.html",
+    "title": "大都会艺术博物馆：南亚南部1000—1400年"
+  },
+  {
+    "id": "S74",
+    "url": "https://www.metmuseum.org/es/essays/the-trans-saharan-gold-trade-7th-14th-century",
+    "title": "大都会艺术博物馆：跨撒哈拉黄金贸易"
+  },
+  {
+    "id": "S75",
+    "url": "https://whc.unesco.org/en/list/64/",
+    "title": "联合国教科文组织：蒂卡尔国家公园"
+  },
+  {
+    "id": "S76",
+    "url": "https://collections.tepapa.govt.nz/topic/3074",
+    "title": "新西兰蒂帕帕国家博物馆：太平洋史诗航行"
+  },
+  {
+    "id": "S77",
+    "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/eac.html",
+    "title": "大都会艺术博物馆：中国1000—1400年"
+  },
+  {
+    "id": "S78",
+    "url": "https://whc.unesco.org/en/list/668",
+    "title": "联合国教科文组织：吴哥"
+  },
+  {
+    "id": "S79",
+    "url": "https://whc.unesco.org/en/list/119/",
+    "title": "联合国教科文组织：廷巴克图"
+  },
+  {
+    "id": "S80",
+    "url": "https://whc.unesco.org/en/list/144",
+    "title": "联合国教科文组织：基尔瓦与松戈姆纳拉遗址"
+  },
+  {
+    "id": "S81",
+    "url": "https://whc.unesco.org/en/list/364",
+    "title": "联合国教科文组织：大津巴布韦遗址"
+  },
+  {
+    "id": "S82",
+    "url": "https://www.metmuseum.org/de/exhibitions/british-galleries%2Finside-the-galleries",
+    "title": "大都会艺术博物馆：英国展厅中的行会与商业"
+  },
+  {
+    "id": "S83",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2002/genghis-khan",
+    "title": "大都会艺术博物馆：成吉思汗的遗产"
+  },
+  {
+    "id": "S84",
+    "url": "https://pure.mpg.de/pubman/item/item_3390349_1/component/file_3390369/shh3237.pdf",
+    "title": "马克斯·普朗克研究机构：14世纪黑死病起源研究论文"
+  },
+  {
+    "id": "S85",
+    "url": "https://www.metmuseum.org/pt/essays/ming-dynasty-1368-1644",
+    "title": "大都会艺术博物馆：明朝（1368—1644年）"
+  },
+  {
+    "id": "S86",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2005/yongle-imperial-art?persisted=true&sc_device=default",
+    "title": "大都会艺术博物馆：永乐时期的宫廷艺术"
+  },
+  {
+    "id": "S87",
+    "url": "https://whc.unesco.org/en/list/1459/",
+    "title": "联合国教科文组织：安第斯道路系统"
+  },
+  {
+    "id": "S88",
+    "url": "https://wwws.loc.gov/exhibits/1492/",
+    "title": "美国国会图书馆：1492，持续至今的航程"
+  },
+  {
+    "id": "S89",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2013/interwoven-globe",
+    "title": "大都会艺术博物馆：交织的世界"
+  },
+  {
+    "id": "S90",
+    "url": "https://nmaahc.si.edu/explore/exhibitions/in-slaverys-wake",
+    "title": "史密森尼非裔美国人历史文化博物馆：奴役之后"
+  },
+  {
+    "id": "S91",
+    "url": "https://www.americanhistory.si.edu/explore/exhibitions/on-the-water/online/living-atlantic-world/new-tastes-new-trades/sugar-trade",
+    "title": "史密森尼美国历史博物馆：糖贸易"
+  },
+  {
+    "id": "S92",
+    "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Islamic_art_in_the_Metropolitan_Museum_the_historical_context.pdf",
+    "title": "大都会艺术博物馆：伊斯兰艺术的历史背景"
+  },
+  {
+    "id": "S93",
+    "url": "https://www.metmuseum.org/fr/essays/the-reformation",
+    "title": "大都会艺术博物馆：宗教改革"
+  },
+  {
+    "id": "S94",
+    "url": "https://www.sciencemuseum.org.uk/see-and-do/object-gallery",
+    "title": "英国科学博物馆：科学技术专题展厅"
+  },
+  {
+    "id": "S95",
+    "url": "https://www.metmuseum.org/ko/essays/art-of-the-korean-renaissance-1400-1600",
+    "title": "大都会艺术博物馆：朝鲜1400—1600年艺术"
+  },
+  {
+    "id": "S96",
+    "url": "https://education.asianart.org/resources/historical-background-of-the-edo-period/",
+    "title": "旧金山亚洲艺术博物馆：江户时代历史背景"
+  },
+  {
+    "id": "S97",
+    "url": "https://www.nam.ac.uk/explore/why-did-indian-mutiny-happen",
+    "title": "英国国家陆军博物馆：1857年印度起义的原因"
+  },
+  {
+    "id": "S98",
+    "url": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/",
+    "title": "英国科学博物馆：瓦特与分离式冷凝器"
+  },
+  {
+    "id": "S99",
+    "url": "https://americanhistory.si.edu/explore/exhibitions/american-revolution-world-war/online/market-revolution",
+    "title": "史密森尼美国历史博物馆：市场革命"
+  },
+  {
+    "id": "S100",
+    "url": "https://www.archives.gov/founding-docs/declaration",
+    "title": "美国国家档案馆：独立宣言"
+  },
+  {
+    "id": "S101",
+    "url": "https://www.unesco.org/en/days/slave-trade-remembrance?hub=66718",
+    "title": "联合国教科文组织：奴隶贸易及其废除纪念日"
+  },
+  {
+    "id": "S102",
+    "url": "https://www.nam.ac.uk/explore/first-china-war-1839-1842",
+    "title": "英国国家陆军博物馆：第一次鸦片战争"
+  },
+  {
+    "id": "S103",
+    "url": "https://www.ndl.go.jp/modern/e/",
+    "title": "日本国立国会图书馆：档案中的近代日本"
+  },
+  {
+    "id": "S104",
+    "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf",
+    "title": "帝国战争博物馆：第一次世界大战展厅说明"
+  },
+  {
+    "id": "S105",
+    "url": "https://www.ushmm.org/holocaust/",
+    "title": "美国大屠杀纪念馆：大屠杀历史导读"
+  },
+  {
+    "id": "S106",
+    "url": "https://www.ushmm.org/genocide/armenia",
+    "title": "美国大屠杀纪念馆：亚美尼亚种族灭绝"
+  },
+  {
+    "id": "S107",
+    "url": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+    "title": "美国疾病控制与预防中心：1918年流感大流行"
+  },
+  {
+    "id": "S108",
+    "url": "https://tile.loc.gov/storage-services/master/gmd/gmd7/g7001/g7001s/2017588308.pdf",
+    "title": "美国国会图书馆：俄国革命与内战简介"
+  },
+  {
+    "id": "S109",
+    "url": "https://www.loc.gov/exhibits/archives/intn.html",
+    "title": "美国国会图书馆：苏联内部运作档案展"
+  },
+  {
+    "id": "S110",
+    "url": "https://www.un.org/en/about-us/history-of-the-un",
+    "title": "联合国：联合国历史"
+  },
+  {
+    "id": "S111",
+    "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/indian-independence-part-one/",
+    "title": "英国国家档案馆：印度独立史料第一部分"
+  },
+  {
+    "id": "S112",
+    "url": "https://www.un.org/en/global-issues/decolonization",
+    "title": "联合国：非殖民化"
+  },
+  {
+    "id": "S113",
+    "url": "https://www.federalreservehistory.org/time-period/great-depression",
+    "title": "美联储历史项目：大萧条"
+  },
+  {
+    "id": "S114",
+    "url": "https://encyclopedia.ushmm.org/content/en/series/world-war-ii?parent=en%2F11747",
+    "title": "美国大屠杀纪念馆：第二次世界大战专题"
+  },
+  {
+    "id": "S115",
+    "url": "https://www.unesco.org/sites/default/files/china_nanjing_en.pdf",
+    "title": "联合国教科文组织：南京大屠杀档案申报材料"
+  },
+  {
+    "id": "S116",
+    "url": "https://www.un.org/en/node/25811",
+    "title": "联合国：最初七十年的成就与挑战"
+  },
+  {
+    "id": "S117",
+    "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+    "title": "英国国家档案馆：英属印度分治"
+  },
+  {
+    "id": "S118",
+    "url": "https://www.gov.cn/zhuanti/2009-09/10/content_2756658.htm",
+    "title": "中国政府网：1981年历史决议回顾"
+  },
+  {
+    "id": "S119",
+    "url": "https://yndx.gov.cn/html/210507/14467.html",
+    "title": "云南省委党校：1981年历史问题决议全文"
+  },
+  {
+    "id": "S120",
+    "url": "https://www.un.org/en/chronicle/article/long-road-durban-united-nations-role-fighting-racism-and-racial-discrimination",
+    "title": "联合国：反种族主义与反种族隔离的历程"
+  },
+  {
+    "id": "S121",
+    "url": "https://www.nma.gov.au/defining-moments/resources/indigenous-referendum",
+    "title": "澳大利亚国家博物馆：1967年原住民公投"
+  },
+  {
+    "id": "S122",
+    "url": "https://www.nasa.gov/history/explore-nasas-history/",
+    "title": "美国国家航空航天局：航天历史概览"
+  },
+  {
+    "id": "S123",
+    "url": "https://www.who.int/news-room/feature-stories/detail/the-smallpox-eradication-programme---sep-%281966-1980%29",
+    "title": "世界卫生组织：天花根除计划"
+  },
+  {
+    "id": "S124",
+    "url": "https://ricetoday.irri.org/changing-the-world-with-seeds-the-breeding-history-of-ir8/",
+    "title": "国际水稻研究所：IR8育种历史"
+  },
+  {
+    "id": "S125",
+    "url": "https://www.wto.org/English/theWTO_e/whatis_e/tif_e/fact4_e.htm",
+    "title": "世界贸易组织：从哈瓦那到马拉喀什的关贸总协定历史"
+  },
+  {
+    "id": "S126",
+    "url": "https://www.un.org/en/preventgenocide/rwanda/historical-background.shtml",
+    "title": "联合国：1994年卢旺达种族灭绝历史背景"
+  },
+  {
+    "id": "S127",
+    "url": "https://www.icty.org/en/cases",
+    "title": "联合国前南斯拉夫国际刑事法庭：案件档案"
+  },
+  {
+    "id": "S128",
+    "url": "https://home.cern/science/computing/the-birth-of-the-web/",
+    "title": "欧洲核子研究中心：万维网的诞生"
+  }
+]
