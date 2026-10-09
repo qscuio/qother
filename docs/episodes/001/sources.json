@@ -1,0 +1,88 @@
+[
+  {
+    "id": "E01",
+    "kind": "official_education",
+    "title": "NASA — How Did the Solar System Form?",
+    "url": "https://spaceplace.nasa.gov/solar-system-formation/en/",
+    "supports": "约46亿年前的气体尘埃云、引力收缩、旋转盘与年轻太阳；只取基础形成机制，不沿用儿童化类比。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E02",
+    "kind": "official_education",
+    "title": "NASA — How Do Planets Form?",
+    "url": "https://science.nasa.gov/exoplanets/how-do-planets-form/",
+    "supports": "固体颗粒碰撞、团聚与破碎；岩石行星的长期吸积，形成可持续数千万年；不采纳页面个别过度概括的整体耗时表达。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E03",
+    "kind": "official_research_summary",
+    "title": "NASA / SwRI — Binaries Help Make Heads or Tails of Planet Formation",
+    "url": "https://astrobiology.nasa.gov/news/binaries-help-make-heads-or-tails-of-planet-formation/",
+    "supports": "初期颗粒轻碰黏附；气体与颗粒集聚、流不稳定性及后续引力坍缩；颗粒到星子仍有研究，不把全部阶段化约为引力吸附。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E04",
+    "kind": "official_education",
+    "title": "USGS — Geologic Time: Age of the Earth",
+    "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+    "supports": "地球年龄常用估计4.54Ga；利用地球与陨石铅同位素体系而非最老单块岩石直接定年；原文年龄不确定性小于1%。",
+    "access_note": "直接打开返回403，已通过搜索工具读到该官方页面正文与测年解释。此为较旧教育页；不采用其宇宙年龄或最老岩石历史性陈述。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E05",
+    "kind": "official_standard",
+    "title": "ICS — International Chronostratigraphic Chart 2026/06",
+    "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+    "supports": "宙—代—纪—世层级及四宙；冥古宙4567至4031±3Ma，太古宙4031±3至2500Ma，元古宙2500至538.8±0.6Ma，显生宙538.8±0.6Ma至今。",
+    "caution": "时间尺是年代分段，不是四种生物时代。4567Ma年代尺起点不等于4540Ma地球年龄估计。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E06",
+    "kind": "primary_research",
+    "title": "Rubie et al. — Accretion and differentiation of the terrestrial planets",
+    "url": "https://arxiv.org/abs/1410.3509",
+    "supports": "地球吸积与金属—硅酸盐分异相互交织；金属核与硅酸盐外围；研究模型不当作唯一已证实的逐帧历史。",
+    "supporting_sources": [
+      {
+        "title": "Wahl & Militzer — High-temperature miscibility of iron and rock during terrestrial planet formation",
+        "url": "https://arxiv.org/abs/1608.01295",
+        "supports": "吸积和核幔分异提供大量热；高能撞击与广泛熔融。"
+      },
+      {
+        "title": "NASA — Ep. 307: Psyche",
+        "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/ep-307-psyche/",
+        "supports": "熔融天体金属下沉形成核，联系类地行星结构。"
+      }
+    ],
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E07",
+    "kind": "official_education",
+    "title": "USGS — Volcano Watch: Heat is deep and magma is shallow in a hot-spot system",
+    "url": "https://www.usgs.gov/news/volcano-watch-heat-deep-and-magma-shallow-a-hot-spot-system",
+    "supports": "行星初次聚集的原始热与放射性衰变热；本集不设各来源百分比，不把现今热预算当作初期热预算。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E08",
+    "kind": "official_education",
+    "title": "USGS — Radiogenic Isotopes and the Eastern Mineral Resources Program",
+    "url": "https://pubs.usgs.gov/info/ayuso2/",
+    "supports": "已知衰变速率、母体/子体同位素丰度与封闭体系前提；测年需要核查物质增减，与E04共同支持热/熔融改变记录的叙述。",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "E09",
+    "kind": "official_education",
+    "title": "NASA — Moon Formation",
+    "url": "https://science.nasa.gov/moon/formation/",
+    "supports": "大碰撞是月球起源的重要主流解释；本集只预告，不锁定撞击参数、年月或月球形成细节。",
+    "checked_on": "2026-10-09"
+  }
+]

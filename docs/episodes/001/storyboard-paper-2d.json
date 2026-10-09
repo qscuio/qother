@@ -1,0 +1,1181 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "planning_status": "text-only; assets absent; no render or audio",
+  "style_id": "earthstory-paper-2d",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_s": 360,
+  "expected_shot_count": 24,
+  "sources": [
+    {
+      "id": "E01",
+      "kind": "factual",
+      "title": "NASA — How Did the Solar System Form?",
+      "url": "https://spaceplace.nasa.gov/solar-system-formation/en/",
+      "supports": "约46亿年前的气体尘埃云、引力收缩、旋转盘与年轻太阳；只取基础形成机制，不沿用儿童化类比。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_education"
+    },
+    {
+      "id": "E02",
+      "kind": "factual",
+      "title": "NASA — How Do Planets Form?",
+      "url": "https://science.nasa.gov/exoplanets/how-do-planets-form/",
+      "supports": "固体颗粒碰撞、团聚与破碎；岩石行星的长期吸积，形成可持续数千万年；不采纳页面个别过度概括的整体耗时表达。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_education"
+    },
+    {
+      "id": "E03",
+      "kind": "factual",
+      "title": "NASA / SwRI — Binaries Help Make Heads or Tails of Planet Formation",
+      "url": "https://astrobiology.nasa.gov/news/binaries-help-make-heads-or-tails-of-planet-formation/",
+      "supports": "初期颗粒轻碰黏附；气体与颗粒集聚、流不稳定性及后续引力坍缩；颗粒到星子仍有研究，不把全部阶段化约为引力吸附。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_research_summary"
+    },
+    {
+      "id": "E04",
+      "kind": "factual",
+      "title": "USGS — Geologic Time: Age of the Earth",
+      "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+      "supports": "地球年龄常用估计4.54Ga；利用地球与陨石铅同位素体系而非最老单块岩石直接定年；原文年龄不确定性小于1%。",
+      "access_note": "直接打开返回403，已通过搜索工具读到该官方页面正文与测年解释。此为较旧教育页；不采用其宇宙年龄或最老岩石历史性陈述。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_education"
+    },
+    {
+      "id": "E05",
+      "kind": "factual",
+      "title": "ICS — International Chronostratigraphic Chart 2026/06",
+      "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "supports": "宙—代—纪—世层级及四宙；冥古宙4567至4031±3Ma，太古宙4031±3至2500Ma，元古宙2500至538.8±0.6Ma，显生宙538.8±0.6Ma至今。",
+      "caution": "时间尺是年代分段，不是四种生物时代。4567Ma年代尺起点不等于4540Ma地球年龄估计。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_standard"
+    },
+    {
+      "id": "E06",
+      "kind": "factual",
+      "title": "Rubie et al. — Accretion and differentiation of the terrestrial planets",
+      "url": "https://arxiv.org/abs/1410.3509",
+      "supports": "地球吸积与金属—硅酸盐分异相互交织；金属核与硅酸盐外围；研究模型不当作唯一已证实的逐帧历史。",
+      "supporting_sources": [
+        {
+          "title": "Wahl & Militzer — High-temperature miscibility of iron and rock during terrestrial planet formation",
+          "url": "https://arxiv.org/abs/1608.01295",
+          "supports": "吸积和核幔分异提供大量热；高能撞击与广泛熔融。"
+        },
+        {
+          "title": "NASA — Ep. 307: Psyche",
+          "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/ep-307-psyche/",
+          "supports": "熔融天体金属下沉形成核，联系类地行星结构。"
+        }
+      ],
+      "checked_on": "2026-10-09",
+      "source_type": "primary_research"
+    },
+    {
+      "id": "E07",
+      "kind": "factual",
+      "title": "USGS — Volcano Watch: Heat is deep and magma is shallow in a hot-spot system",
+      "url": "https://www.usgs.gov/news/volcano-watch-heat-deep-and-magma-shallow-a-hot-spot-system",
+      "supports": "行星初次聚集的原始热与放射性衰变热；本集不设各来源百分比，不把现今热预算当作初期热预算。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_education"
+    },
+    {
+      "id": "E08",
+      "kind": "factual",
+      "title": "USGS — Radiogenic Isotopes and the Eastern Mineral Resources Program",
+      "url": "https://pubs.usgs.gov/info/ayuso2/",
+      "supports": "已知衰变速率、母体/子体同位素丰度与封闭体系前提；测年需要核查物质增减，与E04共同支持热/熔融改变记录的叙述。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_education"
+    },
+    {
+      "id": "E09",
+      "kind": "factual",
+      "title": "NASA — Moon Formation",
+      "url": "https://science.nasa.gov/moon/formation/",
+      "supports": "大碰撞是月球起源的重要主流解释；本集只预告，不锁定撞击参数、年月或月球形成细节。",
+      "checked_on": "2026-10-09",
+      "source_type": "official_education"
+    }
+  ],
+  "assets": [
+    {
+      "id": "guide-original",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/guide-original.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    },
+    {
+      "id": "paper-surface",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/paper-surface.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    },
+    {
+      "id": "cloud-layers",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/cloud-layers.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    },
+    {
+      "id": "disk-layers",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/disk-layers.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    },
+    {
+      "id": "dust-clusters",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/dust-clusters.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    },
+    {
+      "id": "rock-embryos",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/rock-embryos.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    },
+    {
+      "id": "earth-cutaway",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/earth-cutaway.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    },
+    {
+      "id": "evidence-annotations",
+      "version": "plan-v1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/planned/paper-2d/evidence-annotations.png",
+      "rights": "需求占位；没有实际文件或已取得权利。生产前取得使用依据并计算真实哈希。",
+      "intact": true,
+      "exists": false
+    }
+  ],
+  "guide": {
+    "asset_id": "guide-original",
+    "version": "plan-v1",
+    "height_fraction": 0.2,
+    "bbox": [
+      0.025,
+      0.61,
+      0.1,
+      0.2
+    ]
+  },
+  "captions": {
+    "bbox": [
+      0.13,
+      0.85,
+      0.74,
+      0.1
+    ]
+  },
+  "voice": {
+    "status": "deferred",
+    "note": "仅共同旁白文本；静音占位；音色/配音/口型未选择或验收。"
+  },
+  "shots": [
+    {
+      "shot_id": "S01",
+      "start_s": 0,
+      "end_s": 15,
+      "narration": "地球最初的材料，是散布在太空里的气体和尘埃。今天脚下这样一颗巨大的岩石行星，曾经没有完整的轮廓。它的故事，要从这些细小的颗粒讲起。",
+      "visual": "前：两枚暗尘遮边；中：未绘现代大陆的行星轮廓；后：疏散云层。向导首镜静止。 首尾角标可见，完整原图静止；未取得前仅保留槽位。 科学示意，非真实比例。",
+      "action": "0–4秒轮廓保持；4–10秒轮廓被逐层遮罩揭去，显出原本分散的材料；10–15秒标题与颗粒场稳定，不把倒叙表现成爆炸。",
+      "camera": "固定正交。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "cloud-layers",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E01",
+        "E02"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_00",
+        "out": "PAPER_STATE_01"
+      },
+      "continuity_note": "标题笔画中的颗粒形状匹配下一镜时间标记。",
+      "transition": "标题笔画中的颗粒形状匹配下一镜时间标记。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "回溯是叙事手法，不声称地球曾反向碎裂。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": true
+    },
+    {
+      "shot_id": "S02",
+      "start_s": 15,
+      "end_s": 30,
+      "narration": "把时间拨回约四十六亿年前。那时，太阳和行星还在形成。地球的年龄通常说是约四十五点四亿年；这两个数字，说的是同一段漫长历史里的不同节点。",
+      "visual": "前：纸边时间指针；中：两处有间距的时间位置；后：同一云场降对比。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–5秒露出“约46亿年前”；5–10秒在较晚位置露出“约45.4亿年”；10–15秒连线保留，标背景形成/年龄估计，不把两个节点合并。",
+      "camera": "固定；仅时间条自身展开。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E01",
+        "E04"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_01",
+        "out": "PAPER_STATE_02"
+      },
+      "continuity_note": "时间条纸边匹配层级尺上缘。",
+      "transition": "时间条纸边匹配层级尺上缘。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "两个约字与不同节点必须同时可读，示意尺不冒充精确间距。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S03",
+      "start_s": 30,
+      "end_s": 45,
+      "narration": "为了在这么长的历史里辨认位置，我们需要一把时间尺。地质年代常用的层级，从大到小，是宙、代、纪、世。它们层层包含，长短却并不相等。",
+      "visual": "前：最内层窄纸条；中：宙→代→纪→世嵌套阶梯；后：不等长外框。 尺度说明时可见，完整原图静止。 科学示意，非真实比例。",
+      "action": "0–4秒宙框揭开；4–11秒内部依次揭出代、纪、世；11–15秒四层同时停留，注明“层级示意，非时长比例”。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E05"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_02",
+        "out": "PAPER_STATE_03"
+      },
+      "continuity_note": "最外层纸条延伸成为四宙全尺。",
+      "transition": "最外层纸条延伸成为四宙全尺。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不得四张等宽卡片并列；相邻层级明确包含关系。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": true
+    },
+    {
+      "shot_id": "S04",
+      "start_s": 45,
+      "end_s": 60,
+      "narration": "冥古宙、太古宙、元古宙、显生宙，是这把尺上的四个大段。它们并不是四种生物时代。这一集，我们先回到太阳系形成的背景，再进入地球的冥古宙。",
+      "visual": "前：起点指针；中：四宙纸质长尺；后：地球尚未完成的淡轮廓。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–5秒按已核定四宙边界展开尺；5–10秒定位最早段；10–15秒将形成背景放尺起点之外的独立引线，不与冥古宙起点重合。",
+      "camera": "一次水平移动≤3%画宽，服务定位；不推近。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E05"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_03",
+        "out": "PAPER_STATE_04"
+      },
+      "continuity_note": "指针所指纸纹溶入星云密度核，形成话题切换。",
+      "transition": "指针所指纸纹溶入星云密度核，形成话题切换。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "若无法按事实表准确制尺，改用明确非比例分段；4567与4540不能画成同一刻。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S05",
+      "start_s": 60,
+      "end_s": 75,
+      "narration": "太阳系诞生在一团气体和尘埃之中。云的一部分在引力作用下收缩，物质向中心汇聚。收缩中的云也在旋转，周围的物质逐渐铺展成一个盘。",
+      "visual": "前：低对比近云边；中：偏右局部密度核；后：广阔疏云。K1。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒保持云的局部差异；4–10秒局部颗粒聚拢并绕转；10–15秒通过轮廓/遮挡逐渐显出扁盘，非整团纸云被外力压扁。",
+      "camera": "缓推4%，不旋转。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "cloud-layers",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E01"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_04",
+        "out": "PAPER_STATE_05"
+      },
+      "continuity_note": "盘的长轴与下一镜长轴同位匹配。",
+      "transition": "盘的长轴与下一镜长轴同位匹配。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "收缩只有云的一部分；轨迹示意不表现统一吸尘器涡流。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S06",
+      "start_s": 75,
+      "end_s": 90,
+      "narration": "中心孕育着年轻的太阳，盘里则留下了形成行星的材料。靠近太阳的区域比较热，能够在这里参与建造岩石行星的，主要是岩石和金属的固体颗粒。",
+      "visual": "前：椭圆盘前缘；中：年轻太阳和内盘颗粒；后：盘后缘。K2。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒延续盘；4–10秒内盘固体颗粒轮廓显露，热区用赭色弱强调；10–15秒选择一个局部区域，边框提示下一镜放大。",
+      "camera": "固定；局部框变化非摄影推近。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "disk-layers",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E01",
+        "E02"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_05",
+        "out": "PAPER_STATE_06"
+      },
+      "continuity_note": "剪切至已标出的颗粒局部，明确尺度改变。",
+      "transition": "剪切至已标出的颗粒局部，明确尺度改变。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "固体来自盘中材料，不能从太阳表面剥落；温度颜色为示意。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S07",
+      "start_s": 90,
+      "end_s": 105,
+      "narration": "小颗粒沿着各自的路径运动，偶尔轻轻碰到一起，便可能黏住。这个阶段，颗粒表面的作用很重要；不能把整个过程，想成引力一下就把尘埃吸成了地球。",
+      "visual": "前：一枚近处虚化形状；中：两粒细纸轮廓颗粒；后：低对比盘纹。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒两颗粒沿不同路线接近；4–9秒轻触并形成不规则接触团；9–15秒团块缓慢共同移出，保留孔隙，不瞬间变成光滑球。",
+      "camera": "固定微观示意镜头。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "dust-clusters",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E03"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_06",
+        "out": "PAPER_STATE_07"
+      },
+      "continuity_note": "团块在画面同位接下一镜，作为不同结果的对照基准。",
+      "transition": "团块在画面同位接下一镜，作为不同结果的对照基准。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "黏结不使用大尺度引力箭头；不把所有接触都画成必黏。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S08",
+      "start_s": 105,
+      "end_s": 120,
+      "narration": "长大并不总是顺利。有些颗粒黏住，有些弹开，还有些碰撞会把团块打散。气体的运动也会影响它们的聚集。从小颗粒到大天体，中间的细节仍在研究。",
+      "visual": "前：少量碎片；中：同一空间三处先后发生的碰撞；后：气体流线遮罩。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒左侧轻碰黏结；4–8秒中间弹开；8–12秒右侧团块破碎并受流场影响；12–15秒三处结果共同保留，“机制仍在研究”稳定显示。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "dust-clusters",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E02",
+        "E03"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_07",
+        "out": "PAPER_STATE_08"
+      },
+      "continuity_note": "选中较大聚集区的轮廓做尺度跳切，不把三例拼成必然生长阶梯。",
+      "transition": "选中较大聚集区的轮廓做尺度跳切，不把三例拼成必然生长阶梯。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "三种结果不做等概率饼图；气体流线不是可见绳索。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S09",
+      "start_s": 120,
+      "end_s": 135,
+      "narration": "当固体物质聚成更大的天体，引力越来越能改变彼此的运动。它们吸引周围材料，在碰撞中继续增长。这种不断积累物质的过程，叫作吸积。",
+      "visual": "前：近岩块压暗；中：较大天体与偏转的入射材料；后：疏盘。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒入射路径可见；4–10秒靠近时路径弯曲并局部并合；10–15秒天体轮廓稍增厚，标“吸积：不断积累物质”。",
+      "camera": "横移2%跟随入射材料；无缩放。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "rock-embryos",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E02",
+        "E03"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_08",
+        "out": "PAPER_STATE_09"
+      },
+      "continuity_note": "增厚轮廓匹配下一镜多个胚胎之一。",
+      "transition": "增厚轮廓匹配下一镜多个胚胎之一。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "只画局部吸积，不把附近所有材料立刻清空。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S10",
+      "start_s": 135,
+      "end_s": 150,
+      "narration": "盘里逐渐出现许多行星胚胎。它们绕着太阳运行，也相互扰动。一次碰撞可能让天体合并，也可能剥离部分物质。地球就是在这样的增长和重组中形成的。",
+      "visual": "前：一块掠过岩块；中：多个不规则胚胎；后：恒星与简化轨道片段。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒多体异步运行；4–10秒一次并合同时少量材料剥离；10–15秒残余碎屑继续运动，其他胚胎保留。",
+      "camera": "固定宽景。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "rock-embryos",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E02",
+        "E06"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_09",
+        "out": "PAPER_STATE_10"
+      },
+      "continuity_note": "沿同一胚胎轮廓切入时间压缩展示。",
+      "transition": "沿同一胚胎轮廓切入时间压缩展示。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不指定某一粒尘埃为地球命定起点；轨道非预测复原。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S11",
+      "start_s": 150,
+      "end_s": 165,
+      "narration": "画面里的几次转动，只能代表这个过程的一小部分。岩石行星的形成，可以延续数千万年。地球的诞生，是一段逐步积累的历史，很难给出某一天作为完成日期。",
+      "visual": "前：代表时间经过的窄纸带；中：胚胎轮廓多阶段覆盖；后：稳定轨道参照。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒保留初始轮廓；4–11秒三阶段间以纸遮罩渐换并留下轮廓痕迹；11–15秒“数千万年／过程压缩”保留，不出现逐日倒计时。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "rock-embryos",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E02",
+        "E04"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_10",
+        "out": "PAPER_STATE_11"
+      },
+      "continuity_note": "末态表面同位接撞击落点。",
+      "transition": "末态表面同位接撞击落点。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "阶段间没有精确年数和匀速增长暗示；轨道转数不是计时器。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S12",
+      "start_s": 165,
+      "end_s": 180,
+      "narration": "碰撞带来的不只是新材料。运动中的能量，也会转成热。一次次撞击改变表面和内部的温度，较大的撞击能够造成广泛熔融，让岩石失去原来的坚硬形态。",
+      "visual": "前：少量抛出的深色物质；中：相遇的两岩体；后：无空气的深色背景。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒相遇；4–8秒接触区形变、材料重新分配；8–15秒赭色热区从接触附近拓展到剖面，速度为示意。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "earth-cutaway",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E06"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_11",
+        "out": "PAPER_STATE_12"
+      },
+      "continuity_note": "热区形状匹配下一镜内部热区。",
+      "transition": "热区形状匹配下一镜内部热区。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "禁止空气火焰、烟柱和声波圈；熔融不等于瞬间全球全熔。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S13",
+      "start_s": 180,
+      "end_s": 195,
+      "narration": "行星内部还有热量的来源：一些放射性元素会在衰变时释放能量。物质向深处下沉，也能释放引力势能。这些过程共同参与了年轻地球的升温和内部变化。",
+      "visual": "前：三条细标签引线；中：同一半剖地球；后：热区低对比底形。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒保留撞击余热；4–9秒内部若干位置色阶变化代表衰变供热；9–13秒材料向深处迁移并显示能量变化；13–15秒三种来源标签共同保留。",
+      "camera": "固定，不做三张PPT卡片。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "earth-cutaway",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E06",
+        "E07"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_12",
+        "out": "PAPER_STATE_13"
+      },
+      "continuity_note": "下沉材料位置连续接分异。",
+      "transition": "下沉材料位置连续接分异。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不得画固定占比；放射性不是核爆图标；引力势能不是新物质。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S14",
+      "start_s": 195,
+      "end_s": 210,
+      "narration": "在能够流动的环境中，密度较大的富铁金属向深处迁移，逐渐汇入地核；相对较轻的硅酸盐物质，构成外围的主要部分。地球内部开始有了明显的分层。",
+      "visual": "前：剖面切口纸边；中：流动条件下富铁金属团与硅酸盐外层；后：完整外轮廓。K3。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒不同材料混杂；4–11秒多条短向心路径汇入深部，外层分布随之重排；11–15秒内外差别可读但不画成现代标准地球截面。",
+      "camera": "缓推5%，只为内部结构可读。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "earth-cutaway",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E06"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_13",
+        "out": "PAPER_STATE_14"
+      },
+      "continuity_note": "继续保留未完成分布，接下一镜同时吸积。",
+      "transition": "继续保留未完成分布，接下一镜同时吸积。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "向心而非统一画面向下；有流动条件；金属汇聚不画成空洞下落。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S15",
+      "start_s": 210,
+      "end_s": 225,
+      "narration": "这种按成分重新分开的过程，叫作分异。它和行星的增长相互交织，并不是地球先完整长好，再整齐地分层。后来的碰撞，还会继续改变它的内部。",
+      "visual": "前：两条部分重叠的窄时间带；中：仍在变化的剖面；后：少量外来材料。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒接续分异中间态；4–10秒外来物质并入且内部继续重排；10–15秒“吸积”“分异”两带重叠露出，保留未来延伸端。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "earth-cutaway",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E06"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_14",
+        "out": "PAPER_STATE_15"
+      },
+      "continuity_note": "剖面覆盖片缓合，转完整热地球。",
+      "transition": "剖面覆盖片缓合，转完整热地球。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不先长成完整地球再启动分层；不使用结束打勾符号。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S16",
+      "start_s": 225,
+      "end_s": 240,
+      "narration": "于是，一颗有金属核和岩石外层的年轻地球，逐渐出现在太阳周围。它仍然炽热，也仍在变化。这里展示的是早期结构，不能直接照搬今天的地壳和大陆。",
+      "visual": "前：低对比近岩块；中：完整热地球，随后露小块剖面；后：年轻太阳与轨道。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–5秒遮罩合拢为外观；5–10秒整体缓慢移动显示仍在运动；10–15秒重新揭出局部剖面，仅标金属核和岩石外层。",
+      "camera": "固定；球体为平面层级示意，不绕球摄影。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "earth-cutaway",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E06"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_15",
+        "out": "PAPER_STATE_16"
+      },
+      "continuity_note": "地球外轮廓在证据框中同位缩成复原插图。",
+      "transition": "地球外轮廓在证据框中同位缩成复原插图。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不画海洋、现代大陆、现今地壳厚度或磁场已获证实的暗示。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S17",
+      "start_s": 240,
+      "end_s": 255,
+      "narration": "这些场景没有被任何相机拍下。我们今天看到的形成画面，都是依据证据制作的复原。要理解这段历史，科学家会研究岩石、陨石，以及它们保存的化学记录。",
+      "visual": "前：抽象样本纸切面；中：岩石与陨石样本并置；后：标“模型复原”的形成场景框。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–5秒形成场景收进复原框；5–10秒样本切面覆盖前景；10–15秒细线连接样本到化学记录符号，保留证据与解释的区别。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E04",
+        "E06"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_16",
+        "out": "PAPER_STATE_17"
+      },
+      "continuity_note": "一枚样本切面填满下一镜中景，标微观示意。",
+      "transition": "一枚样本切面填满下一镜中景，标微观示意。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "样本是说明图，不伪造实拍、实验室读数或真实样本编号。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S18",
+      "start_s": 255,
+      "end_s": 270,
+      "narration": "有些元素的同位素，会以已知的速率衰变成另一些同位素。测量样品里相关同位素的比例，再结合它的形成与保存情况，就能估算某次地质事件的年代。",
+      "visual": "前：样本切面边；中：母体/子体两种轮廓标记的群体；后：稳定统计轨迹。 尺度说明时可见，完整原图静止。 科学示意，非真实比例。",
+      "action": "0–4秒两类标记有图例；4–10秒分散位置先后改变类别，表现群体比例变化；10–15秒测量括号与“结合保存情况”出现，不给单原子倒计时。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E04",
+        "E08"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_17",
+        "out": "PAPER_STATE_18"
+      },
+      "continuity_note": "同一样本边界接下一镜热/交换。",
+      "transition": "同一样本边界接下一镜热/交换。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "母子体靠形状兼容灰阶；群体速率不是单个原子按节拍必变。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": true
+    },
+    {
+      "shot_id": "S19",
+      "start_s": 270,
+      "end_s": 285,
+      "narration": "这类时钟也需要核查。岩石如果经历加热、熔融，或者物质交换，记录就可能改变。测出一块岩石的年龄，并不等于直接测到了地球作为行星开始形成的那一刻。",
+      "visual": "前：样本外缘交换路径；中：与上镜同一类样本；后：事件时间线。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒保持封闭记录示意；4–10秒热区显出，部分标记跨边界交换；10–15秒记录线发生改变，分别标矿物事件/可能重置/行星年龄，禁止等号。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E04",
+        "E08"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_18",
+        "out": "PAPER_STATE_19"
+      },
+      "continuity_note": "样本移到左侧构图，右侧下一镜出现陨石样本。",
+      "transition": "样本移到左侧构图，右侧下一镜出现陨石样本。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不宣称任意加热必完全重置；标签保留“可能”。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S20",
+      "start_s": 285,
+      "end_s": 300,
+      "narration": "陨石为这段缺失的历史补充了线索。有些陨石保存着太阳系早期的物质记录。把它们和地球样品中的同位素证据放在一起，可以约束地球形成的大致年代。",
+      "visual": "前：两类样本切片；中：陨石与地球样本通向比较区；后：早期材料的淡轮廓。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒两类样本来源标签出现；4–10秒同位素记录以相同尺度符号对照；10–15秒引线指向年代约束区，区域仍是范围示意。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E04"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_19",
+        "out": "PAPER_STATE_20"
+      },
+      "continuity_note": "约束区位置匹配年龄估计文字。",
+      "transition": "约束区位置匹配年龄估计文字。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不展示虚构数值或拟合曲线；陨石不作为启动地球时钟的撞击触发器。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S21",
+      "start_s": 300,
+      "end_s": 315,
+      "narration": "综合这些证据，地球年龄的常用估计是约四十五点四亿年。这个数字有不确定性，也不意味着所有材料在同一时刻集齐。年龄估计和形成过程，要一起理解。",
+      "visual": "前：非数值置信范围的浅纸边；中：“约45.4亿年”；后：多条来源线与形成过程轮廓。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–5秒多证据引线汇入；5–10秒年龄标签显出并保留约字；10–15秒下面展开延续一段时间的形成带，“估计／非瞬间完成”常驻。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "evidence-annotations",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E04"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_20",
+        "out": "PAPER_STATE_21"
+      },
+      "continuity_note": "形成带纹理承接回顾场景中的物质流。",
+      "transition": "形成带纹理承接回顾场景中的物质流。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不画一个确定生日点；范围若无数值依据不标刻度或概率。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S22",
+      "start_s": 315,
+      "end_s": 330,
+      "narration": "回头看，这颗行星的形成有几条交织的线：颗粒聚集，天体吸积；碰撞与内部过程带来热量，金属和岩石逐渐分开。它们共同改变了地球的大小和内部结构。",
+      "visual": "前：回用代表尘粒轮廓；中：聚集、吸积、热量、分异构成同一连续场景；后：交叠时间带。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–4秒局部颗粒聚集；4–8秒材料并入较大天体；8–12秒热区和内部重排同时显现；12–15秒四条关系保持，用交叠而非单线箭头表达。",
+      "camera": "一次水平移动3%引导视线，不再推近。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "earth-cutaway",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E02",
+        "E06",
+        "E07"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_21",
+        "out": "PAPER_STATE_22"
+      },
+      "continuity_note": "落点停在热地球，接时间尺定位。",
+      "transition": "落点停在热地球，接时间尺定位。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "回顾不新增未讲机制；内部过程与增长并行。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S23",
+      "start_s": 330,
+      "end_s": 345,
+      "narration": "时间尺上，我们只走过了开头很短的一段。此后的地球还会不断变化。眼前这颗炽热的行星，已经有了分层的内部，而它的外表和周围空间，都还远未稳定。",
+      "visual": "前：时间尺起点指针；中：热地球与少量残余天体；后：四宙长尺淡化。 向导隐藏，需求引用保留，不用角色抢占事件。 科学示意，非真实比例。",
+      "action": "0–5秒显示仍在时间尺开头附近；5–11秒地球附近残余天体沿不同路径缓行；11–15秒空间留出一条空路径，为下镜远处来者预留。",
+      "camera": "固定宽景。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "rock-embryos",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E05",
+        "E06"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_22",
+        "out": "PAPER_STATE_23"
+      },
+      "continuity_note": "以同一空路径接远处天体进入。",
+      "transition": "以同一空路径接远处天体进入。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "不提前出现海洋、生命或现代月球；“短”相对于全尺不是具体短年数。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": false
+    },
+    {
+      "shot_id": "S24",
+      "start_s": 345,
+      "end_s": 360,
+      "narration": "关于月球的起源，一个重要的解释，把线索指向了年轻地球经历的一次巨大碰撞。那次相遇怎样改变了地球，又怎样留下了月亮？下一集，我们接着看。",
+      "visual": "前：不遮事件的完整静止向导；中：热地球与远处接近的暗岩体；后：深色留白与下集标题区。 首尾角标可见，完整原图静止；未取得前仅保留槽位。 科学示意，非真实比例。",
+      "action": "0–5秒远处天体进入预留路径；5–10秒距离减小但不接触；10–15秒停在接触前的叙事定格，“第002集 月亮留下的伤痕”出现，保留解释/假说限定。",
+      "camera": "固定。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "paper-surface",
+          "version": "plan-v1"
+        },
+        {
+          "asset_id": "rock-embryos",
+          "version": "plan-v1"
+        }
+      ],
+      "source_ids": [
+        "E09"
+      ],
+      "continuity": {
+        "in": "PAPER_STATE_23",
+        "out": "PAPER_STATE_24"
+      },
+      "continuity_note": "片尾定格，不出现撞击、环或已成形月亮。",
+      "transition": "片尾定格，不出现撞击、环或已成形月亮。",
+      "audio": "静音占位；旁白仅文本，不生成音轨。未来可选低强度质感音仅为非写实设计，不能把太空碰撞表现为真实可听声。",
+      "qa": [
+        "巨大撞击是重要解释，不作目击实录；片尾严格停在撞击前。",
+        "按层次核对前中后景遮挡；纸纹屏幕密度一致。",
+        "向导若可见须完整静止、约画高20%，不遮字幕及主事件。",
+        "开尾约0.5秒读图；科学限定字幕全段可读。"
+      ],
+      "guide_visible": true
+    }
+  ]
+}
