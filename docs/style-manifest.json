@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "scope": "earth-history-series",
+  "aspect_ratio": "16:9",
+  "guide_height_fraction": 0.2,
+  "voice_status": "deferred",
+  "styles": [
+    {
+      "id": "earthstory-paper-2d",
+      "title": "纸感二维历史场景",
+      "status": "tentative-baseline",
+      "skill": ".agents/skills/earthstory-paper-2d/SKILL.md",
+      "agent_brief": "docs/agents/earthstory-paper-2d.md"
+    },
+    {
+      "id": "earthstory-flat-vector",
+      "title": "扁平矢量信息动画",
+      "status": "proposed-unvalidated",
+      "skill": ".agents/skills/earthstory-flat-vector/SKILL.md",
+      "agent_brief": "docs/agents/earthstory-flat-vector.md"
+    },
+    {
+      "id": "earthstory-miniature-3d",
+      "title": "微缩模型三维历史场景",
+      "status": "proposed-unvalidated",
+      "skill": ".agents/skills/earthstory-miniature-3d/SKILL.md",
+      "agent_brief": "docs/agents/earthstory-miniature-3d.md"
+    }
+  ],
+  "renderer_status": "not_established_by_this_package",
+  "agent_status": "role_briefs_only_not_deployed"
+}

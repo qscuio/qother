@@ -10,6 +10,8 @@
 - [完整系列大纲](docs/series-outline.md)
 - [已确认方向与待定事项](docs/decisions.md)
 - [画面与制作规范](docs/production-style.md)
+- [风格 Skills、角色分工与分镜体系](docs/style-system.md)
+- [动画工具与成熟度研究](docs/animation_skills_research.md)
 - [研究来源与核查规范](docs/research-sources.md)
 - [分集结构化数据](data/episodes.json) 与 [来源索引数据](data/sources.json)
 

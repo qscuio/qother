@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "style_id": "earthstory-paper-2d",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_s": 8,
+  "expected_shot_count": 2,
+  "sources": [
+    {
+      "id": "SRC-DEMO",
+      "kind": "illustrative",
+      "url": "urn:earthstory:illustrative-motion-study",
+      "supports": "纯几何运动示意；不支持任何历史断言。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "guide-original",
+      "version": "demo-1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/demo/guide-original.png",
+      "rights": "结构示例；使用前必须取得真实原始素材及权利依据。",
+      "intact": true
+    },
+    {
+      "id": "paper-shapes",
+      "version": "demo-1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "path": "assets/demo/paper-shapes.svg",
+      "rights": "结构示例，无实际文件。",
+      "intact": true
+    }
+  ],
+  "guide": {
+    "asset_id": "guide-original",
+    "version": "demo-1",
+    "height_fraction": 0.2,
+    "bbox": [
+      0.025,
+      0.61,
+      0.08,
+      0.2
+    ]
+  },
+  "captions": {
+    "bbox": [
+      0.13,
+      0.85,
+      0.74,
+      0.1
+    ]
+  },
+  "voice": {
+    "status": "deferred",
+    "note": "仅静音动作结构示例；尚未选择或验收旁白音色。"
+  },
+  "shots": [
+    {
+      "shot_id": "S001",
+      "start_s": 0,
+      "end_s": 4,
+      "narration": "这是一个运动示意。",
+      "visual": "纸色背景上两块土色几何形，向导完整置于左下偏上。",
+      "action": "0–1秒保持两块分离；1–3秒平滑靠近；3–4秒停在接触位置，不发生穿透。",
+      "camera": "固定正交镜头；无推拉，无旋转。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "demo-1"
+        },
+        {
+          "asset_id": "paper-shapes",
+          "version": "demo-1"
+        }
+      ],
+      "source_ids": [
+        "SRC-DEMO"
+      ],
+      "continuity": {
+        "in": "separated",
+        "out": "touching"
+      },
+      "audio": "静音；narration 为字幕/将来旁白文案，尚无配音文件。",
+      "qa": [
+        "向导为完整原图，画高20%，不更换头嘴。",
+        "两块图形保持同色同形，接触时不相交。",
+        "字幕区不遮挡向导或几何动作。"
+      ]
+    },
+    {
+      "shot_id": "S002",
+      "start_s": 4,
+      "end_s": 8,
+      "narration": "两块图形先靠近，再分开。",
+      "visual": "同一背景、色板、图形和完整向导，保留接触状态作为开镜。",
+      "action": "4–5秒停顿；5–7秒平滑分离；7–8秒保持间距供读图。",
+      "camera": "固定正交镜头；无推拉，无旋转。",
+      "assets": [
+        {
+          "asset_id": "guide-original",
+          "version": "demo-1"
+        },
+        {
+          "asset_id": "paper-shapes",
+          "version": "demo-1"
+        }
+      ],
+      "source_ids": [
+        "SRC-DEMO"
+      ],
+      "continuity": {
+        "in": "touching",
+        "out": "separated"
+      },
+      "audio": "静音；narration 为字幕/将来旁白文案，尚无配音文件。",
+      "qa": [
+        "向导为完整原图，画高20%，不更换头嘴。",
+        "两块图形保持同色同形，接触时不相交。",
+        "字幕区不遮挡向导或几何动作。"
+      ]
+    }
+  ]
+}
