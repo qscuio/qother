@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "registry_version": "2026-10-09.1",
+  "policy": "Only user-approved entries may set a style baseline, and only within accepted_scope. Comparative praise is not full approval. Teaching examples are not approval evidence. Update by specific version and explicit user feedback; do not silently promote status.",
+  "entries": [
+    {
+      "id": "cosmic-origin-0bf0f9b",
+      "path": "docs/opening/cosmic-origin/script.md",
+      "commit": "0bf0f9b420e1000a111643a94af8de16a47b1107",
+      "status": "diagnostic-only",
+      "accepted_scope": [],
+      "feedback": {
+        "quote": "这次效果比上个版本好很多了，但是整体上逻辑还是不够清晰，遣词造句上还不是很通顺。",
+        "source": "User feedback relayed for the 2026-10-09 skill-only update; comparison is positive but logic and expression remain unresolved."
+      },
+      "use": "Diagnose logic and expression failures; do not use as a gold-standard voice or rewrite this script during skill-only work."
+    },
+    {
+      "id": "episode-001-0bf0f9b",
+      "path": "docs/episodes/001/script.md",
+      "commit": "0bf0f9b420e1000a111643a94af8de16a47b1107",
+      "status": "diagnostic-only",
+      "accepted_scope": [],
+      "feedback": {
+        "source": "Earlier comparative preference reported; no verified approval of this entire version."
+      },
+      "use": "Compare potentially useful traits only when separately supported by explicit feedback; not a series style baseline."
+    },
+    {
+      "id": "teaching-examples-v1",
+      "path": "docs/writing/deslop-examples.md",
+      "commit": "0bf0f9b420e1000a111643a94af8de16a47b1107",
+      "status": "teaching-only",
+      "accepted_scope": [],
+      "feedback": null,
+      "use": "Illustrate editing decisions, not user-approved prose."
+    }
+  ],
+  "allowed_statuses": [
+    "user-approved",
+    "diagnostic-only",
+    "teaching-only"
+  ]
+}

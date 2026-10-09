@@ -31,5 +31,5 @@ description: Edit 地球往事 Markdown scripts, outlines and production notes f
 - 页面：用空行和稳定标题层级组织段落。检查渲染后的 Markdown；无预览时明确只做了文本检查。核验相对链接、段落锚点、标题及文件名。
 - 一致性：对照来源和版本；更新计时的“估算／试读”标签、主稿与分镜适配状态，不篡改未实际运行的验收结果。
 
-内容与格式分开验收：标题整齐不能证明叙事已成立。内容与格式分开验收：标题整齐不能证明叙事已成立。按 [共同验收标准](../../../docs/writing/editorial-rubric.md) 给出简短前后对照；保留事实硬门槛和未解决问题。无需给读者附上冗长编辑流水账。研究来源与取舍见 [研究索引](../../../docs/writing/research-index.md)。
+内容与格式分开验收：标题整齐不能证明叙事已成立。涉及整稿或结构深改时沿用[交稿流程](../../../docs/writing/delivery-workflow.md)；版式微调不扩展成全篇重写。按 [共同验收标准](../../../docs/writing/editorial-rubric.md) 给出简短前后对照；保留事实硬门槛和未解决问题。无需给读者附上冗长编辑流水账。研究来源与取舍见 [研究索引](../../../docs/writing/research-index.md)。
 
