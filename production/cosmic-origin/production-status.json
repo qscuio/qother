@@ -15,8 +15,8 @@
     },
     {
       "path": "build_timeline.py",
-      "sha256": "bc5236e13314f5518906cec53f0cd05b18703f9eda9e8e3e03965bfad5d6dd01",
-      "bytes": 5518
+      "sha256": "6adb3820024919571a9e7e449e274a819a24bc0582ad84ec0833d989fbc8fbc1",
+      "bytes": 6376
     },
     {
       "path": "test_visual_states.py",
@@ -34,7 +34,8 @@
     "24-second H.264 preview fully decoded with ffmpeg: passed",
     "contact sheet of 18 visual types inspected; revisions incorporated",
     "36 scene/act combinations rendered at three progress points: 108 frames; automated exception check only",
-    "Model visual review of keyframe contact sheet completed; full timed-video QA not run"
+    "Model visual review of keyframe contact sheet completed; full timed-video QA not run",
+    "Explicit dummy timing fixture: 47 shots built in isolated temporary directory; demo schema validation passed; --production correctly rejected the fixture; temporary silent file and fixture artifacts removed. This was not narration synthesis or actual audio timing."
   ],
   "not_executed": [
     "full narration recording",
@@ -48,6 +49,7 @@
   "private_asset_note": "The intact guide is supplied separately and excluded from the public source package; source-image provenance and rights not independently verified.",
   "post_snapshot_fixes": [
     "Correct manifest style ID earthstory-paper-2d in measured-timeline builder.",
-    "Earth drawn over orbital debris to prevent apparent passage through the planet."
+    "Earth drawn over orbital debris to prevent apparent passage through the planet.",
+    "Add --test-fixture guard: labeled demo outputs are isolated from final storyboard names."
   ]
 }
