@@ -5,8 +5,8 @@
   "files": [
     {
       "path": "render.py",
-      "sha256": "ea90ddf1af8e7136991ed8d43121223dbe37a9ab3c55d92dd66f4a014a37b1a1",
-      "bytes": 23933
+      "sha256": "6e5aa7eff543aeeb7e79d9e3574a5bce28501e4f8494a9893d188b5bedfa0b74",
+      "bytes": 24018
     },
     {
       "path": "shot_design.py",
@@ -15,8 +15,8 @@
     },
     {
       "path": "build_timeline.py",
-      "sha256": "acbbfab1b9694df3e85fe3052e1a2b806516ce6c30193e2c2a7cbbf980261eb2",
-      "bytes": 5507
+      "sha256": "bc5236e13314f5518906cec53f0cd05b18703f9eda9e8e3e03965bfad5d6dd01",
+      "bytes": 5518
     },
     {
       "path": "test_visual_states.py",
@@ -45,5 +45,9 @@
     "python": "3.12.14",
     "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
   },
-  "private_asset_note": "The intact guide is supplied separately and excluded from the public source package; source-image provenance and rights not independently verified."
+  "private_asset_note": "The intact guide is supplied separately and excluded from the public source package; source-image provenance and rights not independently verified.",
+  "post_snapshot_fixes": [
+    "Correct manifest style ID earthstory-paper-2d in measured-timeline builder.",
+    "Earth drawn over orbital debris to prevent apparent passage through the planet."
+  ]
 }

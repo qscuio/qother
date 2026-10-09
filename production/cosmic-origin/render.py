@@ -299,12 +299,14 @@ def draw_scene(kind,p,t,act=0):
     line(d,pts,['#746044','#A8754F',GOLD][k],3)
   txt(d,(640,584),'大碰撞假说 · 轨迹、比例与速度均为示意',20,LIGHT,anchor='mm')
  elif kind=='moon':
-  globe(d,480,370,142,True);orbit(d,480,370,410,145,'#615D4A')
+  orbit(d,480,370,410,145,'#615D4A')
   q=ease(p)
   for i,(a,b,c) in enumerate(PARTS[:80]):
    an=a*math.tau;r=300+b*100;x=480+math.cos(an)*r;y=370+math.sin(an)*r*.36
    x=lerp(x,860+(a-.5)*75,q);y=lerp(y,290+(b-.5)*75,q)
    ell(d,x,y,2+c*3,2+c*3,MUTED)
+  # Earth occludes debris behind it; particles never appear to cross its interior.
+  globe(d,480,370,142,True)
   if p>.4:
    ell(d,860,290,48*ease((p-.4)/.6),48*ease((p-.4)/.6),MUTED)
    for i in range(5):ell(d,850+math.cos(i*2.4)*20*q,285+math.sin(i*2.4)*20*q,4*q,4*q,'#827659')
