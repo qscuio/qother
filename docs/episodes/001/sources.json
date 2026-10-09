@@ -21,16 +21,25 @@
     "title": "NASA / SwRI — Binaries Help Make Heads or Tails of Planet Formation",
     "url": "https://astrobiology.nasa.gov/news/binaries-help-make-heads-or-tails-of-planet-formation/",
     "supports": "初期颗粒轻碰黏附；气体与颗粒集聚、流不稳定性及后续引力坍缩；颗粒到星子仍有研究，不把全部阶段化约为引力吸附。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "recheck_note": "2026-10-09 重读官方研究摘要，确认气体与颗粒相互作用→局部高密度聚集→自引力坍缩是一种流不稳定性解释模型；不是已经还原的唯一历史。",
+    "supporting_sources": [
+      {
+        "title": "Nesvorný et al. — Trans-Neptunian binaries as evidence for planetesimal formation by the streaming instability",
+        "url": "https://www.nature.com/articles/s41550-019-0806-z",
+        "supports": "双星轨道方向为流不稳定性形成星子的模型提供证据；不直接证明地球每一步形成路径。"
+      }
+    ]
   },
   {
     "id": "E04",
     "kind": "official_education",
     "title": "USGS — Geologic Time: Age of the Earth",
     "url": "https://pubs.usgs.gov/gip/geotime/age.html",
-    "supports": "地球年龄常用估计4.54Ga；利用地球与陨石铅同位素体系而非最老单块岩石直接定年；原文年龄不确定性小于1%。",
+    "supports": "地球年龄常用估计4.54Ga；利用地球与陨石铅同位素体系而非最老单块岩石直接定年；原文年龄不确定性小于1%。 地球最早岩石经过循环与破坏，不能从单块地球岩石直接读出行星年龄；陨石提供早期记录。",
     "access_note": "直接打开返回403，已通过搜索工具读到该官方页面正文与测年解释。此为较旧教育页；不采用其宇宙年龄或最老岩石历史性陈述。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "recheck_note": "2026-10-09 再次直接打开仍403；搜索工具返回同一官方页面的开头与测年段，核对最早岩石被循环破坏及铅同位素测年依据。"
   },
   {
     "id": "E05",

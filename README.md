@@ -12,6 +12,8 @@
 - [已确认方向与待定事项](docs/decisions.md)
 - [画面与制作规范](docs/production-style.md)
 - [风格 Skills、角色分工与分镜体系](docs/style-system.md)
+- [写作、文稿编辑与去套话技能](docs/writing/research-index.md)
+- [第001集改稿记录](docs/episodes/001/editorial-review.md)
 - [动画工具与成熟度研究](docs/animation_skills_research.md)
 - [研究来源与核查规范](docs/research-sources.md)
 - [分集结构化数据](data/episodes.json) 与 [来源索引数据](data/sources.json)
@@ -31,3 +33,4 @@
 ## 使用说明
 
 这里的大纲是后续研究与写作的起点。分集脚本制作前须进一步核查史实、年代、争议与素材授权；艺术复原应与证据和推测明确区分。
+

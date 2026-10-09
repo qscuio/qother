@@ -1,0 +1,4 @@
+interface:
+  display_name: "地球往事｜去套话与精修"
+  short_description: "Revise generic Chinese prose without changing factual meaning"
+  default_prompt: "Use $earthstory-deslop to diagnose and revise generic phrasing while preserving every factual qualifier."

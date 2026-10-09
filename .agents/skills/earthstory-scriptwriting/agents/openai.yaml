@@ -1,0 +1,4 @@
+interface:
+  display_name: "地球往事｜纪录片写作"
+  short_description: "Write clear Chinese documentary narration with evidence"
+  default_prompt: "Use $earthstory-scriptwriting to draft an evidence-grounded episode of 地球往事."

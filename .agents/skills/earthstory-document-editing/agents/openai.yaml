@@ -1,0 +1,4 @@
+interface:
+  display_name: "地球往事｜文稿编辑"
+  short_description: "Edit readable Markdown scripts and production companions"
+  default_prompt: "Use $earthstory-document-editing to make this 地球往事 Markdown draft readable while preserving its evidence."
