@@ -10,10 +10,12 @@
 - [独立文本与事实审阅](editorial-review.md)
 - [修订前独立模型初读](reader-review.md)
 - [纯配音正文](narration.txt)与[稳定段落 ID、校验哈希](narration-cues.json)
+- [纸感二维制作源码与运行说明](../../../production/cosmic-origin/README.md)
+- [制作状态与已执行检查](../../../production/cosmic-origin/production-status.json)
 
 ## 制作状态
 
-2026-10-09：文本版本 cosmic-origin-v2 已冻结。19 个段落使用 CO2-P01 至 CO2-P19；计时尚待实际配音。详细分镜、合成配音及完整视频正在制作。本次文本提交不代表声画制作或真人试读已经完成。
+2026-10-09：文本版本 cosmic-origin-v2 已冻结。19 个段落使用 CO2-P01 至 CO2-P19；计时尚待实际配音。程序化纸感二维场景与24秒无声技术预览已完成，源码已归档。编译检查及36组场景/动作的108帧自动渲染检查通过，关键帧已作模型视觉检查。当前等待配音制作许可；实测分镜时码、完整音轨与完整视频尚未生成。本状态不代表声画成片或真人试读已经完成。
 
 配音正文 SHA-256：056145513b44da3c3c13dd942b923a1b579015ad69fdf91f72fbfebac5f4a0d5。
 

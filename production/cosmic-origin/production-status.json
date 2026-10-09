@@ -1,0 +1,49 @@
+{
+  "status": "visual_preproduction_complete_waiting_audio_authorization",
+  "script_sha256": "d0c76055240a051a665245dfb972083efe048794b8b5c66fbec99e765f53f2c5",
+  "narration_sha256": "056145513b44da3c3c13dd942b923a1b579015ad69fdf91f72fbfebac5f4a0d5",
+  "files": [
+    {
+      "path": "render.py",
+      "sha256": "ea90ddf1af8e7136991ed8d43121223dbe37a9ab3c55d92dd66f4a014a37b1a1",
+      "bytes": 23933
+    },
+    {
+      "path": "shot_design.py",
+      "sha256": "ef1cb862d4dda6cafe96e2e3e8461b6e8abbdff88e42b66e6d24ddcc25a8d64f",
+      "bytes": 4866
+    },
+    {
+      "path": "build_timeline.py",
+      "sha256": "acbbfab1b9694df3e85fe3052e1a2b806516ce6c30193e2c2a7cbbf980261eb2",
+      "bytes": 5507
+    },
+    {
+      "path": "test_visual_states.py",
+      "sha256": "9bbed96dfc509bf2f0ec1674c6ebc30c49967150949a5cf581364b7c17f3d0dd",
+      "bytes": 1195
+    },
+    {
+      "path": "README.md",
+      "sha256": "45f29319ee9eea3f9a6f4203a77e459eb5649cef98c71e2807abfbb385a62c38",
+      "bytes": 3338
+    }
+  ],
+  "executed_tests": [
+    "python -m py_compile: passed",
+    "24-second H.264 preview fully decoded with ffmpeg: passed",
+    "contact sheet of 18 visual types inspected; revisions incorporated",
+    "36 scene/act combinations rendered at three progress points: 108 frames; automated exception check only",
+    "Model visual review of keyframe contact sheet completed; full timed-video QA not run"
+  ],
+  "not_executed": [
+    "full narration recording",
+    "measured full storyboard",
+    "full video export and QA"
+  ],
+  "tools": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "private_asset_note": "The intact guide is supplied separately and excluded from the public source package; source-image provenance and rights not independently verified."
+}
