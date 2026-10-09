@@ -6,43 +6,23 @@
     "url": "https://science.nasa.gov/exoplanets/how-do-planets-form/",
     "supports": "固体颗粒碰撞、团聚与破碎；岩石行星的长期吸积，形成可持续数千万年；不采纳页面个别过度概括的整体耗时表达。",
     "checked_on": "2026-10-09",
-    "usage_in_cosmic_opening": "保留原来源 ID；仅支持本篇 fact-check.md 标出的缩写主张，不继承旧稿核查结论。",
-    "recheck_note": "2026-10-09 重读官方页或论文摘要，并按本篇主张缩小支持范围。"
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "E03",
     "kind": "official_research_summary",
     "title": "NASA / SwRI — Binaries Help Make Heads or Tails of Planet Formation",
     "url": "https://astrobiology.nasa.gov/news/binaries-help-make-heads-or-tails-of-planet-formation/",
-    "supports": "初期颗粒轻碰黏附；气体与颗粒集聚、流不稳定性及后续引力坍缩；颗粒到星子仍有研究，不把全部阶段化约为引力吸附。",
+    "supports": "颗粒碰撞黏合与破碎；气体和颗粒作用、集聚与自引力坍缩作为星子形成的一种模型，不直接确证地球必然走过该路径。",
     "checked_on": "2026-10-09",
-    "recheck_note": "2026-10-09 重读官方页或论文摘要，并按本篇主张缩小支持范围。",
-    "supporting_sources": [
-      {
-        "title": "Nesvorný et al. — Trans-Neptunian binaries as evidence for planetesimal formation by the streaming instability",
-        "url": "https://www.nature.com/articles/s41550-019-0806-z",
-        "supports": "双星轨道方向为流不稳定性形成星子的模型提供证据；不直接证明地球每一步形成路径。"
-      }
-    ],
-    "usage_in_cosmic_opening": "保留原来源 ID；仅支持本篇 fact-check.md 标出的缩写主张，不继承旧稿核查结论。"
-  },
-  {
-    "id": "E04",
-    "kind": "official_education",
-    "title": "USGS — Geologic Time: Age of the Earth",
-    "url": "https://pubs.usgs.gov/gip/geotime/age.html",
-    "supports": "地球年龄常用估计4.54Ga；利用地球与陨石铅同位素体系而非最老单块岩石直接定年；原文年龄不确定性小于1%。 地球最早岩石经过循环与破坏，不能从单块地球岩石直接读出行星年龄；陨石提供早期记录。",
-    "access_note": "直接打开返回403，已通过搜索工具读到该官方页面正文与测年解释。此为较旧教育页；不采用其宇宙年龄或最老岩石历史性陈述。",
-    "checked_on": "2026-10-09",
-    "recheck_note": "2026-10-09 再次以官方搜索结果核对铅同位素与地球/陨石同系统测年；另用 C07 交叉核对年龄。",
-    "usage_in_cosmic_opening": "保留原来源 ID；仅支持本篇 fact-check.md 标出的缩写主张，不继承旧稿核查结论。"
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "E06",
     "kind": "primary_research",
     "title": "Rubie et al. — Accretion and differentiation of the terrestrial planets",
     "url": "https://arxiv.org/abs/1410.3509",
-    "supports": "地球吸积与金属—硅酸盐分异相互交织；金属核与硅酸盐外围；研究模型不当作唯一已证实的逐帧历史。",
+    "supports": "吸积与分异交织，撞击可形成岩浆洋；金属核与岩石外层。",
     "supporting_sources": [
       {
         "title": "Wahl & Militzer — High-temperature miscibility of iron and rock during terrestrial planet formation",
@@ -56,8 +36,7 @@
       }
     ],
     "checked_on": "2026-10-09",
-    "usage_in_cosmic_opening": "保留原来源 ID；仅支持本篇 fact-check.md 标出的缩写主张，不继承旧稿核查结论。",
-    "recheck_note": "2026-10-09 重读官方页或论文摘要，并按本篇主张缩小支持范围。"
+    "recheck_note": "本次重新读取两篇研究论文摘要及 NASA Psyche 官方访谈页；没有核对论文全部推导。只采用吸积、撞击熔融与核幔分异交织的基础框架，不采用各模型独有的数值结论。"
   },
   {
     "id": "E09",
@@ -66,8 +45,7 @@
     "url": "https://science.nasa.gov/moon/formation/",
     "supports": "大碰撞是月球起源的主流解释；约45亿年前、抛出物质聚成月球；月岩高温熔融记录与月地岩石化学相似性为检验模型的线索；具体碰撞、材料比例、聚集时长仍有研究。此次较旧001预告扩大使用范围，已重新读取官方页核验。",
     "checked_on": "2026-10-09",
-    "usage_in_cosmic_opening": "保留原来源 ID；仅支持本篇 fact-check.md 标出的缩写主张，不继承旧稿核查结论。",
-    "recheck_note": "2026-10-09 重读官方页或论文摘要，并按本篇主张缩小支持范围。"
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "C01",
@@ -75,7 +53,8 @@
     "title": "NASA — The Universe’s History",
     "url": "https://science.nasa.gov/universe/overview/",
     "supports": "宇宙约138亿年；早期热密膨胀冷却；约38万年复合和光长距离传播；主要氢氦；最初几亿年第一批恒星及早期星系。仅采用宽泛框架，不采用页面对暴涨机制的确定表述、首代恒星质量断言或将CMB说成复合新产生光的简化。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "C02",
@@ -83,7 +62,8 @@
     "title": "NASA — Webb Telescope & The Big Bang",
     "url": "https://science.nasa.gov/mission/webb/big-bang-q-and-a/",
     "supports": "大爆炸与空间膨胀的基本解释。只用基础宇宙学口径，不把旧问答中的望远镜计划当当前状态。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "C03",
@@ -91,7 +71,8 @@
     "title": "NASA — Stars",
     "url": "https://science.nasa.gov/universe/stars/",
     "supports": "云团收缩升温；氢核聚变成氦释放能量；恒星演化产生碳氧及更重元素；大质量恒星可形成硅铁；外层抛射和超新星将物质送回星际。未声称全部元素只由恒星普通聚变制造。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "C04",
@@ -99,15 +80,8 @@
     "title": "NASA — Star Lifecycle",
     "url": "https://science.nasa.gov/mission/webb/star-lifecycle/",
     "supports": "恒星产物进入后来的恒星、行星与尘埃；材料再利用的总关系，不将所有元素起源归于单一途径。",
-    "checked_on": "2026-10-09"
-  },
-  {
-    "id": "C05",
-    "kind": "official_research_summary",
-    "title": "ESA — Gaia’s decade of discoveries: unravelling the intricacies of our galaxy",
-    "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_s_decade_of_discoveries_unravelling_the_intricacies_of_our_galaxy",
-    "supports": "银河系130多亿年前开始形成；长期与其他星系并合；不同轨道恒星及星流保留并合证据。没有精确生日；没说太阳诞生在已完成生长的银河系。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "C06",
@@ -115,14 +89,25 @@
     "title": "NASA — Solar System Facts",
     "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
     "supports": "约46亿年前云坍缩、旋转盘、中央太阳与盘中行星生长；内侧高温固体主要岩石材料。未采用超新星触发为定论或盘最终全部形成行星的说法。",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-09",
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
   },
   {
     "id": "C07",
     "kind": "official_education",
     "title": "USGS — When in Earth’s history did Yellowstone’s volcanism begin?",
     "url": "https://www.usgs.gov/observatories/yvo/news/when-earths-history-did-yellowstones-volcanism-begin-lets-look-calendar-find",
-    "supports": "4.54±0.05Ga及地球与陨石同系统的铅同位素定年概念；仅用文章前段年龄证据，不使用黄石内容。",
-    "checked_on": "2026-10-09"
+    "supports": "4.54±0.05Ga，地球和陨石作为同一演化系统的铅同位素测年，年龄与地球/月球古老样品相符；仅使用文章前段。",
+    "checked_on": "2026-10-09",
+    "recheck_note": "本次重新打开官方正文并核对所用范围；只支持新版 fact-check.md 中映射主张。"
+  },
+  {
+    "id": "C05",
+    "kind": "official_research_summary",
+    "title": "ESA — Gaia’s decade of discoveries: unravelling the intricacies of our galaxy",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_s_decade_of_discoveries_unravelling_the_intricacies_of_our_galaxy",
+    "supports": "银河系由物质汇聚、长期并合而成长；并合带来恒星与气体。只概述形成与继续生长，不采用明确起始年代、并合个案或太阳形成触发假说。",
+    "checked_on": "2026-10-09",
+    "recheck_note": "2026-10-09重新打开ESA官方全文，核对Piecing together our family tree及Refining our galaxy’s shape部分。"
   }
 ]
