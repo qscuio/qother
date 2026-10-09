@@ -337,7 +337,7 @@ def draw_scene(kind,p,t,act=0):
  return im
 
 CHAPTERS={'inventory':('02','岩石的成分尚未齐备','元素成分 · 概念示意'),'cloudrich':('03','新一代星球的材料','星际云 · 艺术化示意'),'fusion':('02','恒星为何持续发光','核聚变 · 净反应示意'),'assembly':('03','银河逐渐形成','星系汇聚与并合 · 示意'),'expansion':('01','空间伸展','约 138 亿年前 · 膨胀示意'),'recombine':('01','光开始远行','约 38 万年后 · 微观示意'),'dark':('02','等待第一缕星光','早期宇宙 · 艺术化示意'),'collapse':('02','引力聚拢气体','恒星形成 · 过程示意'),'stars':('02','最初的恒星与星系','宇宙最初几亿年 · 示意'),'layers':('03','恒星改变物质','大质量恒星 · 结构简图'),'eject':('03','物质回到星际空间','恒星演化 · 示意'),'galaxy':('03','银河中的循环','银河结构 · 艺术化示意'),'nebula':('04','太阳与盘','约 46 亿年前 · 示意'),'inner':('04','地球材料所在的区域','原行星盘 · 非比例示意'),'grains':('04','颗粒的生长难关','碰撞行为 · 放大示意'),'concentration':('04','从颗粒到小天体','一种形成模型 · 示意'),'growth':('05','地球逐渐长大','吸积过程 · 示意'),'differentiate':('05','地球的内部分层','内部结构 · 非比例示意'),'dating':('05','岩石留下的时钟','年代测定 · 方法示意'),'impact':('06','一次大碰撞','月球形成主流解释 · 示意'),'moon':('06','月球逐渐聚成','大碰撞假说 · 示意'),'samples':('06','月岩带来的证据','样品与成分 · 示意'),'ending':('尾声','地球的来处','早期熔融表面 · 艺术化示意')}
-def compose(kind,p,t,act=0,caption='',guide=True,progress=0):
+def compose(kind,p,t,act=0,caption='',guide=True,progress=0,timeline_overlay=True):
  im=draw_scene(kind,p,t,act);d=ImageDraw.Draw(im);dark=kind in ['dark','collapse','stars','eject','galaxy','nebula','inner','growth','impact','moon','ending','fusion','assembly','cloudrich'];fg=LIGHT if dark else INK
  ch,title,tag=CHAPTERS[kind]
  if kind=='recombine' and p<.35:title='光尚不能远行';tag='早期热密宇宙 · 散射示意'
@@ -356,8 +356,9 @@ def compose(kind,p,t,act=0,caption='',guide=True,progress=0):
   while len(s)>37:rows.append(s[:37]);s=s[37:]
   if s:rows.append(s)
   for i,row in enumerate(rows[:2]):txt(d,(640,637+i*33),row,26,fg,anchor='mt')
- line(d,[(42,709),(1238,709)],'#534E3E' if dark else '#CEBFA1',2)
- line(d,[(42,709),(42+1196*progress,709)],GOLD if dark else OCHRE,2)
+ if timeline_overlay:
+  line(d,[(42,709),(1238,709)],'#534E3E' if dark else '#CEBFA1',2)
+  line(d,[(42,709),(42+1196*progress,709)],GOLD if dark else OCHRE,2)
  return im
 
 def preview():
@@ -381,6 +382,14 @@ def preview():
 def render_full(audio_path,output_path):
  import bisect
  board=json.loads((ROOT/'storyboard.json').read_text());cues=json.loads((ROOT/'subtitle_cues.json').read_text());shots=board['shots'];starts=[s['render']['start_frame'] for s in shots];cstarts=[c['start'] for c in cues]
+ from cue_validation import validate_cues,normalized_text
+ import hashlib
+ assert board.get('mode')=='production' and not board.get('test_fixture'),'Legacy full export accepts only a measured production board'
+ assert hashlib.sha256(Path(audio_path).read_bytes()).hexdigest()==board.get('audio_sha256'),'Audio hash mismatch'
+ assert hashlib.sha256((ROOT/'subtitle_cues.json').read_bytes()).hexdigest()==board.get('subtitle_sha256'),'Subtitle hash mismatch'
+ duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(audio_path)]))
+ validate_cues(cues,duration)
+ assert hashlib.sha256(normalized_text(''.join(c['text'] for c in cues)).encode()).hexdigest()==board.get('subtitle_text_sha256'),'Subtitle coverage mismatch'
  total=round(board['duration_s']*FPS);out=Path(output_path);out.parent.mkdir(exist_ok=True,parents=True)
  qa=out.parent/'scene-qa';qa.mkdir(exist_ok=True)
  command=['ffmpeg','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1280x720','-r',str(FPS),'-i','-','-i',str(audio_path),'-c:v','libx264','-preset','medium','-crf','21','-pix_fmt','yuv420p','-c:a','aac','-b:a','96k','-af','apad','-t',str(total/FPS),'-movflags','+faststart',str(out)]

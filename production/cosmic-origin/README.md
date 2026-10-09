@@ -28,9 +28,11 @@ Python 3.12；Pillow；FFmpeg 的 libx264 / AAC；系统 Noto Sans CJK 与 Noto 
 
     python build_timeline.py --host LOCAL_GUIDE_PNG --audio-dir PATH_TO_MEASURED_CUES --script-dir PATH_TO_FROZEN_SCRIPT --audio PATH_TO_NARRATION_WAV
 
-正式渲染：
+旧版兼容导出（保留，不用于本次正式交付）：
 
     python render.py --host LOCAL_GUIDE_PNG --audio PATH_TO_NARRATION_WAV --output OUTPUT_MASTER_MP4
+
+此旧入口也核验音轨和字幕锁定信息，但没有逐镜缓存流程。本次正式交付统一使用下方 `shot_pipeline.py assemble`，避免误走全片重绘路径。
 
 生产分镜结构检查（从仓库根目录）：
 
@@ -47,3 +49,59 @@ Python 3.12；Pillow；FFmpeg 的 libx264 / AAC；系统 Noto Sans CJK 与 Noto 
 - 压缩观看版控制在原生附件容量内，并检查字幕可读性
 
 结构验证、静帧检查与已解码短预览分别成立，均不等于完整成片已验收。
+
+## 推荐流程：逐镜生成、检查、替换，再拼接
+
+`shot_pipeline.py` 是逐镜制作入口。原 `render.py` 全片导出功能保留，但现在优先使用下面的可复用流程。
+
+1. 实际配音获得授权后，先录制/取得开头若干完整段落的真实音轨和对齐文件。用 `build_timeline.py --through-paragraph N` 生成开头样片的 `storyboard-opening.json` 和 `subtitle_cues-opening.json`；输入必须逐字覆盖冻结稿前 N 段，不能用估算时码。此步骤不改冻结文字。
+2. 仅导出开头镜头，逐镜检查动作和标签，再拼接成约30–45秒的带配音样片。实际时长按语句而定。交用户检查后，才继续其余镜头。
+3. 其余镜头分批导出、逐镜检查。修改一个镜头的 `render` 参数或 `visual_revision` 后，按同一个镜头 ID 再次导出，产生新的缓存版本。旧缓存保留，可回退。
+4. 所需片段齐备后，拼接阶段统一加入实际旁白、字幕和总进度。拼接会完整解码检查，并校验帧数、尺寸、帧率和音轨；不是把未检查的段落直接拼起来算完成。
+
+导出一个或多个镜头（省略 `--shot-ids` 才会遍历全部镜头）：
+
+    python shot_pipeline.py render --storyboard storyboard.json --host LOCAL_GUIDE_PNG --cache LOCAL_CACHE_DIR --shot-ids CO2-S01 CO2-S02 --report render-report.json
+
+拼接已缓存的连续镜头，作为开头或局部检查段：
+
+    python shot_pipeline.py assemble --storyboard storyboard.json --host LOCAL_GUIDE_PNG --cache LOCAL_CACHE_DIR --shot-ids CO2-S01 CO2-S02 --audio REAL_NARRATION_WAV --subtitles subtitle_cues.json --output opening-review.mp4
+
+拼接全部镜头（不会自动生成缺失缓存）：
+
+    python shot_pipeline.py assemble --storyboard storyboard.json --host LOCAL_GUIDE_PNG --cache LOCAL_CACHE_DIR --audio REAL_NARRATION_WAV --subtitles subtitle_cues.json --output full-master.mp4
+
+若使用开头独立配音，将上面的分镜和字幕参数分别换为 `storyboard-opening.json` 与 `subtitle_cues-opening.json`，并传入对应的开头音轨。正式音轨的文件哈希必须与该分镜锁定记录一致。
+
+### 缓存与时间规则
+
+- 缓存是无声、无字幕、无全片进度的 FFV1 无损片段，1280×720、24fps。每镜有前后各12帧余量，主体帧数由实际分镜决定。
+- 镜头内部使用局部时间。前面某镜变长时，后续镜头只要主体时长和视觉内容没变，就无需重画。
+- 缓存键包含该镜参数、版本、完整角色哈希、字体哈希，以及该场景分支/共用渲染逻辑指纹。修改单场景分支不会让无关场景失效；修改共用配色、绘图函数或字体会使受影响缓存失效，这是正确行为。
+- 拼接只读取已有匹配缓存。转场使用前镜后余量和当前镜首帧段；前余量保留供后续剪辑。总帧数不因转场被缩短，不挪动音轨和字幕时间。
+- 替换不覆盖旧缓存。缓存按内容哈希命名，导出报告列出命中情况及版本键；用户自行管理缓存存储空间。
+- 最终合成仍需顺序读取、编码所有选中帧，但不会重新计算未改镜头的场景动画。片段为无损中间文件，可能占较大空间。
+
+### 已实施的短测试与限制
+
+运行：
+
+    python test_shot_pipeline.py --host LOCAL_GUIDE_PNG --output-dir LOCAL_TEST_DIR
+
+测试只生成3个明确测试镜头、静音及可区分频率的工程测试信号，以及3.5秒和2.5秒的测试拼接。画面写有 `TEST FIXTURE · 非正式样片`，文件名也强制带 test/fixture；这些不能作为正式样片交付。
+
+中段音轨截取还用330/660/990Hz测试信号验证实际seek；字幕用解码帧与预期字形的重合度检验源时间偏移。这些均不是语音生成。
+
+覆盖独立镜头导出、再次缓存命中、修改一镜只重做该镜、局部时间不受前段平移影响、单场景源码依赖隔离、连续子集剪辑、帧数精确覆盖、完整解码，并拒绝缺镜、非连续选择、尺寸/帧率/帧数不符和错误的正式音轨哈希。
+
+尚未验证：真实配音对齐、完整47镜的音画节奏、正式全片视觉验收和附件压缩版质量。测试通过不代表上述事项完成。
+
+### 字幕与冻结稿的完整性
+
+生成分镜时，句级和字幕级文本都必须逐字覆盖所选冻结段落（忽略标点）。字幕文件哈希及规范化文本哈希随音轨一起锁定；最终拼接与保留的旧式全片导出均核对这些哈希。负时间、NaN/无穷、空字幕、实质重叠、倒序或越过音轨的字幕会被拒绝。音轨末端仅允许50毫秒ASR舍入容差，重叠仅允许1毫秒舍入噪差。`--through-paragraph 0` 会明确失败，不会默认为整篇。
+
+冻结稿/字幕构建器的可复现测试：
+
+    python test_build_timeline.py --host LOCAL_GUIDE_PNG --script-dir FROZEN_SCRIPT_DIR --validator REPO_VALIDATOR_PY --report TEST_REPORT_JSON
+
+它只在临时目录构造明确的dummy时序，分别验证整篇47镜和前两段4镜；正式模式应拒绝这些demo。测试结束删除临时静音文件与分镜，不生成正式样片。

@@ -1,12 +1,12 @@
 {
-  "status": "visual_preproduction_complete_waiting_audio_authorization",
+  "status": "modular_pipeline_implemented_reviewed_waiting_audio_authorization",
   "script_sha256": "d0c76055240a051a665245dfb972083efe048794b8b5c66fbec99e765f53f2c5",
   "narration_sha256": "056145513b44da3c3c13dd942b923a1b579015ad69fdf91f72fbfebac5f4a0d5",
   "files": [
     {
       "path": "render.py",
-      "sha256": "6e5aa7eff543aeeb7e79d9e3574a5bce28501e4f8494a9893d188b5bedfa0b74",
-      "bytes": 24018
+      "sha256": "a0c3adafd1cf8190924633d5bb5622c42c4c74dbd88b39bdf7f35d76a31181cd",
+      "bytes": 24853
     },
     {
       "path": "shot_design.py",
@@ -15,8 +15,28 @@
     },
     {
       "path": "build_timeline.py",
-      "sha256": "6adb3820024919571a9e7e449e274a819a24bc0582ad84ec0833d989fbc8fbc1",
-      "bytes": 6376
+      "sha256": "864e56b5f34d8cec6e85b3ac4a3b6faf4fc3ae8faa9521850b9449c962611f1c",
+      "bytes": 7541
+    },
+    {
+      "path": "shot_pipeline.py",
+      "sha256": "a7784426064249595bba1d3e0f702ef9df1bb1143e6e5a6d8bca8e2fbde612bb",
+      "bytes": 12641
+    },
+    {
+      "path": "cue_validation.py",
+      "sha256": "6fd5703576bbed9ffc8a1a6b32bd9ed7cdbec2214ac9490939af1ceb061292b3",
+      "bytes": 1240
+    },
+    {
+      "path": "test_shot_pipeline.py",
+      "sha256": "c33f11662811422e0aac6ced67627629bb7d9eb473d33509cf12474d8dd6b4bd",
+      "bytes": 9044
+    },
+    {
+      "path": "test_build_timeline.py",
+      "sha256": "105c0ad65c36b26be3e4d42eed9f40ecab3ff46348dfbe129fdd61c669527f06",
+      "bytes": 3938
     },
     {
       "path": "test_visual_states.py",
@@ -25,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "45f29319ee9eea3f9a6f4203a77e459eb5649cef98c71e2807abfbb385a62c38",
-      "bytes": 3338
+      "sha256": "4a8dd05c670f37c0fedab40a67c42668e9fb8fe13565b9ef4599c5c49e67474a",
+      "bytes": 8759
     }
   ],
   "executed_tests": [
@@ -51,5 +71,74 @@
     "Correct manifest style ID earthstory-paper-2d in measured-timeline builder.",
     "Earth drawn over orbital debris to prevent apparent passage through the planet.",
     "Add --test-fixture guard: labeled demo outputs are isolated from final storyboard names."
-  ]
+  ],
+  "modular_pipeline_tests": {
+    "fixture_only": true,
+    "independent_id_export": "passed",
+    "repeat_cache_hits": "all",
+    "single_shot_replacement_cache_hits": [
+      true,
+      false,
+      true
+    ],
+    "single_scene_source_dependency_isolation": "passed",
+    "upstream_time_shift_preserves_later_cache_keys": "passed",
+    "assembled_frames": 84,
+    "assembled_duration_s": 3.5,
+    "opening_and_later_subset_frames": 60,
+    "opening_and_later_subset_duration_s": 2.5,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 24,
+    "full_test_video_decode": "passed",
+    "rejected": [
+      "Missing shot fails without silent redraw",
+      "Noncontiguous assembly selection rejected",
+      "Fixture output without test filename rejected",
+      "Wrong dimensions/frame rate rejected",
+      "Wrong frame count rejected",
+      "Wrong production audio hash rejected",
+      "Rejected negative time subtitles",
+      "Rejected non-finite time subtitles",
+      "Rejected overlap subtitles",
+      "Rejected out of range subtitles",
+      "Rejected missing cues subtitles",
+      "Wrong production subtitle hash rejected"
+    ],
+    "builder_full_fixture_shots": 47,
+    "builder_opening_fixture_shots": 4,
+    "production_validator_rejects_fixtures": true,
+    "formal_voice_generated": false,
+    "formal_video_rendered": false,
+    "within_chapter_dissolve_frames": 48,
+    "middle_subset_audio_frequencies_hz": [
+      660,
+      990
+    ],
+    "middle_subset_subtitle_glyph_iou": [
+      0.9777,
+      0.9953
+    ],
+    "subtitle_coverage_guard": "passed",
+    "zero_prefix_guard": "passed"
+  },
+  "known_limits": [
+    "Final assembly still decodes and encodes selected frames, but does not redraw unchanged scene animation.",
+    "Lossless intermediate clips require local storage.",
+    "Shared renderer/helper/palette or font changes invalidate dependent clips.",
+    "Real narration, timing, 47-shot pacing and full film QA remain untested pending audio approval."
+  ],
+  "independent_review": {
+    "type": "independent_model_review",
+    "status": "passed_no_remaining_blocking_findings",
+    "fixes": [
+      "Lock subtitle file and normalized text hashes to frozen selected narration.",
+      "Validate subtitle/sentence coverage, finite positive times, ordering, overlap and audio bounds.",
+      "Reject through-paragraph zero instead of treating it as full episode.",
+      "Verify actual middle-segment audio seek using distinct test tones and decoded subtitle glyphs."
+    ],
+    "note": "Independent copy reran builder and modular pipeline tests; additional 48-frame, 2.0-second same-chapter dissolve was independently rerun and fully decoded."
+  }
 }
