@@ -29,4 +29,6 @@ description: Design and review motivated shots, virtual camera movement and edit
 
 ## 制作规划补充
 
+跨阶段交接统一读[制作流程](../../../docs/production-workflow.md)，不在摄影技能内另设整片生产顺序；具体渲染候选由 earthstory-production 衔接。
+
 需要把冻结稿组织成可审阅的声画方案时，读[制作 treatment 与声音规划](references/treatment-and-sound.md)：比较尚未锁定的声画路径，复用已有逐镜契约，不另起脚本或强制音乐节拍。涉及程序化画面复现与交付检查时，读[确定性与 QA 证据](references/determinism-and-qa.md)。两份参考只补方法，不安装工具、不授权视频制作。

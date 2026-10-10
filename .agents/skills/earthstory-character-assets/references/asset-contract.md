@@ -12,7 +12,7 @@
 - playback：有序独立 PNG 列表、每帧 duration_ms、总时长、loop；从视频取帧另记 source timestamp。PNG 列表是顺序依据，不能由文件名排序或 atlas 网格猜测。
 - curation：候选池、选择/拒绝/替换及原因、源帧顺序、复核人/时间、选择记录版本。变化产生新资产版本，旧批准不自动继承。
 - rights：每个来源的来源页/提供者、许可或具体授权范围、可否修改/公开/商业使用及未决限制；公开仓库许可不自动覆盖用户角色或生成服务条款。
-- approval：candidate / rejected / approved / superseded，明确批准者、时间、证据和适用用途；QA 另记 pass / fail / not-run 及缺陷。仅内部 pass 不能写 approved。
+- review_status：candidate / rejected / qa-accepted / superseded；QA 另记 pass / fail / not-run、复核者、证据和用途。proceed_authority=delegated-proceed 支持当前项目内部质量通过后继续；user_approval 独立记录真实批准者、时间、版本和证据，未获用户具体批准写 not-reviewed，不能用 QA 通过填 approved。已有历史 approval 字段保留原事实，不伪迁移。
 
 ## 三种证据，不可混称
 1. static-frame：逐张检查身份（脸型/发型/西装/配饰）、头颈连接、肢体数量和长度、手指、完整性、实际 alpha 与固定尺度。必须检查每帧，抽三帧不能代表全组。
@@ -22,10 +22,10 @@
 可安排独立第二次审阅，但审阅者也须具备对应证据能力；多数意见不能覆盖已发现的破损。哈希证明文件相同，颜色直方图/dHash 只能做粗略异常提示，不能证明脸部身份一致或像素级身份锁定；上游 identity histogram 阈值默认0即未启用，不是自动验收保障。
 
 ## 交付与正式复用
-保留原始独立 PNG（无损源帧）、完整透明 processed 候选和选择记录；正式交付以 approved/<asset_id>/<version>/<state>/ 的独立透明 PNG + manifest + QA/批准记录为主。atlas PNG + 帧矩形/顺序/时长 manifest 是可选便捷副本，不能成为唯一资产，也不能把棋盘联系表当透明素材。
+保留原始独立 PNG（无损源帧）、完整透明 processed 候选和选择记录；正式交付以 accepted/<asset_id>/<version>/<state>/ 的独立透明 PNG + manifest + QA/继续权限记录（历史 approved 目录可保留，但不伪称新版本已获用户批准）为主。atlas PNG + 帧矩形/顺序/时长 manifest 是可选便捷副本，不能成为唯一资产，也不能把棋盘联系表当透明素材。
 
 所有帧、manifest、QA 和选择记录作为同一版本准备齐后再一次发布索引，避免消费一半新一半旧的素材；这里是待实现/验证的交付要求，不声称已有原子发布程序。消费者按完整版本哈希验证，并确认使用已应用 curation 的导出文件。源文件变动、加工方式/顺序/时长/循环政策改变均需新版本及受影响的静态/动态复核。
 
 storyboard 的 assets 仍使用现有 {asset_id, version} 契约；具体 state 应给独立 asset_id，并在资产清单指向对应完整 manifest。不要随意增加 style_id 或修改 v1 验证器来容纳动作状态。跨镜延续同状态、切入 neutral 或 one-shot 结束时保持 continuity 与真实结束姿态一致。
 
-发布前同时核对：该状态具体版本获批；同版分镜获批；同版构图关键帧获批。资产批准不授予视频生成/上传/服务付费等额外权限。没有获批动态状态或真实可用绑定时，沿用静态完整图层方式，不把绑定作为生成帧动作的唯一合法路径。
+制作前核对状态具体版本和质量证据、同版分镜/构图内部检查。用户已授权本项目不等待逐项批准；通过质量关卡按 delegated-proceed 继续，不能把它写成用户已看过素材。对外发布仍须独立核对权利和发布授权。资产批准不授予视频生成/上传/服务付费等额外权限。没有质量通过的动态状态或真实可用绑定时，沿用静态完整图层方式，不把绑定作为生成帧动作的唯一合法路径。

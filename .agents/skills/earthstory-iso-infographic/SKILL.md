@@ -25,7 +25,7 @@ description: 为地球往事比较或设计等距信息图、系统剖面和单�
 
 危险点：复合体遮挡排序错误、移动实体半透明似幽灵、推近时标签脱锚、图标数量不等于总数、剖面误示真实比例。检查起/中/末帧与遮挡变化处，实际播放验证后才记录动态通过。
 
-输出沿用共享 storyboard 与资产锁，并交关键帧、投影说明、事实/读图风险和 pass/fail/not-run。分镜与构图均明确获批后才制作视频；实现能力另行验证。缺工具只交方案，不造渲染结果。行为案例见[集成验证](../../../docs/tests/lemo-opuscar-adaptation.md)。
+输出沿用共享 storyboard 与资产锁，并交关键帧、投影说明、事实/读图风险和 pass/fail/not-run。分镜与构图内部复核通过后按[统一流程](../../../docs/production-workflow.md)自主继续，无需逐项等待用户批准；实现能力另行验证。缺工具只交方案，不造渲染结果。行为案例见[集成验证](../../../docs/tests/lemo-opuscar-adaptation.md)。
 
 改编自 Lemo-Opuscar styles/iso-infographic/STYLE.md；未复制引擎、演示资产或音乐。见[取舍和 MIT 许可](../../../docs/lemo-opuscar-adaptation.md)。
 

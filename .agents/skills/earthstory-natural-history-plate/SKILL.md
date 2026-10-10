@@ -4,7 +4,7 @@ description: 为地球往事的古生物、化石、器物和自然史证据比�
 ---
 # 博物志铜版图谱
 
-先读[共享流程](../../../docs/style-system.md)、[当前制作配置](../../../docs/production-style.md)和[分镜契约](../../../docs/storyboard-template.md)。状态 proposed-unvalidated：仅比较/方案，不自动选定、不代表已安装渲染器或部署 agent。冻结脚本不改写；视频前必须同时批准同版分镜与构图关键帧。
+先读[共享流程](../../../docs/style-system.md)、[当前制作配置](../../../docs/production-style.md)和[分镜契约](../../../docs/storyboard-template.md)。状态 proposed-unvalidated：仅比较/方案，不自动选定、不代表已安装渲染器或部署 agent。冻结脚本不改写；同版分镜与构图关键帧须内部复核；通过后按[统一流程](../../../docs/production-workflow.md)自主继续，不逐项等用户批准。
 
 完整原始男性主持人仍用当前右下圆形角标，场景铺满画面，不挖空侧栏或底栏。现成男性标准普通话须实际试听；本次未启用克隆，另行授权可再评估。原始角色及私人录音不进入公开方法包。字幕遵循屏幕层可读性，不照搬上游手写小字、装饰栏和女声。
 
