@@ -1,0 +1,29 @@
+{
+  "source_files": [
+    {
+      "original_name": "bake_fields.py",
+      "original_sha256": "d5c0235fe66c12db5462dea789115013d78d1e9bf8e00fee89eccca563a21c8d",
+      "public_file": "sample_fields.py",
+      "public_sha256": "50ac7bc4c510c836f401e13381a69b09604a9ffbf7278bd2bbf9207ba71c653d"
+    },
+    {
+      "original_name": "validate_shader_fields.py",
+      "original_sha256": "199a6802923bf2a9cef3397c868dc9ff67b7d9c5479ca5e9094f0ed3a3c36f53",
+      "public_file": "validate_shader_fields.py",
+      "public_sha256": "96a042b34a0eb02d96ce3d11cd92ea8de6eb56525d8f757ab97f601acb4bcf43"
+    },
+    {
+      "public_file": "egl_volume_capability_probe.py",
+      "public_sha256": "885e6114931f3244f84063e714361b2c8d046f04f55fd622ac069327e8455e6c"
+    }
+  ],
+  "changes": [
+    "Removed unexecuted full-bake branch and omitted render_cache.py scaffold.",
+    "Explicit scene/output CLI, fresh output directory, no source overwrite.",
+    "Start/middle/end camera path reconstructed in memory from canonical static hero scene; no animation render required.",
+    "Exported source name instead of private absolute path.",
+    "Strict failure preserved; separate relative and post-hoc mixed-tolerance diagnostics added."
+  ],
+  "original_canonical_scene_sha256": "0831572d873e1d54458fabe39774ddae1bd4386883da495e00692261152fa4b0",
+  "original_motion_scene_sha256": "5af308052b19bbe643248fb66912903134d4da9b5bf2a97dd15e684afeb744a2"
+}

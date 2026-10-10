@@ -1,0 +1,21 @@
+{
+  "method": "Cycles emission shader on constant-coordinate quads versus copied Geometry Nodes fields, 1024 random object-space positions",
+  "maximum_absolute_error_per_channel": [
+    0.00010335445404052734,
+    1.5348196029663086e-06,
+    8.940696716308594e-08
+  ],
+  "mean_absolute_error_per_channel": [
+    1.5022370445372246e-06,
+    1.0177305873049214e-08,
+    1.5046680346131325e-08
+  ],
+  "channels": [
+    "density",
+    "emission_strength",
+    "color_red"
+  ],
+  "passed": false,
+  "samples": 1024,
+  "cycles_samples": 1
+}

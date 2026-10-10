@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-10-10",
+  "blender": "4.3.2",
+  "portable_field_probe": "executed; exact JSON equality to original historical probe",
+  "portable_shader_diagnostic": "executed 32x32 / 1 Cycles sample; exact original absolute/mean errors and strict passed=false preserved",
+  "strict_numerical_acceptance": "failed at one density sample; not relabeled as passed",
+  "canonical_source_unchanged_sha256": "0831572d873e1d54458fabe39774ddae1bd4386883da495e00692261152fa4b0",
+  "full_bake": "not-run; omitted",
+  "full_renderer": "not-run; omitted",
+  "egl_probe": "syntax checked; historical result only; not rerun for publication",
+  "private_payload_scan": "passed; text-only source/config/metrics/docs"
+}

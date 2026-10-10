@@ -1,0 +1,26 @@
+{
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "column_crossing_histogram": {
+    "0": 1065,
+    "2": 3031
+  },
+  "repeat_max_error": {
+    "density": 0.0,
+    "emission": 0.0,
+    "color": 0.0
+  },
+  "density_range": [
+    0.0,
+    7.104074478149414
+  ],
+  "color_range": [
+    0.2007327675819397,
+    1.0
+  ],
+  "independent_emission_density_correlation": 0.3471543763027421,
+  "fine_noise": {
+    "scale": 6.0,
+    "detail": 4.0
+  }
+}

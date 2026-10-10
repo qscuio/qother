@@ -73,3 +73,8 @@ node scenes/original-protoplanetary-disk/experimental/qa_browser_playback.cjs --
 ```
 
 [三组性能试验](performance-pilot/README.md)另列代码、历史计时与像素指标；保持原画质默认值，不自动采用更快配置。
+
+## 体积缓存小样本与方法研究
+
+[Stage 1 源码和记录](experimental/cached-volume-stage1/README.md)保存已完成的字段提取诊断：近似一致，但严格绝对误差阈值有一个密度样本失败。没有完整烘焙或场景级性能结论。[2.5D与三维体积方法研究](../../docs/research/volume-and-25d-rendering.md)保留720p、按画质与成本选方法；新的六秒对照结果尚未在这里验收。
+

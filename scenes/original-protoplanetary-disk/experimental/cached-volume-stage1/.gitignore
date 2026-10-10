@@ -1,0 +1,6 @@
+outputs/
+__pycache__/
+*.npz
+*.exr
+*.blend*
+*.log

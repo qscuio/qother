@@ -1,0 +1,20 @@
+{
+  "method": "Computed from archived original shader-exactness samples; not an art render or full cache",
+  "max_relative_error_per_channel_nonzero": [
+    7.808627230382005e-05,
+    7.807017050525239e-05,
+    2.2590682954749883e-07
+  ],
+  "strict_absolute_threshold": 0.0001,
+  "strict_absolute_pass": false,
+  "density_samples_exceeding_threshold": 1,
+  "posthoc_mixed_tolerance_diagnostic": {
+    "rtol": 0.0001,
+    "atol": 2e-05,
+    "passed": true,
+    "predeclared_acceptance": false
+  },
+  "full_cache_bake": "not-run",
+  "lighting_bake": "not-run",
+  "scene_render_performance": "not-measured"
+}
