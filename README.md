@@ -43,3 +43,6 @@
 
 [Lemo-Opuscar 的适配与差距清单](docs/lemo-opuscar-adaptation.md)：制作规划、声音表、可复现检查、数据编码和独立等距信息图候选。只集成文档/技能规则，未安装上游工具，未改冻结脚本或制作视频。
 
+### 手绘方法参考与署名
+
+感谢 **yang0** 的 [handraw-style](https://github.com/yang0/handraw-style) 与 **liulei / threerocks** 的 [hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles)。本项目选择性改编其风格拆分、材料与线条、版式及一致性检查方法，增强现有 skills；不是整库安装或已验证的生成服务。固定版本、取舍和完整许可见[手绘适配记录](docs/hand-drawn-adaptation.md)。yang0 使用带额外署名要求的 MIT 变体，不能称作标准 MIT。

@@ -38,3 +38,7 @@ description: 为地球往事系列设计或审查扁平矢量信息动画分镜�
 
 ## 具体视觉语法
 设计或审查实际构图时读取[材质、排版与运动细则](references/grid-and-motion.md)；保留本skill的状态和当前制作配置，参数须经实际画面验收。
+
+## 手绘参考的有限吸收
+
+需要细化材料、线条或布局时读[手绘语法](../earthstory-visual-design/references/hand-drawn-grammar.md)中本风格对应段落。它强化既有规则，不另建混合风格、不采用上游角色或色板；候选状态与当前制作配置不变。

@@ -36,3 +36,5 @@ description: Design and critique 地球往事 documentary styleframes, visual hi
 首次建立或修改本 skill 时运行[行为回归](tests/behavioral-tests.md)；来源、许可和未迁移的规则见[研究记录](references/sources.md)。
 
 需要量化图表时，读[数据编码与标注参考](../earthstory-flat-vector/references/data-storytelling.md)，只迁移读图方法，不自动选定扁平风格。需要等距系统剖面时可比较 `$earthstory-iso-infographic`，它是未验证候选，不能满足明确要求的真实透视三维。程序化标注漂移或抽帧复现问题见[确定性与 QA 证据](../earthstory-cinematography/references/determinism-and-qa.md)。
+
+明确比较手绘材料、墨线或图谱排版时，读[手绘语法](references/hand-drawn-grammar.md)。按既有风格分支选择，不自动把手绘铺到真实三维镜头，也不因参考库有许多编号就创建同等数量的 agents。

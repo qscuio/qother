@@ -28,3 +28,7 @@ description: 为地球往事的古生物、化石、器物和自然史证据比�
 - [Lemo-Opuscar / engraving](https://github.com/lemomo-ai/lemo-opuscar/blob/a75e2b3384cded87955c8743b5a59db06ea491a8/styles/engraving/STYLE.md)
 
 改编保留 MIT 归属，见[许可](../../../docs/third-party/lemo-opuscar-LICENSE.txt)。上述数值为本项目候选起点，不是上游原值、事实测量或已获批准的制作参数。
+
+## 手绘参考的有限吸收
+
+需要细化材料、线条或布局时读[手绘语法](../earthstory-visual-design/references/hand-drawn-grammar.md)中本风格对应段落。它强化既有规则，不另建混合风格、不采用上游角色或色板；候选状态与当前制作配置不变。
