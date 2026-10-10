@@ -1,0 +1,102 @@
+{
+  "schema": "review-sidecar/v1",
+  "timeline": {
+    "fps": {
+      "num": 30,
+      "den": 1
+    },
+    "duration_frames": 120
+  },
+  "sources": [
+    {
+      "id": "source-a",
+      "fps": {
+        "num": 24,
+        "den": 1
+      },
+      "duration_frames": 100
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-a",
+      "source_id": "source-a",
+      "source_range": {
+        "start": 0,
+        "end": 48
+      },
+      "timeline_range": {
+        "start": 0,
+        "end": 60
+      },
+      "rate": {
+        "num": 1,
+        "den": 1
+      }
+    },
+    {
+      "id": "shot-b",
+      "source_id": "source-a",
+      "source_range": {
+        "start": 48,
+        "end": 144
+      },
+      "timeline_range": {
+        "start": 60,
+        "end": 120
+      },
+      "rate": {
+        "num": 2,
+        "den": 1
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "caption-a",
+      "role": "caption",
+      "shot_id": "shot-a",
+      "source_range": {
+        "start": 12,
+        "end": 36
+      },
+      "timeline_range": {
+        "start": 15,
+        "end": 45
+      },
+      "coverage_source_ranges": [
+        {
+          "start": 12,
+          "end": 24
+        },
+        {
+          "start": 24,
+          "end": 36
+        }
+      ],
+      "text": "Partial caption coverage is intentional."
+    },
+    {
+      "id": "narration-b",
+      "role": "narration",
+      "shot_id": "shot-b",
+      "source_range": {
+        "start": 48,
+        "end": 96
+      },
+      "timeline_range": {
+        "start": 60,
+        "end": 90
+      }
+    }
+  ],
+  "audio_groups": [
+    {
+      "id": "voice",
+      "role": "narration",
+      "cue_ids": [
+        "narration-b"
+      ]
+    }
+  ]
+}

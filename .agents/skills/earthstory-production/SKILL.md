@@ -13,8 +13,10 @@ description: 编排地球往事从已核实连续旁白到分镜、构图复核�
 - 理解目标、构图、字体/标注、风格关键帧：earthstory-visual-design 和本镜选定的 style skill。
 - 镜内变化、摄影、剪辑和声音规划：earthstory-cinematography。
 - 固定主持人身份、动作候选、挑帧和独立透明 PNG：earthstory-character-assets。
+- 剪切/变速源素材、对齐声音事件或排查连续帧问题时，读[剪辑来源与连续复核](references/edit-audio-temporal-review.md)；可选网页后端只按[隔离试验](../../../docs/frame-renderer-pilot.md)评估，不替换当前渲染器。
 - 程序化制作时读[渲染接口约定](references/render-contract.md)；准备验收时读 cinematography 的[确定性与 QA](../earthstory-cinematography/references/determinism-and-qa.md)。
 
 Skill 提供方法；执行者按单次任务承担职责，同一人可加载多个 skill。这里不创建每画风常驻 agent，不自动部署、发布、安装依赖或调用收费服务。
 
 交接必须区分已实现、实测通过、待执行和阻塞；给产物版本、证据、下一步。真实图像才证明构图，连续播放才验证动态。方法/字段通过不能换成成片通过。行为复核使用[任务案例](tests/behavioral-tests.md)。
+

@@ -19,6 +19,9 @@
 - [写作、文稿编辑与去套话技能](docs/writing/research-index.md)
 - [当前开篇改稿记录](docs/opening/cosmic-origin/editorial-review.md)
 - [旧版地球形成稿改稿记录](docs/episodes/001/editorial-review.md)
+- [推文 20 个动画资源：审计与采用取舍](docs/shared-motion-resources-audit.md)
+- [来源剪辑与字幕映射：独立侧车校验](examples/review-sidecar.README.md)
+- [可寻址网页渲染：隔离试验计划](docs/frame-renderer-pilot.md)
 - [动画工具与成熟度研究](docs/animation_skills_research.md)
 - [研究来源与核查规范](docs/research-sources.md)
 - [分集结构化数据](data/episodes.json) 与 [来源索引数据](data/sources.json)
@@ -48,4 +51,5 @@
 ### 手绘方法参考与署名
 
 感谢 **yang0** 的 [handraw-style](https://github.com/yang0/handraw-style) 与 **liulei / threerocks** 的 [hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles)。本项目选择性改编其风格拆分、材料与线条、版式及一致性检查方法，增强现有 skills；不是整库安装或已验证的生成服务。固定版本、取舍和完整许可见[手绘适配记录](docs/hand-drawn-adaptation.md)。yang0 使用带额外署名要求的 MIT 变体，不能称作标准 MIT。
+
 
