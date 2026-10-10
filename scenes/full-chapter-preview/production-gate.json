@@ -1,0 +1,1069 @@
+{
+  "schema_version": 1,
+  "status": "rejected-quality",
+  "identity": {
+    "title": "地球往事｜序章：地球的来处",
+    "script_sha256": "d0c76055240a051a665245dfb972083efe048794b8b5c66fbec99e765f53f2c5"
+  },
+  "input_digest": "fc1b3b6448f20918738a349412d3bdfeab527055e161ef63dab654561a96c5a9",
+  "evidence": {},
+  "labels": {
+    "cover": {
+      "title": "地球往事｜序章：地球的来处",
+      "review": {
+        "status": "not-run",
+        "reason": "A later separate cover candidate does not update this historical video.",
+        "evidence": []
+      }
+    },
+    "video_header": {
+      "title": "地球往事 第一章 完整预览",
+      "review": {
+        "status": "fail",
+        "reason": "Historical label differs from frozen script title.",
+        "evidence": []
+      }
+    }
+  },
+  "shots": {
+    "P01-historical": {
+      "paragraph_ids": [
+        "P01"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P02-historical": {
+      "paragraph_ids": [
+        "P02"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P03-historical": {
+      "paragraph_ids": [
+        "P03"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P04-historical": {
+      "paragraph_ids": [
+        "P04"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P05-historical": {
+      "paragraph_ids": [
+        "P05"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P06-historical": {
+      "paragraph_ids": [
+        "P06"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P07-historical": {
+      "paragraph_ids": [
+        "P07"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P08-historical": {
+      "paragraph_ids": [
+        "P08"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P09-historical": {
+      "paragraph_ids": [
+        "P09"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P10-historical": {
+      "paragraph_ids": [
+        "P10"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "P10 quality reference only; fresh gate review absent.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P11-historical": {
+      "paragraph_ids": [
+        "P11"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P12-historical": {
+      "paragraph_ids": [
+        "P12"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P13-historical": {
+      "paragraph_ids": [
+        "P13"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P14-historical": {
+      "paragraph_ids": [
+        "P14"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P15-historical": {
+      "paragraph_ids": [
+        "P15"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P16-historical": {
+      "paragraph_ids": [
+        "P16"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P17-historical": {
+      "paragraph_ids": [
+        "P17"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P18-historical": {
+      "paragraph_ids": [
+        "P18"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    },
+    "P19-historical": {
+      "paragraph_ids": [
+        "P19"
+      ],
+      "version": "historical-first-preview",
+      "content": {
+        "status": "not-run",
+        "reason": "Claim-by-claim actual visual explanation review required.",
+        "evidence": []
+      },
+      "visual": {
+        "status": "fail",
+        "reason": "Historical non-P10 scene quality rejected; rebuild required.",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Section transitions need actual review.",
+        "evidence": []
+      }
+    }
+  },
+  "narration_cues": {
+    "P01-text": {
+      "paragraph_id": "P01",
+      "source_text": "约一百三十八亿年前，宇宙里还没有一颗星，也没有一块石头。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P02-text": {
+      "paragraph_id": "P02",
+      "source_text": "那时的宇宙炽热、稠密，空间正在膨胀。光不断与自由电子相遇，难以走远。随着膨胀，温度逐渐降低。我们所说的大爆炸，描述的正是宇宙从早期热密状态不断膨胀、演化的历史。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P03-text": {
+      "paragraph_id": "P03",
+      "source_text": "约三十八万年后，宇宙冷却到电子能够与原子核结合，形成中性原子。光不再频繁受到自由电子的阻挡，终于可以穿过漫长的距离。那时留下的辐射，今天仍能被探测到。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P04-text": {
+      "paragraph_id": "P04",
+      "source_text": "光已经能够远行，星光却还没有出现。散布在宇宙中的普通物质，主要是氢和氦。它们可以聚成恒星，但要组成岩石，还缺少氧、硅、铁等元素。这些成分，要等后来的恒星去制造。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P05-text": {
+      "paragraph_id": "P05",
+      "source_text": "气体的分布并不均匀。有些地方稍微密一些，引力便把更多物质聚向那里。云团向内收缩，中心越来越热，直到氢的原子核能够结合成氦，释放能量。这种反应叫核聚变，它为恒星提供了持续发光的能源。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P06-text": {
+      "paragraph_id": "P06",
+      "source_text": "在宇宙最初的几亿年里，第一批恒星逐渐出现，早期星系也在形成。恒星与气体汇聚在这些不断生长的系统中，新的恒星仍在其中诞生。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P07-text": {
+      "paragraph_id": "P07",
+      "source_text": "恒星发光的同时，也在改变物质的成分。随着恒星演化，一部分恒星内部能进一步生成碳和氧；质量足够大的恒星，还能制造硅、铁等元素。今天岩石里的许多成分，曾在恒星深处的高温中形成。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P08-text": {
+      "paragraph_id": "P08",
+      "source_text": "恒星又把一部分物质送回了星际空间。有些逐渐抛出外层，有些大质量恒星在生命末期发生超新星爆炸，将物质抛向周围。新生成的元素由此进入星际气体和尘埃，后来又被聚拢，成为新一批恒星与行星的材料。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P09-text": {
+      "paragraph_id": "P09",
+      "source_text": "太阳所在的银河系，也是在物质的汇聚中逐渐形成的。漫长岁月里，它与其他星系合并，汇入更多气体和恒星；星系内部，恒星的诞生与消亡也一直在延续。在太阳诞生以前，这里的许多恒星已经走完一生。它们留下的物质，混入了后来孕育太阳的云团。地球的材料，就在这片气体和细小尘粒组成的云中。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P10-text": {
+      "paragraph_id": "P10",
+      "source_text": "约四十六亿年前，云团开始收缩。它一边转动，一边向内聚拢，逐渐形成扁平的盘。大部分物质汇向中央，孕育太阳；周围的物质则在盘中继续聚集。太阳还在形成，行星的生长也已经开始。",
+      "timing_status": "P10 baked-caption approximate retime"
+    },
+    "P11-text": {
+      "paragraph_id": "P11",
+      "source_text": "靠近年轻太阳的地方，温度较高，冰难以保持固态，能够留下的固体主要是岩石和金属。后来构成地球的物质，就散布在盘的这一带。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P12-text": {
+      "paragraph_id": "P12",
+      "source_text": "细小颗粒发生碰撞，有些黏合，有些弹开或破碎。碰撞并不总能使它们长大。从尘粒到小天体，究竟怎样跨过最初的生长难关，仍在研究。一种解释认为，气体与颗粒相互作用，可以让颗粒在局部聚得更密；当密度足够高时，整团颗粒可能在自身引力下坍缩，形成小天体。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P13-text": {
+      "paragraph_id": "P13",
+      "source_text": "小天体形成以后，行星的生长还远没有结束。小天体之间的碰撞与合并，可以造就更大的行星胚胎；胚胎又会继续聚集物质，彼此碰撞。地球也经历了漫长的吸积：一次次合并使它增加质量，猛烈的撞击又可能使它失去部分物质。这样的生长，延续了数千万年。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P14-text": {
+      "paragraph_id": "P14",
+      "source_text": "撞击还把运动的能量转化为热，使大片岩石熔化。熔融让内部物质能够重新分布：密度较大的富铁金属向深处迁移，相对较轻的岩石成分留在外围。地球一边长大，内部也逐渐分层，形成金属核和包围它的岩石外层。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P15-text": {
+      "paragraph_id": "P15",
+      "source_text": "我们通常说，地球的年龄约为四十五点四亿年。这个估计来自地球样品与陨石等留下的同位素记录。它标出了地球形成的年代，却不能把漫长的生长压缩成某一天。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P16-text": {
+      "paragraph_id": "P16",
+      "source_text": "月球的来历，也与这段不断碰撞的早年有关。目前的主流解释认为，约四十五亿年前，一次大碰撞将年轻地球及撞击天体的部分物质抛入地球周围的空间，抛出的物质聚集成了月球。撞击怎样发生、月球用了多久聚成，仍是科学家试图还原的细节。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P17-text": {
+      "paragraph_id": "P17",
+      "source_text": "从月球带回的岩石，保留着早期高温熔融的记录；它们的化学成分，也与地球岩石有许多相似之处。月岩使我们得以检验这个解释：怎样的碰撞，才能留下今天所见的地球和月球？",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P18-text": {
+      "paragraph_id": "P18",
+      "source_text": "在这一解释中，月球从碰撞抛出的物质中诞生，陪伴着仍然炽热的地球。构成地球的材料，则有更久远的来处：其中许多元素，早在太阳诞生以前，就已在别的恒星中形成。它们穿过星际空间，进入新的云团，又在太阳周围聚成了这颗星球。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    },
+    "P19-text": {
+      "paragraph_id": "P19",
+      "source_text": "地球的历史，尚在开头。它的材料，已经走过漫长的岁月。",
+      "timing_status": "provider boundary metadata, not independent ASR"
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "P01",
+      "narration_cue_ids": [
+        "P01-text"
+      ],
+      "claims": [
+        {
+          "id": "P01-unreviewed-block",
+          "source_text": "约一百三十八亿年前，宇宙里还没有一颗星，也没有一块石头。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P01-text"
+          ],
+          "shot_ids": [
+            "P01-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "narration_cue_ids": [
+        "P02-text"
+      ],
+      "claims": [
+        {
+          "id": "P02-unreviewed-block",
+          "source_text": "那时的宇宙炽热、稠密，空间正在膨胀。光不断与自由电子相遇，难以走远。随着膨胀，温度逐渐降低。我们所说的大爆炸，描述的正是宇宙从早期热密状态不断膨胀、演化的历史。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P02-text"
+          ],
+          "shot_ids": [
+            "P02-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "narration_cue_ids": [
+        "P03-text"
+      ],
+      "claims": [
+        {
+          "id": "P03-unreviewed-block",
+          "source_text": "约三十八万年后，宇宙冷却到电子能够与原子核结合，形成中性原子。光不再频繁受到自由电子的阻挡，终于可以穿过漫长的距离。那时留下的辐射，今天仍能被探测到。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P03-text"
+          ],
+          "shot_ids": [
+            "P03-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "narration_cue_ids": [
+        "P04-text"
+      ],
+      "claims": [
+        {
+          "id": "P04-unreviewed-block",
+          "source_text": "光已经能够远行，星光却还没有出现。散布在宇宙中的普通物质，主要是氢和氦。它们可以聚成恒星，但要组成岩石，还缺少氧、硅、铁等元素。这些成分，要等后来的恒星去制造。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P04-text"
+          ],
+          "shot_ids": [
+            "P04-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "narration_cue_ids": [
+        "P05-text"
+      ],
+      "claims": [
+        {
+          "id": "P05-unreviewed-block",
+          "source_text": "气体的分布并不均匀。有些地方稍微密一些，引力便把更多物质聚向那里。云团向内收缩，中心越来越热，直到氢的原子核能够结合成氦，释放能量。这种反应叫核聚变，它为恒星提供了持续发光的能源。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P05-text"
+          ],
+          "shot_ids": [
+            "P05-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "narration_cue_ids": [
+        "P06-text"
+      ],
+      "claims": [
+        {
+          "id": "P06-unreviewed-block",
+          "source_text": "在宇宙最初的几亿年里，第一批恒星逐渐出现，早期星系也在形成。恒星与气体汇聚在这些不断生长的系统中，新的恒星仍在其中诞生。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P06-text"
+          ],
+          "shot_ids": [
+            "P06-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "narration_cue_ids": [
+        "P07-text"
+      ],
+      "claims": [
+        {
+          "id": "P07-unreviewed-block",
+          "source_text": "恒星发光的同时，也在改变物质的成分。随着恒星演化，一部分恒星内部能进一步生成碳和氧；质量足够大的恒星，还能制造硅、铁等元素。今天岩石里的许多成分，曾在恒星深处的高温中形成。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P07-text"
+          ],
+          "shot_ids": [
+            "P07-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "narration_cue_ids": [
+        "P08-text"
+      ],
+      "claims": [
+        {
+          "id": "P08-unreviewed-block",
+          "source_text": "恒星又把一部分物质送回了星际空间。有些逐渐抛出外层，有些大质量恒星在生命末期发生超新星爆炸，将物质抛向周围。新生成的元素由此进入星际气体和尘埃，后来又被聚拢，成为新一批恒星与行星的材料。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P08-text"
+          ],
+          "shot_ids": [
+            "P08-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "narration_cue_ids": [
+        "P09-text"
+      ],
+      "claims": [
+        {
+          "id": "P09-unreviewed-block",
+          "source_text": "太阳所在的银河系，也是在物质的汇聚中逐渐形成的。漫长岁月里，它与其他星系合并，汇入更多气体和恒星；星系内部，恒星的诞生与消亡也一直在延续。在太阳诞生以前，这里的许多恒星已经走完一生。它们留下的物质，混入了后来孕育太阳的云团。地球的材料，就在这片气体和细小尘粒组成的云中。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P09-text"
+          ],
+          "shot_ids": [
+            "P09-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "narration_cue_ids": [
+        "P10-text"
+      ],
+      "claims": [
+        {
+          "id": "P10-unreviewed-block",
+          "source_text": "约四十六亿年前，云团开始收缩。它一边转动，一边向内聚拢，逐渐形成扁平的盘。大部分物质汇向中央，孕育太阳；周围的物质则在盘中继续聚集。太阳还在形成，行星的生长也已经开始。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P10-text"
+          ],
+          "shot_ids": [
+            "P10-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "narration_cue_ids": [
+        "P11-text"
+      ],
+      "claims": [
+        {
+          "id": "P11-unreviewed-block",
+          "source_text": "靠近年轻太阳的地方，温度较高，冰难以保持固态，能够留下的固体主要是岩石和金属。后来构成地球的物质，就散布在盘的这一带。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P11-text"
+          ],
+          "shot_ids": [
+            "P11-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "narration_cue_ids": [
+        "P12-text"
+      ],
+      "claims": [
+        {
+          "id": "P12-unreviewed-block",
+          "source_text": "细小颗粒发生碰撞，有些黏合，有些弹开或破碎。碰撞并不总能使它们长大。从尘粒到小天体，究竟怎样跨过最初的生长难关，仍在研究。一种解释认为，气体与颗粒相互作用，可以让颗粒在局部聚得更密；当密度足够高时，整团颗粒可能在自身引力下坍缩，形成小天体。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P12-text"
+          ],
+          "shot_ids": [
+            "P12-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "narration_cue_ids": [
+        "P13-text"
+      ],
+      "claims": [
+        {
+          "id": "P13-unreviewed-block",
+          "source_text": "小天体形成以后，行星的生长还远没有结束。小天体之间的碰撞与合并，可以造就更大的行星胚胎；胚胎又会继续聚集物质，彼此碰撞。地球也经历了漫长的吸积：一次次合并使它增加质量，猛烈的撞击又可能使它失去部分物质。这样的生长，延续了数千万年。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P13-text"
+          ],
+          "shot_ids": [
+            "P13-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "narration_cue_ids": [
+        "P14-text"
+      ],
+      "claims": [
+        {
+          "id": "P14-unreviewed-block",
+          "source_text": "撞击还把运动的能量转化为热，使大片岩石熔化。熔融让内部物质能够重新分布：密度较大的富铁金属向深处迁移，相对较轻的岩石成分留在外围。地球一边长大，内部也逐渐分层，形成金属核和包围它的岩石外层。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P14-text"
+          ],
+          "shot_ids": [
+            "P14-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "narration_cue_ids": [
+        "P15-text"
+      ],
+      "claims": [
+        {
+          "id": "P15-unreviewed-block",
+          "source_text": "我们通常说，地球的年龄约为四十五点四亿年。这个估计来自地球样品与陨石等留下的同位素记录。它标出了地球形成的年代，却不能把漫长的生长压缩成某一天。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P15-text"
+          ],
+          "shot_ids": [
+            "P15-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "narration_cue_ids": [
+        "P16-text"
+      ],
+      "claims": [
+        {
+          "id": "P16-unreviewed-block",
+          "source_text": "月球的来历，也与这段不断碰撞的早年有关。目前的主流解释认为，约四十五亿年前，一次大碰撞将年轻地球及撞击天体的部分物质抛入地球周围的空间，抛出的物质聚集成了月球。撞击怎样发生、月球用了多久聚成，仍是科学家试图还原的细节。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P16-text"
+          ],
+          "shot_ids": [
+            "P16-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "narration_cue_ids": [
+        "P17-text"
+      ],
+      "claims": [
+        {
+          "id": "P17-unreviewed-block",
+          "source_text": "从月球带回的岩石，保留着早期高温熔融的记录；它们的化学成分，也与地球岩石有许多相似之处。月岩使我们得以检验这个解释：怎样的碰撞，才能留下今天所见的地球和月球？",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P17-text"
+          ],
+          "shot_ids": [
+            "P17-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "narration_cue_ids": [
+        "P18-text"
+      ],
+      "claims": [
+        {
+          "id": "P18-unreviewed-block",
+          "source_text": "在这一解释中，月球从碰撞抛出的物质中诞生，陪伴着仍然炽热的地球。构成地球的材料，则有更久远的来处：其中许多元素，早在太阳诞生以前，就已在别的恒星中形成。它们穿过星际空间，进入新的云团，又在太阳周围聚成了这颗星球。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P18-text"
+          ],
+          "shot_ids": [
+            "P18-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "narration_cue_ids": [
+        "P19-text"
+      ],
+      "claims": [
+        {
+          "id": "P19-unreviewed-block",
+          "source_text": "地球的历史，尚在开头。它的材料，已经走过漫长的岁月。",
+          "concepts": [
+            "Unreviewed paragraph-level placeholder; split meaningful claims during storyboard review."
+          ],
+          "visual_explanation": "Historical association only; does not establish explanation of every assertion.",
+          "narration_cue_ids": [
+            "P19-text"
+          ],
+          "shot_ids": [
+            "P19-historical"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "No approved claim decomposition or visual coverage audit.",
+            "evidence": []
+          }
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "benchmark_ref": "../p10-formation-preview/README.md",
+    "benchmark_comparison": {
+      "status": "fail",
+      "reason": "Full preview quality rejected; P10 is the local quality reference, not approval of the remaining sections.",
+      "evidence": []
+    },
+    "input_completeness": {
+      "status": "not-run",
+      "reason": "Historical dependency-record fingerprints only. Private media inputs were not enumerated by this new gate; cannot authorize assembly.",
+      "evidence": []
+    },
+    "technical": {
+      "status": "not-run",
+      "reason": "Original measured technical results remain in recorded/QA.json; not re-reviewed under this ledger.",
+      "evidence": []
+    },
+    "playback": {
+      "status": "not-run",
+      "reason": "No continuous real-time playback review.",
+      "evidence": []
+    },
+    "audio_content": {
+      "status": "not-run",
+      "reason": "No independent listening or ASR content verification.",
+      "evidence": []
+    }
+  }
+}

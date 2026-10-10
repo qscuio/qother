@@ -19,6 +19,10 @@ description: Design and review motivated shots, virtual camera movement and edit
 4. 科学场景必读[科学视觉边界](references/scientific-visuals.md)。艺术复原/示意标识不免除事实责任；不得用宇宙中心火球、错年代星空或伪造尺度替代解释。
 5. 按[输入输出契约](references/shot-contract.md)提交逐镜 sidecar；保留现有 storyboard 的字符串 `camera`、`action` 和 ID。没有授权不改 schema、资产锁、脚本、音轨或旧 board。示例见 [宇宙开头](examples/cosmic-opening-camera-plan.json)，它不是 production storyboard，也不是计时承诺。
 
+## 旁白主张到镜头的覆盖
+
+完整段落/章节使用[身份与覆盖台账](../earthstory-production/references/identity-coverage-gates.md)连接paragraph_id、原文主张、旁白cue与shot_id，并写明画面实际解释什么。按理解需要决定一镜或多镜，允许合理跨段镜头；不强制每句拆镜。反查每项限定、机制与结果是否在实际画面中得到表达；文本读完不等于观众已看懂。已有片段重定时、烧录字幕或换音轨时，显式标出旧cue例外并重审对应主张与切点。
+
 ## 复核与交付
 
 - 先过静音可读性：观众能辨认主体、变化和空间关系吗？再连旁白检查信息出现、字幕阅读和停顿。避免画面提前泄露尚未解释的结果。
@@ -32,3 +36,4 @@ description: Design and review motivated shots, virtual camera movement and edit
 跨阶段交接统一读[制作流程](../../../docs/production-workflow.md)，不在摄影技能内另设整片生产顺序；具体渲染候选由 earthstory-production 衔接。
 
 需要把冻结稿组织成可审阅的声画方案时，读[制作 treatment 与声音规划](references/treatment-and-sound.md)：比较尚未锁定的声画路径，复用已有逐镜契约，不另起脚本或强制音乐节拍。涉及程序化画面复现与交付检查时，读[确定性与 QA 证据](references/determinism-and-qa.md)。两份参考只补方法，不安装工具、不授权视频制作。
+

@@ -1,5 +1,7 @@
 # 第一章完整预览：可复现源码
 
+> Historical quality status: rejected-quality. The full preview remains a technical record; non-P10 visuals require rebuilding, and its “第一章” header does not match the frozen “地球往事｜序章：地球的来处” script. See [production gate](production-gate.json). Workflow changes and a separate cover candidate do not repair this video.
+
 完整19段《地球的来处》预览，不是P10单段。冻结正文来自[e04f055版本](https://github.com/qscuio/qother/blob/e04f0556e983a75efcca7599278b04014ffe917c/docs/opening/cosmic-origin/script.md)，Git blob 13a35f2b6a484c7ff33acd815611b68454a95e6f；script/保留相同正文与段落拆分，共1434个规范化文字字符。字幕不得改写以凑时长。
 
 原完整运行：1280×720、24fps、8584帧、357.666667秒（约5分58秒）。19段主体349.666667秒，加8秒参考片尾。原始19段旁白合计340.176秒；加入段间静音得到349.276秒，再逐段向上对齐帧边界。便携适配只做独立静帧、源码和输入保护检查，未重新渲染完整章。
