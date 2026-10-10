@@ -65,9 +65,21 @@ def validate(d, production=False):
     ga = assets[guide['asset_id']]
     require(guide.get('version') == ga['version'] and ga.get('intact') is True, 'guide must use locked intact asset')
     gh = guide.get('height_fraction')
-    require(number(gh) and 0.18 <= gh <= 0.22, 'guide height must be approximately 20%, not width')
+    require(number(gh), 'guide height must be finite')
     gx,gy,gw,gbh = box(guide.get('bbox'), 'guide')
     require(abs(gbh-gh) < 1e-8, 'guide bbox height mismatch')
+    # Current host reference profile in docs/production-style.md. Do not scale this
+    # profile to other resolutions without a newly reviewed composition.
+    current_box = (1622/1920, 790/1080, 250/1920, 250/1080)
+    current_layout = (d['width'] == 1920 and d['height'] == 1080
+                      and all(abs(actual-expected) < 1e-8
+                              for actual, expected in zip((gx,gy,gw,gbh), current_box)))
+    if strict:
+        require(current_layout, 'production guide must match current 1920x1080 circular-host profile')
+    else:
+        # Keep historical demo boards readable; they are not production approval.
+        require(current_layout or 0.18 <= gh <= 0.22,
+                'demo guide must match legacy 20% range or exact current profile')
     cx,cy,cw,ch = box(d.get('captions',{}).get('bbox'), 'captions')
     require(gx+gw <= cx or cx+cw <= gx or gy+gbh <= cy or cy+ch <= gy, 'guide overlaps captions')
     voice = d.get('voice', {})
@@ -117,3 +129,4 @@ def main():
 
 if __name__=='__main__':
     main()
+

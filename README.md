@@ -13,6 +13,7 @@
 - [已确认方向与待定事项](docs/decisions.md)
 - [画面与制作规范](docs/production-style.md)
 - [风格 Skills、角色分工与分镜体系](docs/style-system.md)
+- [人物动作素材：参考、逐动作生成与人工挑帧](docs/sprite-gen-adaptation.md)
 - [写作、文稿编辑与去套话技能](docs/writing/research-index.md)
 - [当前开篇改稿记录](docs/opening/cosmic-origin/editorial-review.md)
 - [旧版地球形成稿改稿记录](docs/episodes/001/editorial-review.md)
@@ -41,3 +42,4 @@
 ## 方法补充
 
 [Lemo-Opuscar 的适配与差距清单](docs/lemo-opuscar-adaptation.md)：制作规划、声音表、可复现检查、数据编码和独立等距信息图候选。只集成文档/技能规则，未安装上游工具，未改冻结脚本或制作视频。
+

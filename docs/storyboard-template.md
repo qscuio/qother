@@ -7,7 +7,7 @@
 - width、height、fps、duration_s、expected_shot_count：画幅必须16:9，镜头连续覆盖完整时长，起止时间对齐帧边界。
 - sources: 唯一 id、kind（illustrative 或 factual）、url、supports。生产模式仅允许 factual 的 HTTPS 来源；审稿人还必须实际检查它是否支持断言，程序不能证明事实。
 - assets: 唯一 id、version、sha256、path、rights、intact。path 为仓库/资产包相对路径；本验证器不读取资产也不证明权利。
-- guide: asset_id、version、height_fraction、bbox。bbox=[x,y,w,h]，坐标以画面左上角为原点，宽高均归一化；height_fraction 约0.20，bbox 的 h 必须相同。原图比例由实际合成检查，不在示例中假定。
+- guide: asset_id、version、height_fraction、bbox。bbox=[x,y,w,h]，坐标以画面左上角为原点，宽高均归一化；height_fraction 与 bbox 的 h 必须相同。当前生产布局以 [production-style.md](production-style.md) 为准：1920×1080的250 px圆角标对应 h=250/1080、w=250/1920，左上角归一化为 (1622/1920, 790/1080)；其他分辨率需重新审查。原图比例与批准的半身取景由实际合成检查，不在示例中假定。旧演示的约0.20不是当前生产参数。
 - captions: bbox；示例底部字幕区与向导区不重叠。实际文本边界和逐帧遮挡仍须目检。
 - voice: status（deferred、temporary 或 approved）、note。
 
@@ -26,3 +26,8 @@ assets 是 {asset_id, version} 列表。source_ids 引用顶层来源。continui
 运行拒绝样例测试：python scripts/test_storyboard_validator.py
 
 验证器检查字段、有限数值、唯一标识、来源引用、版本锁定、时长/帧对齐、重复/重叠/空隙、向导完整性与区域、字幕区域、跨镜状态。它不渲染、不访问网络、不验证图片像素或来源内容；通过不等于历史正确、真实绑定或合格动画。
+
+
+## 当前几何校验范围
+
+生产模式按当前 production-style.md 检查1920×1080、圆角标外接框 (1622,790,250,250) 及匹配的 height_fraction；容差1e-8用于归一化浮点比较，不接受任意扩大比例。其他分辨率或布局须先审阅并显式更新配置/测试，不自动同比缩放。demo模式保留旧0.18–0.22高度范围，同时可测试完全匹配的当前布局；历史演示文件不改写，不因此获得生产批准。字幕碰撞、边界、有限数值和资产完整性检查保持有效。当前布局结构通过仍不证明实际圆形蒙版、图像身份或构图已批准。
