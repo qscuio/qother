@@ -1,0 +1,29 @@
+{
+  "portable_source_sha256": "0d6756a31eb779fcca2c73a5753b21a408eed4769c053c3ff63ef28906728881",
+  "syntax_compile": "pass",
+  "no_host_frame_36": "pass; rendered and visually inspected",
+  "explicit_host_frame_0_equivalence": "pass on same algorithm before final CLI-only ffmpeg no-overwrite/full-run metadata patch; pixel-identical to recorded original frame 0",
+  "existing_nonempty_output_guard": "pass; exits with code 2 before modifying files",
+  "portable_full_144_frame_render": "not-run",
+  "fullspeed_visual_playback": "not-run",
+  "original_recorded_render": {
+    "width": 1280,
+    "height": 720,
+    "frames": 144,
+    "fps": 24,
+    "duration_seconds": 6,
+    "render_encode_seconds": 99.14,
+    "full_decode": "pass",
+    "six_decoded_frame_inspection": "pass",
+    "adjacent_roi_difference_mean": 1.0342800496604843,
+    "adjacent_roi_difference_max": 1.4727173913043479,
+    "environment": "Cloud CPU workspace; not the user desktop"
+  },
+  "limits": "Recorded original timing and temporal checks belong to the earlier render, not a full rerun of this portable CLI. Differences are CLI, output safety, font configuration, and optional host handling; projection and compositing algorithm retained.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pillow": "12.3.0"
+  }
+}

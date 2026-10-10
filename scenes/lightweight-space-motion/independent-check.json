@@ -1,0 +1,20 @@
+{
+  "date_utc": "2026-10-10",
+  "source_sha256": "0d6756a31eb779fcca2c73a5753b21a408eed4769c053c3ff63ef28906728881",
+  "single_frame": {
+    "frame": 36,
+    "width": 1280,
+    "height": 720,
+    "particles": 217164,
+    "render_and_save_seconds": 0.852,
+    "host_enabled": false,
+    "source_sha256": "0d6756a31eb779fcca2c73a5753b21a408eed4769c053c3ff63ef28906728881"
+  },
+  "single_frame_sha256": "348ab8652a0441c9cc4d9bd68a5d4696a86d7d5a6f37bbd4518542f152ba0458",
+  "matches_author_no_host_frame_pixels": true,
+  "visual_inspection": "Frame 36 inspected at 1280x720: coherent layered dust, readable text, no host; soft/speckled texture remains. This is a technical-frame check, not photoreal or temporal approval.",
+  "nonempty_output_guard": "pass; exit 2 with original PNG unchanged",
+  "full_portable_video": "not-run",
+  "continuous_playback": "not-run",
+  "privacy": "No media, archives, private host or private paths included"
+}

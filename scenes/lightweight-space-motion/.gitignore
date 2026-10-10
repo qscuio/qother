@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+render-*/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.zip
