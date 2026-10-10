@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+*.mp4
+*.npy
+*.zip

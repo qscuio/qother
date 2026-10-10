@@ -1,0 +1,187 @@
+{
+  "status": "full first-chapter preview; not final voice/style approval",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "paragraphs": [
+    {
+      "id": "P01",
+      "heading": "尚无星辰的宇宙",
+      "renderer": "scenes/early.py",
+      "recorded_start": 0,
+      "recorded_end": 6.083333333333333,
+      "frames": 146,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P02",
+      "heading": "热密宇宙的膨胀",
+      "renderer": "scenes/early.py",
+      "recorded_start": 6.083333333333333,
+      "recorded_end": 24.083333333333332,
+      "frames": 432,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P03",
+      "heading": "光，开始远行",
+      "renderer": "scenes/early.py",
+      "recorded_start": 24.083333333333332,
+      "recorded_end": 40.916666666666664,
+      "frames": 404,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P04",
+      "heading": "岩石的材料尚未齐备",
+      "renderer": "scenes/early.py",
+      "recorded_start": 40.916666666666664,
+      "recorded_end": 59.20833333333333,
+      "frames": 439,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P05",
+      "heading": "引力点亮恒星",
+      "renderer": "scenes/early.py",
+      "recorded_start": 59.20833333333333,
+      "recorded_end": 79.125,
+      "frames": 478,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P06",
+      "heading": "第一批恒星与星系",
+      "renderer": "scenes/early.py",
+      "recorded_start": 79.125,
+      "recorded_end": 92.33333333333333,
+      "frames": 317,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P07",
+      "heading": "恒星深处的元素",
+      "renderer": "scenes/early.py",
+      "recorded_start": 92.33333333333333,
+      "recorded_end": 111.25,
+      "frames": 454,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P08",
+      "heading": "回到星际空间",
+      "renderer": "scenes/early.py",
+      "recorded_start": 111.25,
+      "recorded_end": 131.5,
+      "frames": 486,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P09",
+      "heading": "孕育太阳的银河",
+      "renderer": "scenes/early.py",
+      "recorded_start": 131.5,
+      "recorded_end": 160.75,
+      "frames": 702,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P10",
+      "heading": "太阳系的形成",
+      "renderer": "explicit P10 input video, visual-only retime",
+      "recorded_start": 160.75,
+      "recorded_end": 179.79166666666666,
+      "frames": 457,
+      "subtitle_source": "provider boundary sidecar; P10 pixels retain earlier baked timing"
+    },
+    {
+      "id": "P11",
+      "heading": "年轻太阳附近",
+      "renderer": "scenes/late.py",
+      "recorded_start": 179.79166666666666,
+      "recorded_end": 192.58333333333331,
+      "frames": 307,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P12",
+      "heading": "尘粒的生长难关",
+      "renderer": "scenes/late.py",
+      "recorded_start": 192.58333333333331,
+      "recorded_end": 218.83333333333331,
+      "frames": 630,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P13",
+      "heading": "数千万年的吸积",
+      "renderer": "scenes/late.py",
+      "recorded_start": 218.83333333333331,
+      "recorded_end": 243.16666666666666,
+      "frames": 584,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P14",
+      "heading": "地球内部开始分层",
+      "renderer": "scenes/late.py",
+      "recorded_start": 243.16666666666666,
+      "recorded_end": 264.75,
+      "frames": 518,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P15",
+      "heading": "约45.4亿年的年龄",
+      "renderer": "scenes/late.py",
+      "recorded_start": 264.75,
+      "recorded_end": 280.7916666666667,
+      "frames": 385,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P16",
+      "heading": "月球的大碰撞解释",
+      "renderer": "scenes/late.py",
+      "recorded_start": 280.7916666666667,
+      "recorded_end": 303.7916666666667,
+      "frames": 552,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P17",
+      "heading": "月岩留下的证据",
+      "renderer": "scenes/late.py",
+      "recorded_start": 303.7916666666667,
+      "recorded_end": 320.5416666666667,
+      "frames": 402,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P18",
+      "heading": "地球材料的漫长旅程",
+      "renderer": "scenes/late.py",
+      "recorded_start": 320.5416666666667,
+      "recorded_end": 342.70833333333337,
+      "frames": 532,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    },
+    {
+      "id": "P19",
+      "heading": "历史，尚在开头",
+      "renderer": "scenes/late.py",
+      "recorded_start": 342.70833333333337,
+      "recorded_end": 349.6666666666667,
+      "frames": 167,
+      "subtitle_source": "provider word-boundary cue sidecar in original run"
+    }
+  ],
+  "endcard_seconds": 8,
+  "external_images_bundled": false,
+  "host_bundled": false,
+  "audio_bundled": false,
+  "physical_simulation": false,
+  "independent_asr": false
+}

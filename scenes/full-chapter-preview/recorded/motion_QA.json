@@ -1,0 +1,127 @@
+{
+  "method": "One-second-separated final decoded frames downscaled160x90 gray; mean absolute luma delta <0.1 marks near-static intervals, including encoding-noise tolerance",
+  "runs_half_second_or_longer": [
+    {
+      "paragraph": "P01",
+      "start": 0.041666666666666664,
+      "duration": 5.75,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P05",
+      "start": 75.25,
+      "duration": 3.5833333333333335,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P07",
+      "start": 92.45833333333333,
+      "duration": 5.125,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P07",
+      "start": 97.58333333333333,
+      "duration": 2.9583333333333335,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P07",
+      "start": 104.20833333333333,
+      "duration": 3.625,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P07",
+      "start": 107.83333333333333,
+      "duration": 3.125,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P09",
+      "start": 147.70833333333334,
+      "duration": 4.416666666666667,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P09",
+      "start": 152.33333333333334,
+      "duration": 3.9166666666666665,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P09",
+      "start": 156.25,
+      "duration": 4.208333333333333,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P14",
+      "start": 249.54166666666666,
+      "duration": 1.75,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P14",
+      "start": 260.5833333333333,
+      "duration": 3.875,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P15",
+      "start": 264.875,
+      "duration": 4.5,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P15",
+      "start": 269.375,
+      "duration": 4.833333333333333,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P15",
+      "start": 275.1666666666667,
+      "duration": 5.291666666666667,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P17",
+      "start": 308.875,
+      "duration": 2.25,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P17",
+      "start": 311.125,
+      "duration": 2.1666666666666665,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P17",
+      "start": 314.2083333333333,
+      "duration": 2.3333333333333335,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P17",
+      "start": 316.8333333333333,
+      "duration": 3.4166666666666665,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "P18",
+      "start": 320.6666666666667,
+      "duration": 3.9583333333333335,
+      "threshold_mean_luma_delta": 0.1
+    },
+    {
+      "paragraph": "END",
+      "start": 349.6666666666667,
+      "duration": 8.0,
+      "threshold_mean_luma_delta": 0.1
+    }
+  ],
+  "note": "P15 evidence timeline/P17 rock comparison contain deliberate reading holds; endcard static. No claim that every encoded frame is visually unique.",
+  "record_scope": "Historical original full-chapter run; not a complete run of the public portable adaptation"
+}

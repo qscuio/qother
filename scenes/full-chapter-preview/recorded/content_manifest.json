@@ -1,0 +1,744 @@
+{
+  "title": "地球往事 第一章 完整预览",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "total_duration": 357.6666666666667,
+  "frozen_character_count": 1434,
+  "paragraphs": [
+    {
+      "id": "P01",
+      "narration_duration": 5.616,
+      "duration": 6.083333333333333,
+      "frames": 146,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 5.190541,
+          "text": "约一百三十八亿年前，宇宙里还没有一颗星，也没有一块石头。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.04600972633367443,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 3.2286778099987714,
+      "start": 0,
+      "end": 6.083333333333333,
+      "text": "约一百三十八亿年前，宇宙里还没有一颗星，也没有一块石头。",
+      "heading": "尚无星辰的宇宙"
+    },
+    {
+      "id": "P02",
+      "narration_duration": 17.52,
+      "duration": 18.0,
+      "frames": 432,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 6.342125,
+          "text": "那时的宇宙炽热、稠密，空间正在膨胀。光不断与自由电子相遇，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 6.342125,
+          "end": 12.171041,
+          "text": "难以走远。随着膨胀，温度逐渐降低。我们所说的大爆炸，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 12.171041,
+          "end": 17.101041,
+          "text": "描述的正是宇宙从早期热密状态不断膨胀、演化的历史。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.04581346266544036,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 10.125583368000662,
+      "start": 6.083333333333333,
+      "end": 24.083333333333332,
+      "text": "那时的宇宙炽热、稠密，空间正在膨胀。光不断与自由电子相遇，难以走远。随着膨胀，温度逐渐降低。我们所说的大爆炸，描述的正是宇宙从早期热密状态不断膨胀、演化的历史。",
+      "heading": "热密宇宙的膨胀"
+    },
+    {
+      "id": "P03",
+      "narration_duration": 16.368,
+      "duration": 16.833333333333332,
+      "frames": 404,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.813166,
+          "text": "约三十八万年后，宇宙冷却到电子能够与原子核结合，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.813166,
+          "end": 9.788833,
+          "text": "形成中性原子。光不再频繁受到自由电子的阻挡，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 9.788833,
+          "end": 15.943124,
+          "text": "终于可以穿过漫长的距离。那时留下的辐射，今天仍能被探测到。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.01799950766629384,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 8.804934141000558,
+      "start": 24.083333333333332,
+      "end": 40.916666666666664,
+      "text": "约三十八万年后，宇宙冷却到电子能够与原子核结合，形成中性原子。光不再频繁受到自由电子的阻挡，终于可以穿过漫长的距离。那时留下的辐射，今天仍能被探测到。",
+      "heading": "光，开始远行"
+    },
+    {
+      "id": "P04",
+      "narration_duration": 17.808,
+      "duration": 18.291666666666668,
+      "frames": 439,
+      "cues": [
+        {
+          "start": 0.101958,
+          "end": 6.118416,
+          "text": "光已经能够远行，星光却还没有出现。散布在宇宙中的普通物质，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 6.118416,
+          "end": 11.065791,
+          "text": "主要是氢和氦。它们可以聚成恒星，但要组成岩石，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 11.065791,
+          "end": 17.364207,
+          "text": "还缺少氧、硅、铁等元素。这些成分，要等后来的恒星去制造。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.017509674001000047,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 9.371868466001615,
+      "start": 40.916666666666664,
+      "end": 59.20833333333333,
+      "text": "光已经能够远行，星光却还没有出现。散布在宇宙中的普通物质，主要是氢和氦。它们可以聚成恒星，但要组成岩石，还缺少氧、硅、铁等元素。这些成分，要等后来的恒星去制造。",
+      "heading": "岩石的材料尚未齐备"
+    },
+    {
+      "id": "P05",
+      "narration_duration": 19.44,
+      "duration": 19.916666666666668,
+      "frames": 478,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.276333,
+          "text": "气体的分布并不均匀。有些地方稍微密一些，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.276333,
+          "end": 10.157875,
+          "text": "引力便把更多物质聚向那里。云团向内收缩，中心越来越热，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 10.157875,
+          "end": 16.013166,
+          "text": "直到氢的原子核能够结合成氦，释放能量。这种反应叫核聚变，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 16.013166,
+          "end": 18.995791,
+          "text": "它为恒星提供了持续发光的能源。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.04198700399986895,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 10.82943160099967,
+      "start": 59.20833333333333,
+      "end": 79.125,
+      "text": "气体的分布并不均匀。有些地方稍微密一些，引力便把更多物质聚向那里。云团向内收缩，中心越来越热，直到氢的原子核能够结合成氦，释放能量。这种反应叫核聚变，它为恒星提供了持续发光的能源。",
+      "heading": "引力点亮恒星"
+    },
+    {
+      "id": "P06",
+      "narration_duration": 12.744,
+      "duration": 13.208333333333334,
+      "frames": 317,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 3.984208,
+          "text": "在宇宙最初的几亿年里，第一批恒星逐渐出现，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 3.984208,
+          "end": 9.960541,
+          "text": "早期星系也在形成。恒星与气体汇聚在这些不断生长的系统中，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 9.960541,
+          "end": 12.311582999999999,
+          "text": "新的恒星仍在其中诞生。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.04811658933370685,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 8.916368648999196,
+      "start": 79.125,
+      "end": 92.33333333333333,
+      "text": "在宇宙最初的几亿年里，第一批恒星逐渐出现，早期星系也在形成。恒星与气体汇聚在这些不断生长的系统中，新的恒星仍在其中诞生。",
+      "heading": "第一批恒星与星系"
+    },
+    {
+      "id": "P07",
+      "narration_duration": 18.456,
+      "duration": 18.916666666666668,
+      "frames": 454,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 5.223666,
+          "text": "恒星发光的同时，也在改变物质的成分。随着恒星演化，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 5.223666,
+          "end": 10.592125,
+          "text": "一部分恒星内部能进一步生成碳和氧；质量足够大的恒星，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 10.592125,
+          "end": 15.460541,
+          "text": "还能制造硅、铁等元素。今天岩石里的许多成分，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 15.460541,
+          "end": 18.022123999999998,
+          "text": "曾在恒星深处的高温中形成。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.02284809233363679,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 10.603608722001809,
+      "start": 92.33333333333333,
+      "end": 111.25,
+      "text": "恒星发光的同时，也在改变物质的成分。随着恒星演化，一部分恒星内部能进一步生成碳和氧；质量足够大的恒星，还能制造硅、铁等元素。今天岩石里的许多成分，曾在恒星深处的高温中形成。",
+      "heading": "恒星深处的元素"
+    },
+    {
+      "id": "P08",
+      "narration_duration": 19.776,
+      "duration": 20.25,
+      "frames": 486,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 5.697375,
+          "text": "恒星又把一部分物质送回了星际空间。有些逐渐抛出外层，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 5.697375,
+          "end": 11.815791,
+          "text": "有些大质量恒星在生命末期发生超新星爆炸，将物质抛向周围。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 11.815791,
+          "end": 16.684208,
+          "text": "新生成的元素由此进入星际气体和尘埃，后来又被聚拢，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 16.684208,
+          "end": 19.351041,
+          "text": "成为新一批恒星与行星的材料。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.02057251366689646,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 11.292700272999355,
+      "start": 111.25,
+      "end": 131.5,
+      "text": "恒星又把一部分物质送回了星际空间。有些逐渐抛出外层，有些大质量恒星在生命末期发生超新星爆炸，将物质抛向周围。新生成的元素由此进入星际气体和尘埃，后来又被聚拢，成为新一批恒星与行星的材料。",
+      "heading": "回到星际空间"
+    },
+    {
+      "id": "P09",
+      "narration_duration": 28.776,
+      "duration": 29.25,
+      "frames": 702,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 5.197375,
+          "text": "太阳所在的银河系，也是在物质的汇聚中逐渐形成的。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 5.197375,
+          "end": 10.026333,
+          "text": "漫长岁月里，它与其他星系合并，汇入更多气体和恒星；",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 10.026333,
+          "end": 16.184208,
+          "text": "星系内部，恒星的诞生与消亡也一直在延续。在太阳诞生以前，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 16.184208,
+          "end": 20.618416,
+          "text": "这里的许多恒星已经走完一生。它们留下的物质，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 20.618416,
+          "end": 24.723666,
+          "text": "混入了后来孕育太阳的云团。地球的材料，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 24.723666,
+          "end": 28.337916,
+          "text": "就在这片气体和细小尘粒组成的云中。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.02684162333268129,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 16.292043625999213,
+      "start": 131.5,
+      "end": 160.75,
+      "text": "太阳所在的银河系，也是在物质的汇聚中逐渐形成的。漫长岁月里，它与其他星系合并，汇入更多气体和恒星；星系内部，恒星的诞生与消亡也一直在延续。在太阳诞生以前，这里的许多恒星已经走完一生。它们留下的物质，混入了后来孕育太阳的云团。地球的材料，就在这片气体和细小尘粒组成的云中。",
+      "heading": "孕育太阳的银河"
+    },
+    {
+      "id": "P10",
+      "narration_duration": 18.576,
+      "duration": 19.041666666666668,
+      "frames": 457,
+      "source_visual_fps": 24,
+      "reuse": "Existing P10 visuals uniformly retimed; original baked subtitle timing approximate; old audio removed. No second overlay",
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 6.0,
+          "text": "约四十六亿年前，云团开始收缩。它一边转动，一边向内聚拢，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 6.0,
+          "end": 11.14475,
+          "text": "逐渐形成扁平的盘。大部分物质汇向中央，孕育太阳；",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 11.14475,
+          "end": 15.89475,
+          "text": "周围的物质则在盘中继续聚集。太阳还在形成，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 15.89475,
+          "end": 18.140541,
+          "text": "行星的生长也已经开始。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "start": 160.75,
+      "end": 179.79166666666666,
+      "text": "约四十六亿年前，云团开始收缩。它一边转动，一边向内聚拢，逐渐形成扁平的盘。大部分物质汇向中央，孕育太阳；周围的物质则在盘中继续聚集。太阳还在形成，行星的生长也已经开始。",
+      "heading": "太阳系的形成"
+    },
+    {
+      "id": "P11",
+      "narration_duration": 12.336,
+      "duration": 12.791666666666666,
+      "frames": 307,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.392125,
+          "text": "靠近年轻太阳的地方，温度较高，冰难以保持固态，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.392125,
+          "end": 9.973666,
+          "text": "能够留下的固体主要是岩石和金属。后来构成地球的物质，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 9.973666,
+          "end": 11.916832,
+          "text": "就散布在盘的这一带。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.08104327233255997,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 8.485973093000212,
+      "start": 179.79166666666666,
+      "end": 192.58333333333331,
+      "text": "靠近年轻太阳的地方，温度较高，冰难以保持固态，能够留下的固体主要是岩石和金属。后来构成地球的物质，就散布在盘的这一带。",
+      "heading": "年轻太阳附近"
+    },
+    {
+      "id": "P12",
+      "narration_duration": 25.776,
+      "duration": 26.25,
+      "frames": 630,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.868416,
+          "text": "细小颗粒发生碰撞，有些黏合，有些弹开或破碎。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.868416,
+          "end": 9.315791,
+          "text": "碰撞并不总能使它们长大。从尘粒到小天体，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 9.315791,
+          "end": 14.763166,
+          "text": "究竟怎样跨过最初的生长难关，仍在研究。一种解释认为，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 14.763166,
+          "end": 19.39475,
+          "text": "气体与颗粒相互作用，可以让颗粒在局部聚得更密；",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 19.39475,
+          "end": 25.377375,
+          "text": "当密度足够高时，整团颗粒可能在自身引力下坍缩，形成小天体。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.34345294566689216,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 21.062363056000322,
+      "start": 192.58333333333331,
+      "end": 218.83333333333331,
+      "text": "细小颗粒发生碰撞，有些黏合，有些弹开或破碎。碰撞并不总能使它们长大。从尘粒到小天体，究竟怎样跨过最初的生长难关，仍在研究。一种解释认为，气体与颗粒相互作用，可以让颗粒在局部聚得更密；当密度足够高时，整团颗粒可能在自身引力下坍缩，形成小天体。",
+      "heading": "尘粒的生长难关"
+    },
+    {
+      "id": "P13",
+      "narration_duration": 23.856,
+      "duration": 24.333333333333332,
+      "frames": 584,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.35525,
+          "text": "小天体形成以后，行星的生长还远没有结束。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.35525,
+          "end": 8.85525,
+          "text": "小天体之间的碰撞与合并，可以造就更大的行星胚胎；",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 8.85525,
+          "end": 14.60525,
+          "text": "胚胎又会继续聚集物质，彼此碰撞。地球也经历了漫长的吸积：",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 14.60525,
+          "end": 20.907875,
+          "text": "一次次合并使它增加质量，猛烈的撞击又可能使它失去部分物质。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 20.907875,
+          "end": 23.443165999999998,
+          "text": "这样的生长，延续了数千万年。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.10623921966665269,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 32.32152272999883,
+      "start": 218.83333333333331,
+      "end": 243.16666666666666,
+      "text": "小天体形成以后，行星的生长还远没有结束。小天体之间的碰撞与合并，可以造就更大的行星胚胎；胚胎又会继续聚集物质，彼此碰撞。地球也经历了漫长的吸积：一次次合并使它增加质量，猛烈的撞击又可能使它失去部分物质。这样的生长，延续了数千万年。",
+      "heading": "数千万年的吸积"
+    },
+    {
+      "id": "P14",
+      "narration_duration": 21.12,
+      "duration": 21.583333333333332,
+      "frames": 518,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.973666,
+          "text": "撞击还把运动的能量转化为热，使大片岩石熔化。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.973666,
+          "end": 10.842125,
+          "text": "熔融让内部物质能够重新分布：密度较大的富铁金属向深处迁移，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 10.842125,
+          "end": 17.381583,
+          "text": "相对较轻的岩石成分留在外围。地球一边长大，内部也逐渐分层，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 17.381583,
+          "end": 20.693165999999998,
+          "text": "形成金属核和包围它的岩石外层。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.022276138999586692,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 13.631901517001097,
+      "start": 243.16666666666666,
+      "end": 264.75,
+      "text": "撞击还把运动的能量转化为热，使大片岩石熔化。熔融让内部物质能够重新分布：密度较大的富铁金属向深处迁移，相对较轻的岩石成分留在外围。地球一边长大，内部也逐渐分层，形成金属核和包围它的岩石外层。",
+      "heading": "地球内部开始分层"
+    },
+    {
+      "id": "P15",
+      "narration_duration": 15.552,
+      "duration": 16.041666666666668,
+      "frames": 385,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.618416,
+          "text": "我们通常说，地球的年龄约为四十五点四亿年。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.618416,
+          "end": 9.434208,
+          "text": "这个估计来自地球样品与陨石等留下的同位素记录。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 9.434208,
+          "end": 15.140540999999999,
+          "text": "它标出了地球形成的年代，却不能把漫长的生长压缩成某一天。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.025112971000150235,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 10.13370527799998,
+      "start": 264.75,
+      "end": 280.7916666666667,
+      "text": "我们通常说，地球的年龄约为四十五点四亿年。这个估计来自地球样品与陨石等留下的同位素记录。它标出了地球形成的年代，却不能把漫长的生长压缩成某一天。",
+      "heading": "约45.4亿年的年龄"
+    },
+    {
+      "id": "P16",
+      "narration_duration": 22.512,
+      "duration": 23.0,
+      "frames": 552,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.131583,
+          "text": "月球的来历，也与这段不断碰撞的早年有关。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.131583,
+          "end": 7.315791,
+          "text": "目前的主流解释认为，约四十五亿年前，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 7.315791,
+          "end": 13.513166,
+          "text": "一次大碰撞将年轻地球及撞击天体的部分物质抛入地球周围的空间，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 13.513166,
+          "end": 19.592125,
+          "text": "抛出的物质聚集成了月球。撞击怎样发生、月球用了多久聚成，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 19.592125,
+          "end": 22.074749,
+          "text": "仍是科学家试图还原的细节。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.20398565366485855,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 17.52787683600036,
+      "start": 280.7916666666667,
+      "end": 303.7916666666667,
+      "text": "月球的来历，也与这段不断碰撞的早年有关。目前的主流解释认为，约四十五亿年前，一次大碰撞将年轻地球及撞击天体的部分物质抛入地球周围的空间，抛出的物质聚集成了月球。撞击怎样发生、月球用了多久聚成，仍是科学家试图还原的细节。",
+      "heading": "月球的大碰撞解释"
+    },
+    {
+      "id": "P17",
+      "narration_duration": 16.296,
+      "duration": 16.75,
+      "frames": 402,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.65525,
+          "text": "从月球带回的岩石，保留着早期高温熔融的记录；",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.65525,
+          "end": 9.486833,
+          "text": "它们的化学成分，也与地球岩石有许多相似之处。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 9.486833,
+          "end": 13.039458,
+          "text": "月岩使我们得以检验这个解释：怎样的碰撞，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 13.039458,
+          "end": 15.851041,
+          "text": "才能留下今天所见的地球和月球？",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.029219496667792555,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 8.483681442998204,
+      "start": 303.7916666666667,
+      "end": 320.5416666666667,
+      "text": "从月球带回的岩石，保留着早期高温熔融的记录；它们的化学成分，也与地球岩石有许多相似之处。月岩使我们得以检验这个解释：怎样的碰撞，才能留下今天所见的地球和月球？",
+      "heading": "月岩留下的证据"
+    },
+    {
+      "id": "P18",
+      "narration_duration": 21.696,
+      "duration": 22.166666666666668,
+      "frames": 532,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 4.05,
+          "text": "在这一解释中，月球从碰撞抛出的物质中诞生，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 4.05,
+          "end": 9.697375,
+          "text": "陪伴着仍然炽热的地球。构成地球的材料，则有更久远的来处：",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 9.697375,
+          "end": 15.289458,
+          "text": "其中许多元素，早在太阳诞生以前，就已在别的恒星中形成。",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 15.289458,
+          "end": 18.381583,
+          "text": "它们穿过星际空间，进入新的云团，",
+          "timing": "provider_word_boundary"
+        },
+        {
+          "start": 18.381583,
+          "end": 21.272082,
+          "text": "又在太阳周围聚成了这颗星球。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.18195391233408978,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 16.315518963001523,
+      "start": 320.5416666666667,
+      "end": 342.70833333333337,
+      "text": "在这一解释中，月球从碰撞抛出的物质中诞生，陪伴着仍然炽热的地球。构成地球的材料，则有更久远的来处：其中许多元素，早在太阳诞生以前，就已在别的恒星中形成。它们穿过星际空间，进入新的云团，又在太阳周围聚成了这颗星球。",
+      "heading": "地球材料的漫长旅程"
+    },
+    {
+      "id": "P19",
+      "narration_duration": 5.952,
+      "duration": 6.958333333333333,
+      "frames": 167,
+      "cues": [
+        {
+          "start": 0.102625,
+          "end": 5.522124,
+          "text": "地球的历史，尚在开头。它的材料，已经走过漫长的岁月。",
+          "timing": "provider_word_boundary"
+        }
+      ],
+      "three_frame_average_seconds": 0.02122918166666447,
+      "source_visual_fps": 24,
+      "render_wall_seconds": 3.8920847570007027,
+      "start": 342.70833333333337,
+      "end": 349.6666666666667,
+      "text": "地球的历史，尚在开头。它的材料，已经走过漫长的岁月。",
+      "heading": "历史，尚在开头"
+    }
+  ],
+  "references": [
+    [
+      "宇宙早期与第一批恒星",
+      "https://science.nasa.gov/universe/overview/"
+    ],
+    [
+      "太阳系形成",
+      "https://science.nasa.gov/solar-system/solar-system-facts/"
+    ],
+    [
+      "月球起源及其证据",
+      "https://science.nasa.gov/moon/formation/"
+    ],
+    [
+      "地球年龄与放射性测年",
+      "https://pubs.usgs.gov/gip/geotime/age.html"
+    ]
+  ],
+  "limitations": [
+    "合成男声为临时占位，未获音色认可",
+    "角落角色为同一原图静态圆形裁剪",
+    "段落边界由实际音频测得，字幕依据服务端词边界；P10内嵌字幕为估时",
+    "未进行外部ASR或持续浏览器播放测试",
+    "P10复用已完成视频，其余为连续参数驱动示意动画"
+  ],
+  "text_source_commit": "e04f0556e983a75efcca7599278b04014ffe917c",
+  "assembly_wall_seconds": 6.203278615997988,
+  "record_scope": "Historical original full-chapter run; not a complete run of the public portable adaptation"
+}

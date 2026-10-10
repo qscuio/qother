@@ -1,0 +1,201 @@
+{
+  "method": "Decoded final AAC compared with all 19 exact source WAVs using +/-50ms waveform cross-correlation at final timeline offsets; no ASR/phoneme/listening claim",
+  "sample_rate": 24000,
+  "decoded_samples": 8584192,
+  "decoded_duration": 357.67466666666667,
+  "paragraphs": [
+    {
+      "id": "P01",
+      "expected_start_sample": 0,
+      "best_start_sample": 0,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.999908466260932,
+      "first_half_second_correlation": 0.9999829459479844,
+      "last_half_second_correlation": 0.9975056988374046
+    },
+    {
+      "id": "P02",
+      "expected_start_sample": 146000,
+      "best_start_sample": 146000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9999204354614023,
+      "first_half_second_correlation": 0.999914515801699,
+      "last_half_second_correlation": 0.9953711562175801
+    },
+    {
+      "id": "P03",
+      "expected_start_sample": 578000,
+      "best_start_sample": 578000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9999151324728139,
+      "first_half_second_correlation": 0.9999545141417135,
+      "last_half_second_correlation": 0.9937869265984723
+    },
+    {
+      "id": "P04",
+      "expected_start_sample": 982000,
+      "best_start_sample": 982000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9999024963435879,
+      "first_half_second_correlation": 0.999980340665986,
+      "last_half_second_correlation": 0.9985480995117063
+    },
+    {
+      "id": "P05",
+      "expected_start_sample": 1421000,
+      "best_start_sample": 1421000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998993978453401,
+      "first_half_second_correlation": 0.9999132901087465,
+      "last_half_second_correlation": 0.992467231512981
+    },
+    {
+      "id": "P06",
+      "expected_start_sample": 1899000,
+      "best_start_sample": 1899000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998043341912706,
+      "first_half_second_correlation": 0.9994765230331502,
+      "last_half_second_correlation": 0.9943586815354792
+    },
+    {
+      "id": "P07",
+      "expected_start_sample": 2216000,
+      "best_start_sample": 2216000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9999119643755909,
+      "first_half_second_correlation": 0.999885353205224,
+      "last_half_second_correlation": 0.9930801931627944
+    },
+    {
+      "id": "P08",
+      "expected_start_sample": 2670000,
+      "best_start_sample": 2670000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9999061878506231,
+      "first_half_second_correlation": 0.9999151772980811,
+      "last_half_second_correlation": 0.9904835509503124
+    },
+    {
+      "id": "P09",
+      "expected_start_sample": 3156000,
+      "best_start_sample": 3156000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998900626421291,
+      "first_half_second_correlation": 0.9999578183531244,
+      "last_half_second_correlation": 0.9992577173928586
+    },
+    {
+      "id": "P10",
+      "expected_start_sample": 3858000,
+      "best_start_sample": 3858000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998882275648303,
+      "first_half_second_correlation": 0.9999501339175442,
+      "last_half_second_correlation": 0.997138370022793
+    },
+    {
+      "id": "P11",
+      "expected_start_sample": 4315000,
+      "best_start_sample": 4315000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998920957906584,
+      "first_half_second_correlation": 0.9999808699661782,
+      "last_half_second_correlation": 0.9799182449172903
+    },
+    {
+      "id": "P12",
+      "expected_start_sample": 4622000,
+      "best_start_sample": 4622000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.99991311741268,
+      "first_half_second_correlation": 0.9999029036997968,
+      "last_half_second_correlation": 0.9894392856533579
+    },
+    {
+      "id": "P13",
+      "expected_start_sample": 5252000,
+      "best_start_sample": 5252000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998925480185893,
+      "first_half_second_correlation": 0.9999548476506256,
+      "last_half_second_correlation": 0.9980319387928897
+    },
+    {
+      "id": "P14",
+      "expected_start_sample": 5836000,
+      "best_start_sample": 5836000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9999222813748812,
+      "first_half_second_correlation": 0.9999862853185622,
+      "last_half_second_correlation": 0.9929129851679824
+    },
+    {
+      "id": "P15",
+      "expected_start_sample": 6354000,
+      "best_start_sample": 6354000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998825892137241,
+      "first_half_second_correlation": 0.9998845260339961,
+      "last_half_second_correlation": 0.9955048984977891
+    },
+    {
+      "id": "P16",
+      "expected_start_sample": 6739000,
+      "best_start_sample": 6739000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9999154397967982,
+      "first_half_second_correlation": 0.999964687322169,
+      "last_half_second_correlation": 0.9948421617146287
+    },
+    {
+      "id": "P17",
+      "expected_start_sample": 7291000,
+      "best_start_sample": 7291000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998805844337023,
+      "first_half_second_correlation": 0.9999188951248252,
+      "last_half_second_correlation": 0.9943091270270489
+    },
+    {
+      "id": "P18",
+      "expected_start_sample": 7693000,
+      "best_start_sample": 7693000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998651487092497,
+      "first_half_second_correlation": 0.9999321716085334,
+      "last_half_second_correlation": 0.9901068143698413
+    },
+    {
+      "id": "P19",
+      "expected_start_sample": 8225000,
+      "best_start_sample": 8225000,
+      "lag_samples": 0,
+      "lag_ms": 0.0,
+      "correlation": 0.9998826901994754,
+      "first_half_second_correlation": 0.9999377949231543,
+      "last_half_second_correlation": 0.994130221099641
+    }
+  ],
+  "all_pass": true,
+  "audio_strategy": "One continuous frame-padded PCM master encoded once, not per-segment AAC concatenation; P10 old audio excluded",
+  "record_scope": "Historical original full-chapter run; not a complete run of the public portable adaptation"
+}

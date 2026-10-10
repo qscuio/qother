@@ -1,0 +1,54 @@
+{
+  "status": "portable source adaptation checked; original full preview delivered separately",
+  "tests": "5 cheap source/CLI/coverage tests passed",
+  "frozen_script_git_blob_verified": "13a35f2b6a484c7ff33acd815611b68454a95e6f",
+  "scene_function_ast_equivalence": "all early/late functions unchanged",
+  "independent_frames": [
+    {
+      "paragraph": "P05",
+      "progress": 0.5,
+      "resolution": [
+        1280,
+        720
+      ],
+      "host_enabled": false,
+      "render_and_save_seconds": 0.1814983200019924,
+      "frame_sha256": "01ae98822083e6747eaa411c624d2ab958a987219e114f3a1335c5005109d9a3",
+      "subtitle_timing": [
+        "estimated_within_actual_paragraph"
+      ],
+      "audio_rendered": false,
+      "scope": "one frame only; not full playback",
+      "visual_inspection": "Inspected native720p output: readable text and expected authored schematic, no host. Static check only."
+    },
+    {
+      "paragraph": "P16",
+      "progress": 0.5,
+      "resolution": [
+        1280,
+        720
+      ],
+      "host_enabled": false,
+      "render_and_save_seconds": 0.4555610940005863,
+      "frame_sha256": "281786808753cc4afa4f2ea718c474fa6c6c60873b59a0b751edb7fd43dcb09b",
+      "subtitle_timing": [
+        "estimated_within_actual_paragraph"
+      ],
+      "audio_rendered": false,
+      "scope": "one frame only; not full playback",
+      "visual_inspection": "Inspected native720p output: readable text and expected authored schematic, no host. Static check only."
+    }
+  ],
+  "actual_private_input_preflight": "All 19 WAV headers and explicit timeline lengths checked; portable cues exactly match recorded provider-derived cues for all 19. No provider service call.",
+  "full_portable_render_mux_qa": "not-run",
+  "optional_audio_motion_qa": "syntax checked; original versions executed, adapters not rerun on full video",
+  "media_bundled": false,
+  "network_or_tts_in_renderer": false,
+  "narration_independent_asr": false,
+  "continuous_audio_visual_playback": "not-run",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "Pillow": "12.3.0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "source_commit_for_frozen_text": "e04f0556e983a75efcca7599278b04014ffe917c",
+  "frozen_script_git_blob": "13a35f2b6a484c7ff33acd815611b68454a95e6f",
+  "source_files": [
+    {
+      "path": "build.py",
+      "original_sha256": "6f61ca82a71a2c2fc7f7b0609e7229ba5f5e24bc3744625ec92daa2847ef2696",
+      "portable_sha256": "da1831036656d8e6475fd8aedb1438c99231e90cfb1713da31da770764418ef4"
+    },
+    {
+      "path": "assemble.py",
+      "original_sha256": "0dac102aba6d2bc501b4e88371157f1df5d4d1ff4e5cf8a3b77e7483a6cf0d04",
+      "portable_sha256": "3d0f9516abf47ae2bbb82bc9b25a545bcda4cca2e04582206a0db429c9520a0b"
+    },
+    {
+      "path": "qa.py",
+      "original_sha256": "d58592458e13472777a9ff4d3ed5d3c89060bf2918e73823c78f437d4c88c37a",
+      "portable_sha256": "2ad65023e54b7b985a6de2a9f3a2f54b120e0cf027689b279913ce3bf469addf"
+    },
+    {
+      "path": "audio_alignment_qa.py",
+      "original_sha256": "8200b69dc7abb318f69200c6cd70541f233d9cc4762ac859b80748fe3cc0e76f",
+      "portable_sha256": "77b8962e4361beb979b0b5a660b7c009a150366e7b1aa8b86b2202317234c22e"
+    },
+    {
+      "path": "motion_qa.py",
+      "original_sha256": "51a32f89a56cbf7f312ee2daa9c0027f451bd7bfd929a44bbef3410d8e73c2b9",
+      "portable_sha256": "470058d1edeac3a46b533864b1cb1689e33aeeb2aa67d6ffd089e22f72daad3c"
+    },
+    {
+      "path": "scenes/early.py",
+      "original_sha256": "02e2e1b58d5db80128ebd704ec6dbd9473274351fe5d3a2665994886dab9e8e4",
+      "portable_sha256": "974f9563b26abeb793b05bae5702ef0d6c2d91189143b0a811e763168074b6ee"
+    },
+    {
+      "path": "scenes/late.py",
+      "original_sha256": "c9758613501e08853490833735b848b74da74ae45b279c7a9e4cd5fcf774d04e",
+      "portable_sha256": "5da91efa1af3837d8dcd708481ddb55ee95fe3a037d7f0771d6f43b69a02975e"
+    }
+  ],
+  "adaptations": [
+    "Explicit local timeline/audio/boundary/P10-video inputs; host optional and absent by default outside baked P10.",
+    "Fresh output only; removed unsafe existence-only resume; FFmpeg refuses overwrite.",
+    "Installed font paths configurable; no automatic dependency/font installation.",
+    "Early/late scene math unchanged; former demo entrypoints omitted.",
+    "Manifest coverage/continuity verifier added for all nineteen paragraphs; outer paragraph whitespace normalized only for display.",
+    "Decoded QA uses basenames and 16:9 contact sheets.",
+    "Optional waveform/motion QA have explicit local input/output arguments."
+  ],
+  "full_portable_rerun": "not-run",
+  "new_provider_calls_or_uploads": false,
+  "scene_function_ast_equivalence": "All authored functions in early.py and late.py exactly match original AST; only font globals and demo entrypoints changed"
+}
