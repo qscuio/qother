@@ -28,3 +28,6 @@ description: 为地球往事比较或设计等距信息图、系统剖面和单�
 输出沿用共享 storyboard 与资产锁，并交关键帧、投影说明、事实/读图风险和 pass/fail/not-run。分镜与构图均明确获批后才制作视频；实现能力另行验证。缺工具只交方案，不造渲染结果。行为案例见[集成验证](../../../docs/tests/lemo-opuscar-adaptation.md)。
 
 改编自 Lemo-Opuscar styles/iso-infographic/STYLE.md；未复制引擎、演示资产或音乐。见[取舍和 MIT 许可](../../../docs/lemo-opuscar-adaptation.md)。
+
+## 具体视觉语法
+设计或审查实际构图时读取[材质、排版与运动细则](references/projection-and-labels.md)；保留本skill的状态和当前制作配置，参数须经实际画面验收。

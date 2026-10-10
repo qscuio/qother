@@ -32,6 +32,20 @@
       "status": "proposed-unvalidated",
       "skill": ".agents/skills/earthstory-iso-infographic/SKILL.md",
       "agent_brief": "docs/agents/earthstory-iso-infographic.md"
+    },
+    {
+      "id": "earthstory-scientific-drawing",
+      "title": "科学结构图",
+      "status": "proposed-unvalidated",
+      "skill": ".agents/skills/earthstory-scientific-drawing/SKILL.md",
+      "agent_brief": "docs/agents/earthstory-scientific-drawing.md"
+    },
+    {
+      "id": "earthstory-natural-history-plate",
+      "title": "博物志铜版图谱",
+      "status": "proposed-unvalidated",
+      "skill": ".agents/skills/earthstory-natural-history-plate/SKILL.md",
+      "agent_brief": "docs/agents/earthstory-natural-history-plate.md"
     }
   ],
   "renderer_status": "not_established_by_this_package",
