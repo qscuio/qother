@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.so
+*.o
+*.mp4
+*.wav
+*.png
+*.jpg
+*.npy
+*.npz
+runtime/
+private-inputs.json
+local-*.json

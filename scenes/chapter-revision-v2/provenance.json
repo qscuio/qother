@@ -1,0 +1,112 @@
+{
+  "archive_status": "frozen source capture; review status remains separately scoped",
+  "public_base_commit": "749a77644ef172680d41f0624d5dbbd6cdcea119",
+  "frozen_text_commit": "e04f0556e983a75efcca7599278b04014ffe917c",
+  "full_portable_rerun": "not-run",
+  "full_assembly": "Portable full assembly not-run; public archive carries no original media acceptance record.",
+  "adaptation": "Code lineage only. Actual media hashes, measurements, provider cue/timing records and original QA remain private. Some source files load local metadata instead of embedding voice durations; archived and original CODE hashes are distinguished.",
+  "sources": [
+    {
+      "source": "chapter_revision_v2/render.py",
+      "archive": "source/chapter_revision_v2/render.py",
+      "sha256": "4a6b0b97d0daa21f2e7dda81e7894fa0df6fbe15cd746852a69f491b63b656bf"
+    },
+    {
+      "source": "chapter_revision_v2/compositor.py",
+      "archive": "source/chapter_revision_v2/compositor.py",
+      "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+    },
+    {
+      "source": "chapter_revision_v2/assemble.py",
+      "archive": "source/chapter_revision_v2/assemble.py",
+      "sha256": "a0b1d0f22e138431d7bf1a5bf6c0160e945e7048f5450962aeadfe5c79a45c2a"
+    },
+    {
+      "source": "chapter_revision_v2/qa.py",
+      "archive": "source/chapter_revision_v2/qa.py",
+      "sha256": "e4db9d997f016a87a0634b5fe418b76dd7a2c1fe8fffe75ea894e2f5d38ae87a"
+    },
+    {
+      "source": "chapter_revision_v2/inspect_section.py",
+      "archive": "source/chapter_revision_v2/inspect_section.py",
+      "sha256": "1252209d5cd70128c82b1869ed60ad7bf7d605ca4fff3a99d56ceed5ab4bf8ed"
+    },
+    {
+      "source": "chapter_revision_v2/snapshot_inputs.py",
+      "archive": "source/chapter_revision_v2/snapshot_inputs.py",
+      "sha256": "02c7d84db3eb16991e370cddb5298f64293ea52d6e4f7dceb9c1764f32e7d02a"
+    },
+    {
+      "source": "chapter_revision_v2/storyboard.json",
+      "archive": "source/chapter_revision_v2/storyboard.json",
+      "sha256": "9f91ef04a0c6b3a4d666deb2ec334389d20b75662d7730c5d77598f4b489aaff"
+    },
+    {
+      "source": "chapter_revision_v2/style-config.json",
+      "archive": "source/chapter_revision_v2/style-config.json",
+      "sha256": "87b8c1623381fc047dcb368828f4e6cf331d92692fcdfee99788476dc7413990"
+    },
+    {
+      "source": "chapter_revision_v2/qa/source-binding-audit.json",
+      "archive": "source/chapter_revision_v2/qa/source-binding-audit.json",
+      "sha256": "0454ca35bddcd5e7ca2a571dc36ebd41d53377249513c99e9b6d1b780ea37f98"
+    },
+    {
+      "source": "chapter_revision_v2/script/paragraphs.json",
+      "archive": "source/chapter_revision_v2/script/paragraphs.json",
+      "sha256": "41687cc09d590bf0841a5665b8f6c3d3be8c65a0c620f2f5f99d9614c1f215df"
+    },
+    {
+      "source": "chapter_revision_v2/script/script.md",
+      "archive": "source/chapter_revision_v2/script/script.md",
+      "sha256": "d0c76055240a051a665245dfb972083efe048794b8b5c66fbec99e765f53f2c5"
+    },
+    {
+      "source": "chapter_revision_v2/scenes/early/renderer.py",
+      "archive": "source/chapter_revision_v2/scenes/early/renderer.py",
+      "sha256": "024045524f7fe1628ce8bd8c446b47aa76ede3fb2ba1b9e6df7f2d91547396f2"
+    },
+    {
+      "source": "chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+      "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+      "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+    },
+    {
+      "source": "chapter_revision_v2/scenes/stellar/renderer.py",
+      "archive": "source/chapter_revision_v2/scenes/stellar/renderer.py",
+      "sha256": "bb62cf1b68d334601a0082b08a944d3629ce080e80bc6288aa1fee072c7daf83",
+      "original_source_sha256": "527e75fe4241f8ec47db810a86e864202a10348fb27be5cccc80bc5e7c7126bb"
+    },
+    {
+      "source": "chapter_revision_v2/scenes/stellar/materials.py",
+      "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+      "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+    },
+    {
+      "source": "chapter_revision_v2/scenes/planet/renderer.py",
+      "archive": "source/chapter_revision_v2/scenes/planet/renderer.py",
+      "sha256": "308c5407e296af93d6566f7f653008fa7e1f25123d9669654f641880cb41398e"
+    },
+    {
+      "source": "chapter_revision_v2/scenes/p10/renderer.py",
+      "archive": "source/chapter_revision_v2/scenes/p10/renderer.py",
+      "sha256": "8f6329e4f18dfedb45df6ed86dcdbf7115018fa206de0fb74f2ac60457ef6680"
+    },
+    {
+      "source": "chapter_revision_v2/scenes/p10/scene_renderer.py",
+      "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+      "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+    },
+    {
+      "source": "full_chapter_v1/cover-system/render_cover.py",
+      "archive": "cover/render_cover.py",
+      "sha256": "561bf01c3c04205661a235497ee3cf5a78d1472b742fdc2ff8e092791aa40f59"
+    },
+    {
+      "source": "chapter_revision_v2/review_boundaries.py",
+      "archive": "source/chapter_revision_v2/review_boundaries.py",
+      "sha256": "51a3b2501f6aee59f057e984a322a2e46de191b10b5d7da29a7019906cbcf5f9"
+    }
+  ],
+  "excluded_stage_tool": "Production-specific approval binder omitted: subsequent metadata amendments mean rerunning it alone cannot reproduce the final active ledger. Public ledger is a pending template only."
+}

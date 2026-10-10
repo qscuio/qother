@@ -1,0 +1,512 @@
+{
+  "scope": "Actual immutable source bindings; no review permissions or private locations copied",
+  "complete": true,
+  "sections": {
+    "P01": {
+      "scene_sources": {
+        "scenes/early/renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/early/renderer.py",
+          "sha256": "024045524f7fe1628ce8bd8c446b47aa76ede3fb2ba1b9e6df7f2d91547396f2"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4.py",
+          "sha256": "056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P02": {
+      "scene_sources": {
+        "scenes/early/renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/early/renderer.py",
+          "sha256": "024045524f7fe1628ce8bd8c446b47aa76ede3fb2ba1b9e6df7f2d91547396f2"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4.py",
+          "sha256": "056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P03": {
+      "scene_sources": {
+        "scenes/early/renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/early/renderer.py",
+          "sha256": "024045524f7fe1628ce8bd8c446b47aa76ede3fb2ba1b9e6df7f2d91547396f2"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4.py",
+          "sha256": "056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P04": {
+      "scene_sources": {
+        "scenes/early/renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/early/renderer.py",
+          "sha256": "024045524f7fe1628ce8bd8c446b47aa76ede3fb2ba1b9e6df7f2d91547396f2"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4.py",
+          "sha256": "056075a9d9e6df79f1caeac9eb01528550becf7288e05a4192b0d640df4e3fb4"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P05": {
+      "scene_sources": {
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        },
+        "scenes/stellar/galaxy_native.cpp": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+          "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+        },
+        "scenes/stellar/materials.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+          "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+        },
+        "scenes/stellar/renderer.py": {
+          "archive": "versions/6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18.py",
+          "sha256": "b4d944bc0ab69d16a2dd988fc416a056671ae4b963fbdc6d95d705645d535d98",
+          "original_source_sha256": "6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18",
+          "adaptation": "Load voice durations from explicitly supplied local metadata rather than publish measured values."
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228.py",
+          "sha256": "82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P06": {
+      "scene_sources": {
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        },
+        "scenes/stellar/galaxy_native.cpp": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+          "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+        },
+        "scenes/stellar/materials.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+          "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+        },
+        "scenes/stellar/renderer.py": {
+          "archive": "versions/6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18.py",
+          "sha256": "b4d944bc0ab69d16a2dd988fc416a056671ae4b963fbdc6d95d705645d535d98",
+          "original_source_sha256": "6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18",
+          "adaptation": "Load voice durations from explicitly supplied local metadata rather than publish measured values."
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228.py",
+          "sha256": "82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P07": {
+      "scene_sources": {
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        },
+        "scenes/stellar/galaxy_native.cpp": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+          "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+        },
+        "scenes/stellar/materials.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+          "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+        },
+        "scenes/stellar/renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/renderer.py",
+          "sha256": "bb62cf1b68d334601a0082b08a944d3629ce080e80bc6288aa1fee072c7daf83",
+          "original_source_sha256": "527e75fe4241f8ec47db810a86e864202a10348fb27be5cccc80bc5e7c7126bb",
+          "adaptation": "Load voice durations from explicitly supplied local metadata rather than publish measured values."
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228.py",
+          "sha256": "82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P08": {
+      "scene_sources": {
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        },
+        "scenes/stellar/galaxy_native.cpp": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+          "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+        },
+        "scenes/stellar/materials.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+          "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+        },
+        "scenes/stellar/renderer.py": {
+          "archive": "versions/6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18.py",
+          "sha256": "b4d944bc0ab69d16a2dd988fc416a056671ae4b963fbdc6d95d705645d535d98",
+          "original_source_sha256": "6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18",
+          "adaptation": "Load voice durations from explicitly supplied local metadata rather than publish measured values."
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/67206ad3a9f6e02205e1f7b726397ff44162f4909fdd4b42e22339ae14ffc2de.py",
+          "sha256": "67206ad3a9f6e02205e1f7b726397ff44162f4909fdd4b42e22339ae14ffc2de"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P09": {
+      "scene_sources": {
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        },
+        "scenes/stellar/galaxy_native.cpp": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+          "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+        },
+        "scenes/stellar/materials.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+          "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+        },
+        "scenes/stellar/renderer.py": {
+          "archive": "versions/6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18.py",
+          "sha256": "b4d944bc0ab69d16a2dd988fc416a056671ae4b963fbdc6d95d705645d535d98",
+          "original_source_sha256": "6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18",
+          "adaptation": "Load voice durations from explicitly supplied local metadata rather than publish measured values."
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "source/chapter_revision_v2/render.py",
+          "sha256": "4a6b0b97d0daa21f2e7dda81e7894fa0df6fbe15cd746852a69f491b63b656bf"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P10": {
+      "scene_sources": {
+        "scenes/p10/renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/renderer.py",
+          "sha256": "8f6329e4f18dfedb45df6ed86dcdbf7115018fa206de0fb74f2ac60457ef6680"
+        },
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/1659cf23fc9b58be8b966450558657fa7c0268bbc2f1f58c5a232a006ae562d8.py",
+          "sha256": "1659cf23fc9b58be8b966450558657fa7c0268bbc2f1f58c5a232a006ae562d8"
+        }
+      },
+      "snapshot_timing": "during active render; launch and completion hashes reverified by production integration",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P11": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622.py",
+          "sha256": "1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/b7fb1737a199a09c11d07d739f0f82b1ab11ba9e09cfb59272864e62fe56fb6d.py",
+          "sha256": "b7fb1737a199a09c11d07d739f0f82b1ab11ba9e09cfb59272864e62fe56fb6d"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P12": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622.py",
+          "sha256": "1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/b7fb1737a199a09c11d07d739f0f82b1ab11ba9e09cfb59272864e62fe56fb6d.py",
+          "sha256": "b7fb1737a199a09c11d07d739f0f82b1ab11ba9e09cfb59272864e62fe56fb6d"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P13": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622.py",
+          "sha256": "1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/a78432dde85324828c66e136f95e7f57aba993d3ff0af0d94596a4e38c7a0f74.py",
+          "sha256": "a78432dde85324828c66e136f95e7f57aba993d3ff0af0d94596a4e38c7a0f74"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P14": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622.py",
+          "sha256": "1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/a78432dde85324828c66e136f95e7f57aba993d3ff0af0d94596a4e38c7a0f74.py",
+          "sha256": "a78432dde85324828c66e136f95e7f57aba993d3ff0af0d94596a4e38c7a0f74"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P15": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/4742f42d6bfea671cad1eb7c54a6dad4525991b3b34af42c1fcaa029b33b3792.py",
+          "sha256": "4742f42d6bfea671cad1eb7c54a6dad4525991b3b34af42c1fcaa029b33b3792"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228.py",
+          "sha256": "82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P16": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622.py",
+          "sha256": "1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/c6bb42ab5d57f344b6deb0a52eb34c7bcd78f7c0293d022feec3db97d02ccd85.py",
+          "sha256": "c6bb42ab5d57f344b6deb0a52eb34c7bcd78f7c0293d022feec3db97d02ccd85"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P17": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/4742f42d6bfea671cad1eb7c54a6dad4525991b3b34af42c1fcaa029b33b3792.py",
+          "sha256": "4742f42d6bfea671cad1eb7c54a6dad4525991b3b34af42c1fcaa029b33b3792"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228.py",
+          "sha256": "82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P18": {
+      "scene_sources": {
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        },
+        "scenes/planet/renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/planet/renderer.py",
+          "sha256": "308c5407e296af93d6566f7f653008fa7e1f25123d9669654f641880cb41398e"
+        },
+        "scenes/stellar/galaxy_native.cpp": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+          "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+        },
+        "scenes/stellar/materials.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+          "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+        },
+        "scenes/stellar/renderer.py": {
+          "archive": "versions/6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18.py",
+          "sha256": "b4d944bc0ab69d16a2dd988fc416a056671ae4b963fbdc6d95d705645d535d98",
+          "original_source_sha256": "6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18",
+          "adaptation": "Load voice durations from explicitly supplied local metadata rather than publish measured values."
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228.py",
+          "sha256": "82696cad6c7a9133a4abce2b4ea76bdeaf015406f48f368fa767310ae3317228"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "P19": {
+      "scene_sources": {
+        "scenes/planet/renderer.py": {
+          "archive": "versions/1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622.py",
+          "sha256": "1b6515818d7989757a0cc9a371fb945b226e5fcfb87cf08e02cacccce3e6e622"
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/c6bb42ab5d57f344b6deb0a52eb34c7bcd78f7c0293d022feec3db97d02ccd85.py",
+          "sha256": "c6bb42ab5d57f344b6deb0a52eb34c7bcd78f7c0293d022feec3db97d02ccd85"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    },
+    "INSERT-MW": {
+      "scene_sources": {
+        "scenes/p10/scene_renderer.py": {
+          "archive": "source/chapter_revision_v2/scenes/p10/scene_renderer.py",
+          "sha256": "49268f692a1e3306af1b74710fe937a92b5024d1a708f9f2be081757edaadd24"
+        },
+        "scenes/stellar/galaxy_native.cpp": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/galaxy_native.cpp",
+          "sha256": "62ad3e4e8ff53447c84fa748482c665bbe0278c777c7c70a57e4a86140cb3428"
+        },
+        "scenes/stellar/materials.py": {
+          "archive": "source/chapter_revision_v2/scenes/stellar/materials.py",
+          "sha256": "4b0e69629ecf988506708fa1c9851a3e1a8cbb9b5bdcbbc59da7def934ca342d"
+        },
+        "scenes/stellar/renderer.py": {
+          "archive": "versions/6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18.py",
+          "sha256": "b4d944bc0ab69d16a2dd988fc416a056671ae4b963fbdc6d95d705645d535d98",
+          "original_source_sha256": "6f8bcf57dd9ce89427b5f32dc4937b4e28dfa6b7217bed90e5ec3243ab84cc18",
+          "adaptation": "Load voice durations from explicitly supplied local metadata rather than publish measured values."
+        }
+      },
+      "integration_sources": {
+        "compositor.py": {
+          "archive": "source/chapter_revision_v2/compositor.py",
+          "sha256": "98f450674717c2c7bb6e3e0530abbff004d214d7b77d2bbfb0d17a949367c9fe"
+        },
+        "render.py": {
+          "archive": "versions/67206ad3a9f6e02205e1f7b726397ff44162f4909fdd4b42e22339ae14ffc2de.py",
+          "sha256": "67206ad3a9f6e02205e1f7b726397ff44162f4909fdd4b42e22339ae14ffc2de"
+        }
+      },
+      "snapshot_timing": "before section render",
+      "portable_reproduction": "not-run; code version lineage only, private media/timing excluded"
+    }
+  }
+}

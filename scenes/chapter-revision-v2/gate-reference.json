@@ -1,0 +1,7 @@
+{
+  "repository_commit": "749a77644ef172680d41f0624d5dbbd6cdcea119",
+  "canonical_workflow": "docs/production-workflow.md",
+  "canonical_validator": "scripts/validate_production_gate.py",
+  "validator_sha256": "41359e5cd91435d715fd7aee93286dae9388fae0396bb5d3dd297b4e39a08840",
+  "policy": "Repository-wide workflow remains canonical. No active duplicate is distributed. Offline setup binds this exact validator and copies it only as immutable private build input."
+}

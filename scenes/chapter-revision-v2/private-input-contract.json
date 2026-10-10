@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "retrieval": "Obtain inputs from storage you are authorized to use. Map logical IDs to explicit local paths. Generate and verify hashes only in your private local manifest.",
+  "assets": {
+    "narration-P01": {
+      "destination": "full_chapter_v1/audio/P01.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P01": {
+      "destination": "full_chapter_v1/audio/P01.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P02": {
+      "destination": "full_chapter_v1/audio/P02.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P02": {
+      "destination": "full_chapter_v1/audio/P02.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P03": {
+      "destination": "full_chapter_v1/audio/P03.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P03": {
+      "destination": "full_chapter_v1/audio/P03.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P04": {
+      "destination": "full_chapter_v1/audio/P04.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P04": {
+      "destination": "full_chapter_v1/audio/P04.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P05": {
+      "destination": "full_chapter_v1/audio/P05.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P05": {
+      "destination": "full_chapter_v1/audio/P05.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P06": {
+      "destination": "full_chapter_v1/audio/P06.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P06": {
+      "destination": "full_chapter_v1/audio/P06.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P07": {
+      "destination": "full_chapter_v1/audio/P07.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P07": {
+      "destination": "full_chapter_v1/audio/P07.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P08": {
+      "destination": "full_chapter_v1/audio/P08.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P08": {
+      "destination": "full_chapter_v1/audio/P08.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P09": {
+      "destination": "full_chapter_v1/audio/P09.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P09": {
+      "destination": "full_chapter_v1/audio/P09.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P10": {
+      "destination": "full_chapter_v1/audio/P10.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P10": {
+      "destination": "full_chapter_v1/audio/P10.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P11": {
+      "destination": "full_chapter_v1/audio/P11.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P11": {
+      "destination": "full_chapter_v1/audio/P11.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P12": {
+      "destination": "full_chapter_v1/audio/P12.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P12": {
+      "destination": "full_chapter_v1/audio/P12.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P13": {
+      "destination": "full_chapter_v1/audio/P13.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P13": {
+      "destination": "full_chapter_v1/audio/P13.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P14": {
+      "destination": "full_chapter_v1/audio/P14.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P14": {
+      "destination": "full_chapter_v1/audio/P14.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P15": {
+      "destination": "full_chapter_v1/audio/P15.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P15": {
+      "destination": "full_chapter_v1/audio/P15.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P16": {
+      "destination": "full_chapter_v1/audio/P16.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P16": {
+      "destination": "full_chapter_v1/audio/P16.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P17": {
+      "destination": "full_chapter_v1/audio/P17.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P17": {
+      "destination": "full_chapter_v1/audio/P17.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P18": {
+      "destination": "full_chapter_v1/audio/P18.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P18": {
+      "destination": "full_chapter_v1/audio/P18.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "narration-P19": {
+      "destination": "full_chapter_v1/audio/P19.edge.wav",
+      "purpose": "Existing original-speed narration WAV; no synthesis"
+    },
+    "boundaries-P19": {
+      "destination": "full_chapter_v1/audio/P19.edge.json",
+      "purpose": "Existing provider text/boundaries, not requests or credentials"
+    },
+    "audio-timeline": {
+      "destination": "full_chapter_v1/audio/timeline.json",
+      "purpose": "Original audio duration registry"
+    },
+    "host": {
+      "destination": "full_chapter_v1/assets/host-circle.png",
+      "purpose": "Authorized original static presenter"
+    },
+    "cover": {
+      "destination": "full_chapter_v1/cover-system/prologue-cover-candidate-v2.png",
+      "purpose": "Reviewed 1280x720 cover"
+    },
+    "p05-entry-gas": {
+      "destination": "chapter_revision_v2/scenes/stellar/keyframes/P05-entry-gas.png",
+      "purpose": "Actual scene transition binding"
+    },
+    "p10-clean-end": {
+      "destination": "chapter_revision_v2/scenes/planet/p10_clean_end.png",
+      "purpose": "Clean original P10 scene end binding"
+    },
+    "benchmark": {
+      "destination": "deliverables/P10-section-preview-v2.mp4",
+      "purpose": "Visual benchmark only; invalid old title/captions not reused"
+    },
+    "chapter-timeline": {
+      "destination": "chapter_revision_v2/timeline.json",
+      "purpose": "User-supplied local exact caption/timing registry; no actual media timing is published"
+    },
+    "chapter-storyboard": {
+      "destination": "chapter_revision_v2/storyboard.json",
+      "purpose": "User-supplied local claim/cue bindings; requires review against local narration"
+    }
+  },
+  "font": "Explicit --font pointing to installed Chinese-capable regular font; optional cover template also needs serif CJK font."
+}

@@ -1,0 +1,20 @@
+{
+  "checked_date":"2026-10-10",
+  "scope":"Primary-source link/content checks for existing frozen narration and added present-day spatial insert; script unchanged. This does not approve scene pixels or spoken audio.",
+  "sources":[
+    {"id":"early","url":"https://science.nasa.gov/universe/overview/","result":"opened/read relevant recombination/dark ages/first stars sections","supports":"38万年复合、自由电子散射减少、早期氢氦及首批恒星/星系","caution":"Do not depict recombination as creation of all CMB photons, or ordinary space as an explosion into a pre-existing outside."},
+    {"id":"stars","url":"https://science.nasa.gov/universe/stars/","result":"opened/read stellar evolution sections","supports":"不同质量恒星演化、碳氧与大质量恒星至铁、抛出外层/超新星使后续分子云富集","caution":"Not all stars make iron; iron fusion is not an energy source."},
+    {"id":"solar","url":"https://science.nasa.gov/sun/facts/","result":"opened/read Formation","supports":"约46亿年前收缩、转动、扁平盘、大部分物质进入太阳"},
+    {"id":"disk","url":"https://science.nasa.gov/asset/webb/exploring-star-and-planet-formation/","result":"opened/read formation summary","supports":"原恒星、周围盘、盘内行星生长"},
+    {"id":"inner_disk","url":"https://science.nasa.gov/astrobiology/learning-resources/alp/how-did-our-solar-system-form/","result":"opened, relevant content retrieved","supports":"盘内侧高温不利冰等挥发物保留、固体材料区域差异"},
+    {"id":"collision_lab","url":"https://arxiv.org/abs/1802.00221","result":"opened/research abstract read","supports":"尘粒黏合、弹开、破碎与生长障碍；密集颗粒引力坍缩为候选机制","caution":"Do not label the whole dust-to-planetesimal pathway as settled."},
+    {"id":"streaming","url":"https://arxiv.org/abs/astro-ph/0409263","result":"opened/research abstract read","supports":"气体与颗粒的耦合作用能够形成增长的颗粒密度扰动","caution":"Streaming instability itself need not require self-gravity; later collapse is distinct."},
+    {"id":"terrestrial_review","url":"https://arxiv.org/abs/1312.1689","result":"primary research review search abstract retrieved","supports":"小天体至胚胎至类地行星的吸积阶段与时标","status":"abstract-level binding; retain original frozen-script fact approval, not a fresh exhaustive literature review"},
+    {"id":"age","url":"https://pubs.usgs.gov/gip/geotime/age.html","result":"direct open failed internally; search indexed USGS source content retrieved","supports":"地球/陨石铅同位素约45.4亿年","caution":"Do not depict a single birthday or invented measurement table."},
+    {"id":"moon","url":"https://science.nasa.gov/moon/formation/","result":"opened/read formation/evidence discussion","supports":"大碰撞解释、熔融碎屑、月岩证据与仍在研究的参数","caution":"No claim of a uniquely reconstructed impact or exact formation duration."},
+    {"id":"mw_today","url":"https://science.nasa.gov/solar-system/solar-system-facts/","result":"NASA source search content retrieved","supports":"太阳位于猎户臂/支臂，介于人马臂与英仙臂之间","caution":"Spatial insert explicitly today's schematic, not exact ancient reconstruction or observer's external photograph."},
+    {"id":"galaxies","url":"https://science.nasa.gov/universe/galaxies/","result":"opened source overview","supports":"星系结构/演化背景","status":"general context, not a precision reconstruction of Milky Way assembly"}
+  ],
+  "visual_gate":"pending independent actual-image review",
+  "auditory_gate":"not-run"
+}

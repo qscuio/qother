@@ -1,0 +1,11 @@
+{
+  "scope": "Source-code checks only; private media metadata and original production QA excluded",
+  "source_tests": "Six bounded source/lineage/text/CLI tests passed",
+  "cpp_compile": "Passed for included source; binary excluded",
+  "local_workflow_smoke": "Narrowed adapter passed local-only manifest generation/verification, setup, duration binding, native compilation, one local frame, snapshot and refusal of unreviewed assembly. No media metrics exported.",
+  "full_portable_run": "not-run",
+  "scientific_visual_acceptance": "not-run",
+  "continuous_playback": "not-run",
+  "spoken_content_listening": "not-run",
+  "note": "No original media fingerprints, timings, measurements or approvals included"
+}

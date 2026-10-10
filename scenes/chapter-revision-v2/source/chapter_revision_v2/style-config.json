@@ -1,0 +1,41 @@
+{
+  "title": "地球往事｜序章：地球的来处",
+  "canvas": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "host": {
+    "asset": "../full_chapter_v1/assets/host-circle.png",
+    "size": [
+      132,
+      132
+    ],
+    "position": [
+      1114,
+      548
+    ],
+    "identity": "original asset, static circular portrait, no redrawing"
+  },
+  "cover": {
+    "asset": "../full_chapter_v1/cover-system/prologue-cover-candidate-v2.png",
+    "duration": 2,
+    "use": "actual video first48frames, no narration"
+  },
+  "extra_insert": {
+    "id": "INSERT-MW",
+    "duration": 8,
+    "location": "after P08 before P09",
+    "narration": "none; preserve frozen script",
+    "labels": "Explicitly today, illustrative galaxy/Sun location; no claim ancient clouds had today's configuration"
+  },
+  "captions": {
+    "origin": "Local cue registry required",
+    "spoken_verification": "not-run",
+    "font_size": 30,
+    "max_width": 1010,
+    "position_x": 45
+  },
+  "voice": "Local narration required; no new synthesis",
+  "full_frame": "Scene backgrounds extend full width; safety zones constrain text/foci only, no empty host panel."
+}

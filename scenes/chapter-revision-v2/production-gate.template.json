@@ -1,0 +1,1804 @@
+{
+  "schema_version": 1,
+  "status": "candidate",
+  "identity": {
+    "title": "地球往事｜序章：地球的来处",
+    "script_sha256": "d0c76055240a051a665245dfb972083efe048794b8b5c66fbec99e765f53f2c5"
+  },
+  "input_digest": "PENDING_COMPLETE_RENDER_INPUTS",
+  "proceed_authority": "pending",
+  "authority_scope": "No authorization conferred by this source archive",
+  "labels": {
+    "cover": {
+      "title": "地球往事｜序章：地球的来处",
+      "review": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "video_header": {
+      "title": "地球往事｜序章：地球的来处",
+      "review": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    }
+  },
+  "shots": {
+    "P01-scene-v2": {
+      "paragraph_ids": [
+        "P01"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P02-scene-v2": {
+      "paragraph_ids": [
+        "P02"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P03-scene-v2": {
+      "paragraph_ids": [
+        "P03"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P04-scene-v2": {
+      "paragraph_ids": [
+        "P04"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P05-scene-v2": {
+      "paragraph_ids": [
+        "P05"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P06-scene-v2": {
+      "paragraph_ids": [
+        "P06"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P07-scene-v2": {
+      "paragraph_ids": [
+        "P07"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P08-scene-v2": {
+      "paragraph_ids": [
+        "P08"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P09-scene-v2": {
+      "paragraph_ids": [
+        "P09"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P10-scene-v2": {
+      "paragraph_ids": [
+        "P10"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P11-scene-v2": {
+      "paragraph_ids": [
+        "P11"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P12-scene-v2": {
+      "paragraph_ids": [
+        "P12"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P13-scene-v2": {
+      "paragraph_ids": [
+        "P13"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P14-scene-v2": {
+      "paragraph_ids": [
+        "P14"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P15-scene-v2": {
+      "paragraph_ids": [
+        "P15"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P16-scene-v2": {
+      "paragraph_ids": [
+        "P16"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P17-scene-v2": {
+      "paragraph_ids": [
+        "P17"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P18-scene-v2": {
+      "paragraph_ids": [
+        "P18"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "P19-scene-v2": {
+      "paragraph_ids": [
+        "P19"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    },
+    "INSERT-MW-scene-v2": {
+      "paragraph_ids": [
+        "P09"
+      ],
+      "version": "revision-v2-candidate",
+      "content": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "visual": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      },
+      "continuity": {
+        "status": "not-run",
+        "reason": "Public portable adaptation requires new actual-input-bound review",
+        "evidence": []
+      }
+    }
+  },
+  "narration_cues": {},
+  "paragraphs": [
+    {
+      "id": "P01",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P01-claim-01",
+          "source_text": "约一百三十八亿年前，宇宙里还没有一颗星，也没有一块石头。",
+          "concepts": [
+            "宇宙早期无恒星无岩石；均匀热密物质到暗背景，不画现成星点。"
+          ],
+          "visual_explanation": "宇宙早期无恒星无岩石；均匀热密物质到暗背景，不画现成星点。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P01-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P02-claim-01",
+          "source_text": "那时的宇宙炽热、稠密，空间正在膨胀。",
+          "concepts": [
+            "全画幅热密介质中的固定参考标记随膨胀彼此远离，标记间距说明空间扩大；无外部爆心，不使用网格。"
+          ],
+          "visual_explanation": "全画幅热密介质中的固定参考标记随膨胀彼此远离，标记间距说明空间扩大；无外部爆心，不使用网格。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P02-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P02-claim-02",
+          "source_text": "光不断与自由电子相遇，难以走远。",
+          "concepts": [
+            "电子散射令光路反复转向。"
+          ],
+          "visual_explanation": "电子散射令光路反复转向。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P02-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P02-claim-03",
+          "source_text": "随着膨胀，温度逐渐降低。",
+          "concepts": [
+            "膨胀时暖色介质逐渐变冷色，以颜色变化定性说明冷却；不含定量温度标尺。"
+          ],
+          "visual_explanation": "膨胀时暖色介质逐渐变冷色，以颜色变化定性说明冷却；不含定量温度标尺。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P02-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P02-claim-04",
+          "source_text": "我们所说的大爆炸，描述的正是宇宙从早期热密状态不断膨胀、演化的历史。",
+          "concepts": [
+            "连续同一空间状态演化，不把大爆炸画成向空处爆炸。"
+          ],
+          "visual_explanation": "连续同一空间状态演化，不把大爆炸画成向空处爆炸。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P02-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P03-claim-01",
+          "source_text": "约三十八万年后，宇宙冷却到电子能够与原子核结合，形成中性原子。",
+          "concepts": [
+            "核与电子结合成中性原子；时间标记约38万年。"
+          ],
+          "visual_explanation": "核与电子结合成中性原子；时间标记约38万年。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P03-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P03-claim-02",
+          "source_text": "光不再频繁受到自由电子的阻挡，终于可以穿过漫长的距离。",
+          "concepts": [
+            "自由电子减少后光路由折线转为穿行。"
+          ],
+          "visual_explanation": "自由电子减少后光路由折线转为穿行。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P03-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P03-claim-03",
+          "source_text": "那时留下的辐射，今天仍能被探测到。",
+          "concepts": [
+            "遗留辐射用波长拉伸/红移示意连接今天；该图解不是探测器或真实观测图，不宣称展示了测量过程。"
+          ],
+          "visual_explanation": "遗留辐射用波长拉伸/红移示意连接今天；该图解不是探测器或真实观测图，不宣称展示了测量过程。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P03-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P04-claim-01",
+          "source_text": "光已经能够远行，星光却还没有出现。",
+          "concepts": [
+            "透明但无星的宇宙。"
+          ],
+          "visual_explanation": "透明但无星的宇宙。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P04-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P04-claim-02",
+          "source_text": "散布在宇宙中的普通物质，主要是氢和氦。",
+          "concepts": [
+            "氢、氦物质标注。"
+          ],
+          "visual_explanation": "氢、氦物质标注。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P04-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P04-claim-03",
+          "source_text": "它们可以聚成恒星，但要组成岩石，还缺少氧、硅、铁等元素。",
+          "concepts": [
+            "岩石所需氧硅铁缺项与氢氦对照。"
+          ],
+          "visual_explanation": "岩石所需氧硅铁缺项与氢氦对照。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P04-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P04-claim-04",
+          "source_text": "这些成分，要等后来的恒星去制造。",
+          "concepts": [
+            "未来恒星作为重元素来源的方向提示。"
+          ],
+          "visual_explanation": "未来恒星作为重元素来源的方向提示。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P04-scene-v2"
+          ],
+          "source_ids": [
+            "early"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P05-claim-01",
+          "source_text": "气体的分布并不均匀。",
+          "concepts": [
+            "不均匀气体云密度纹理。"
+          ],
+          "visual_explanation": "不均匀气体云密度纹理。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P05-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P05-claim-02",
+          "source_text": "有些地方稍微密一些，引力便把更多物质聚向那里。",
+          "concepts": [
+            "密区吸引周围流入，密度进一步增加。"
+          ],
+          "visual_explanation": "密区吸引周围流入，密度进一步增加。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P05-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P05-claim-03",
+          "source_text": "云团向内收缩，中心越来越热，直到氢的原子核能够结合成氦，释放能量。",
+          "concepts": [
+            "收缩加热后氢核聚变为氦并释放能量。"
+          ],
+          "visual_explanation": "收缩加热后氢核聚变为氦并释放能量。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P05-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P05-claim-04",
+          "source_text": "这种反应叫核聚变，它为恒星提供了持续发光的能源。",
+          "concepts": [
+            "持续能量流出点亮恒星，区分引力加热与聚变。"
+          ],
+          "visual_explanation": "持续能量流出点亮恒星，区分引力加热与聚变。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P05-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P06-claim-01",
+          "source_text": "在宇宙最初的几亿年里，第一批恒星逐渐出现，早期星系也在形成。",
+          "concepts": [
+            "早期少量恒星点亮，不用今日成熟旋涡星系。"
+          ],
+          "visual_explanation": "早期少量恒星点亮，不用今日成熟旋涡星系。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P06-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P06-claim-02",
+          "source_text": "恒星与气体汇聚在这些不断生长的系统中，新的恒星仍在其中诞生。",
+          "concepts": [
+            "气体和恒星在成长系统中汇聚，局部仍持续点亮。"
+          ],
+          "visual_explanation": "气体和恒星在成长系统中汇聚，局部仍持续点亮。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P06-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P07-claim-01",
+          "source_text": "恒星发光的同时，也在改变物质的成分。",
+          "concepts": [
+            "恒星内部物质组成随着演化改变。"
+          ],
+          "visual_explanation": "恒星内部物质组成随着演化改变。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P07-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P07-claim-02",
+          "source_text": "随着恒星演化，一部分恒星内部能进一步生成碳和氧；质量足够大的恒星，还能制造硅、铁等元素。",
+          "concepts": [
+            "分支区分一部分恒星产碳氧与大质量恒星产硅铁。"
+          ],
+          "visual_explanation": "分支区分一部分恒星产碳氧与大质量恒星产硅铁。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P07-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P07-claim-03",
+          "source_text": "今天岩石里的许多成分，曾在恒星深处的高温中形成。",
+          "concepts": [
+            "岩石元素连回恒星内部，但不暗示所有恒星制铁。"
+          ],
+          "visual_explanation": "岩石元素连回恒星内部，但不暗示所有恒星制铁。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P07-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P08-claim-01",
+          "source_text": "恒星又把一部分物质送回了星际空间。",
+          "concepts": [
+            "恒星物质回到周围空间。"
+          ],
+          "visual_explanation": "恒星物质回到周围空间。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P08-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P08-claim-02",
+          "source_text": "有些逐渐抛出外层，有些大质量恒星在生命末期发生超新星爆炸，将物质抛向周围。",
+          "concepts": [
+            "并列外层抛出和大质量恒星超新星抛射路径。"
+          ],
+          "visual_explanation": "并列外层抛出和大质量恒星超新星抛射路径。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P08-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P08-claim-03",
+          "source_text": "新生成的元素由此进入星际气体和尘埃，后来又被聚拢，成为新一批恒星与行星的材料。",
+          "concepts": [
+            "标记元素混入气体尘埃，流入新云团。"
+          ],
+          "visual_explanation": "标记元素混入气体尘埃，流入新云团。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P08-scene-v2"
+          ],
+          "source_ids": [
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P09-claim-01",
+          "source_text": "太阳所在的银河系，也是在物质的汇聚中逐渐形成的。",
+          "concepts": [
+            "早期物质汇聚形成银河，不从今日太阳出发。"
+          ],
+          "visual_explanation": "早期物质汇聚形成银河，不从今日太阳出发。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P09-scene-v2",
+            "INSERT-MW-scene-v2"
+          ],
+          "source_ids": [
+            "galaxies",
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P09-claim-02",
+          "source_text": "漫长岁月里，它与其他星系合并，汇入更多气体和恒星；星系内部，恒星的诞生与消亡也一直在延续。",
+          "concepts": [
+            "合并并输入气体恒星，同时内部新生与消亡。"
+          ],
+          "visual_explanation": "合并并输入气体恒星，同时内部新生与消亡。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P09-scene-v2"
+          ],
+          "source_ids": [
+            "galaxies",
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P09-claim-03",
+          "source_text": "在太阳诞生以前，这里的许多恒星已经走完一生。",
+          "concepts": [
+            "太阳诞生前的旧恒星经历生命过程。"
+          ],
+          "visual_explanation": "太阳诞生前的旧恒星经历生命过程。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P09-scene-v2"
+          ],
+          "source_ids": [
+            "galaxies",
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P09-claim-04",
+          "source_text": "它们留下的物质，混入了后来孕育太阳的云团。",
+          "concepts": [
+            "富集物质混入孕育太阳的云团。"
+          ],
+          "visual_explanation": "富集物质混入孕育太阳的云团。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P09-scene-v2"
+          ],
+          "source_ids": [
+            "galaxies",
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P09-claim-05",
+          "source_text": "地球的材料，就在这片气体和细小尘粒组成的云中。",
+          "concepts": [
+            "云团中气体和细尘明确可见；今日太阳位置插图必须标明今日。"
+          ],
+          "visual_explanation": "云团中气体和细尘明确可见；今日太阳位置插图必须标明今日。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P09-scene-v2"
+          ],
+          "source_ids": [
+            "galaxies",
+            "stars"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P10-claim-01",
+          "source_text": "约四十六亿年前，云团开始收缩。",
+          "concepts": [
+            "厚实不规则云团在约46亿年前向内收缩；中央没有成熟太阳。"
+          ],
+          "visual_explanation": "厚实不规则云团在约46亿年前向内收缩；中央没有成熟太阳。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P10-scene-v2"
+          ],
+          "source_ids": [
+            "solar",
+            "disk"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P10-claim-02",
+          "source_text": "它一边转动，一边向内聚拢，逐渐形成扁平的盘。",
+          "concepts": [
+            "同一物质旋转、收缩、厚度降低而形成扁盘。"
+          ],
+          "visual_explanation": "同一物质旋转、收缩、厚度降低而形成扁盘。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P10-scene-v2"
+          ],
+          "source_ids": [
+            "solar",
+            "disk"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P10-claim-03",
+          "source_text": "大部分物质汇向中央，孕育太阳；周围的物质则在盘中继续聚集。",
+          "concepts": [
+            "大部分物质流向中央形成原太阳；周围盘仍有材料聚集。"
+          ],
+          "visual_explanation": "大部分物质流向中央形成原太阳；周围盘仍有材料聚集。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P10-scene-v2"
+          ],
+          "source_ids": [
+            "solar",
+            "disk"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P10-claim-04",
+          "source_text": "太阳还在形成，行星的生长也已经开始。",
+          "concepts": [
+            "年轻亮核与尘气盘共存；只见早期团块，不出现成熟八大行星。"
+          ],
+          "visual_explanation": "年轻亮核与尘气盘共存；只见早期团块，不出现成熟八大行星。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P10-scene-v2"
+          ],
+          "source_ids": [
+            "solar",
+            "disk"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P11-claim-01",
+          "source_text": "靠近年轻太阳的地方，温度较高，冰难以保持固态，能够留下的固体主要是岩石和金属。",
+          "concepts": [
+            "年轻太阳附近高温使冰难保持，岩石和金属保留。"
+          ],
+          "visual_explanation": "年轻太阳附近高温使冰难保持，岩石和金属保留。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P11-scene-v2"
+          ],
+          "source_ids": [
+            "inner_disk",
+            "solar"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P11-claim-02",
+          "source_text": "后来构成地球的物质，就散布在盘的这一带。",
+          "concepts": [
+            "突出盘内侧地球材料所在带而非现成地球轨道。"
+          ],
+          "visual_explanation": "突出盘内侧地球材料所在带而非现成地球轨道。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P11-scene-v2"
+          ],
+          "source_ids": [
+            "inner_disk",
+            "solar"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P12-claim-01",
+          "source_text": "细小颗粒发生碰撞，有些黏合，有些弹开或破碎。",
+          "concepts": [
+            "颗粒相遇三种结果：黏合、弹开、破碎。"
+          ],
+          "visual_explanation": "颗粒相遇三种结果：黏合、弹开、破碎。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P12-scene-v2"
+          ],
+          "source_ids": [
+            "collision_lab",
+            "streaming"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P12-claim-02",
+          "source_text": "碰撞并不总能使它们长大。",
+          "concepts": [
+            "明确碰撞不一定长大。"
+          ],
+          "visual_explanation": "明确碰撞不一定长大。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P12-scene-v2"
+          ],
+          "source_ids": [
+            "collision_lab",
+            "streaming"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P12-claim-03",
+          "source_text": "从尘粒到小天体，究竟怎样跨过最初的生长难关，仍在研究。",
+          "concepts": [
+            "标记从尘粒到小天体的机制仍在研究。"
+          ],
+          "visual_explanation": "标记从尘粒到小天体的机制仍在研究。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P12-scene-v2"
+          ],
+          "source_ids": [
+            "collision_lab",
+            "streaming"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P12-claim-04",
+          "source_text": "一种解释认为，气体与颗粒相互作用，可以让颗粒在局部聚得更密；当密度足够高时，整团颗粒可能在自身引力下坍缩，形成小天体。",
+          "concepts": [
+            "气体颗粒作用形成密集区，可能触发自引力坍缩；标假说。"
+          ],
+          "visual_explanation": "气体颗粒作用形成密集区，可能触发自引力坍缩；标假说。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P12-scene-v2"
+          ],
+          "source_ids": [
+            "collision_lab",
+            "streaming"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P13-claim-01",
+          "source_text": "小天体形成以后，行星的生长还远没有结束。",
+          "concepts": [
+            "小天体阶段仍远未结束。"
+          ],
+          "visual_explanation": "小天体阶段仍远未结束。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P13-scene-v2"
+          ],
+          "source_ids": [
+            "terrestrial_review",
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P13-claim-02",
+          "source_text": "小天体之间的碰撞与合并，可以造就更大的行星胚胎；胚胎又会继续聚集物质，彼此碰撞。",
+          "concepts": [
+            "碰撞合并产生胚胎，胚胎继续吸积与碰撞。"
+          ],
+          "visual_explanation": "碰撞合并产生胚胎，胚胎继续吸积与碰撞。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P13-scene-v2"
+          ],
+          "source_ids": [
+            "terrestrial_review",
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P13-claim-03",
+          "source_text": "地球也经历了漫长的吸积：一次次合并使它增加质量，猛烈的撞击又可能使它失去部分物质。",
+          "concepts": [
+            "合并增质量与猛烈撞击丢失物质双路径。"
+          ],
+          "visual_explanation": "合并增质量与猛烈撞击丢失物质双路径。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P13-scene-v2"
+          ],
+          "source_ids": [
+            "terrestrial_review",
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P13-claim-04",
+          "source_text": "这样的生长，延续了数千万年。",
+          "concepts": [
+            "长时间轴数千万年而非瞬时长成。"
+          ],
+          "visual_explanation": "长时间轴数千万年而非瞬时长成。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P13-scene-v2"
+          ],
+          "source_ids": [
+            "terrestrial_review",
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P14-claim-01",
+          "source_text": "撞击还把运动的能量转化为热，使大片岩石熔化。",
+          "concepts": [
+            "撞击动能转化为热，局部岩石熔融。"
+          ],
+          "visual_explanation": "撞击动能转化为热，局部岩石熔融。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P14-scene-v2"
+          ],
+          "source_ids": [
+            "solar",
+            "disk"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P14-claim-02",
+          "source_text": "熔融让内部物质能够重新分布：密度较大的富铁金属向深处迁移，相对较轻的岩石成分留在外围。",
+          "concepts": [
+            "富铁金属下沉，较轻岩石成分留外层。"
+          ],
+          "visual_explanation": "富铁金属下沉，较轻岩石成分留外层。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P14-scene-v2"
+          ],
+          "source_ids": [
+            "solar",
+            "disk"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P14-claim-03",
+          "source_text": "地球一边长大，内部也逐渐分层，形成金属核和包围它的岩石外层。",
+          "concepts": [
+            "内部剖面形成金属核与岩石外层，仍在生长。"
+          ],
+          "visual_explanation": "内部剖面形成金属核与岩石外层，仍在生长。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P14-scene-v2"
+          ],
+          "source_ids": [
+            "solar",
+            "disk"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P15-claim-01",
+          "source_text": "我们通常说，地球的年龄约为四十五点四亿年。",
+          "concepts": [
+            "年龄标尺约45.4亿年。"
+          ],
+          "visual_explanation": "年龄标尺约45.4亿年。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P15-scene-v2"
+          ],
+          "source_ids": [
+            "age"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P15-claim-02",
+          "source_text": "这个估计来自地球样品与陨石等留下的同位素记录。",
+          "concepts": [
+            "地球样品与陨石同位素记录对比。"
+          ],
+          "visual_explanation": "地球样品与陨石同位素记录对比。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P15-scene-v2"
+          ],
+          "source_ids": [
+            "age"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P15-claim-03",
+          "source_text": "它标出了地球形成的年代，却不能把漫长的生长压缩成某一天。",
+          "concepts": [
+            "形成阶段用时间区间表达，避免单一生日。"
+          ],
+          "visual_explanation": "形成阶段用时间区间表达，避免单一生日。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P15-scene-v2"
+          ],
+          "source_ids": [
+            "age"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P16-claim-01",
+          "source_text": "月球的来历，也与这段不断碰撞的早年有关。",
+          "concepts": [
+            "早期碰撞背景转入月球来源。"
+          ],
+          "visual_explanation": "早期碰撞背景转入月球来源。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P16-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P16-claim-02",
+          "source_text": "目前的主流解释认为，约四十五亿年前，一次大碰撞将年轻地球及撞击天体的部分物质抛入地球周围的空间，抛出的物质聚集成了月球。",
+          "concepts": [
+            "主流大碰撞解释：地球和撞击体部分物质抛出、聚集为月球。"
+          ],
+          "visual_explanation": "主流大碰撞解释：地球和撞击体部分物质抛出、聚集为月球。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P16-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P16-claim-03",
+          "source_text": "撞击怎样发生、月球用了多久聚成，仍是科学家试图还原的细节。",
+          "concepts": [
+            "具体撞击参数与聚合时长保留未决说明。"
+          ],
+          "visual_explanation": "具体撞击参数与聚合时长保留未决说明。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P16-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P17-claim-01",
+          "source_text": "从月球带回的岩石，保留着早期高温熔融的记录；它们的化学成分，也与地球岩石有许多相似之处。",
+          "concepts": [
+            "月岩保留熔融记录，地月岩石化学组成有相似处。"
+          ],
+          "visual_explanation": "月岩保留熔融记录，地月岩石化学组成有相似处。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P17-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P17-claim-02",
+          "source_text": "月岩使我们得以检验这个解释：怎样的碰撞，才能留下今天所见的地球和月球？",
+          "concepts": [
+            "样品证据检验碰撞模型，不画作唯一确定证明。"
+          ],
+          "visual_explanation": "样品证据检验碰撞模型，不画作唯一确定证明。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P17-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P18-claim-01",
+          "source_text": "在这一解释中，月球从碰撞抛出的物质中诞生，陪伴着仍然炽热的地球。",
+          "concepts": [
+            "在大碰撞解释中月球在热地球旁形成。"
+          ],
+          "visual_explanation": "在大碰撞解释中月球在热地球旁形成。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P18-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P18-claim-02",
+          "source_text": "构成地球的材料，则有更久远的来处：其中许多元素，早在太阳诞生以前，就已在别的恒星中形成。",
+          "concepts": [
+            "地球元素更早在其他恒星形成。"
+          ],
+          "visual_explanation": "地球元素更早在其他恒星形成。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P18-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P18-claim-03",
+          "source_text": "它们穿过星际空间，进入新的云团，又在太阳周围聚成了这颗星球。",
+          "concepts": [
+            "材料从星际空间至新云再至太阳盘到地球。"
+          ],
+          "visual_explanation": "材料从星际空间至新云再至太阳盘到地球。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P18-scene-v2"
+          ],
+          "source_ids": [
+            "moon"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "narration_cue_ids": [],
+      "claims": [
+        {
+          "id": "P19-claim-01",
+          "source_text": "地球的历史，尚在开头。",
+          "concepts": [
+            "炽热早期地球，历史刚开始。"
+          ],
+          "visual_explanation": "炽热早期地球，历史刚开始。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P19-scene-v2"
+          ],
+          "source_ids": [
+            "early",
+            "stars",
+            "solar"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        },
+        {
+          "id": "P19-claim-02",
+          "source_text": "它的材料，已经走过漫长的岁月。",
+          "concepts": [
+            "视线连回材料的漫长旅程，收束而非跳到现代海洋地球。"
+          ],
+          "visual_explanation": "视线连回材料的漫长旅程，收束而非跳到现代海洋地球。",
+          "narration_cue_ids": [],
+          "shot_ids": [
+            "P19-scene-v2"
+          ],
+          "source_ids": [
+            "early",
+            "stars",
+            "solar"
+          ],
+          "semantic_review": {
+            "status": "not-run",
+            "reason": "Public portable adaptation requires new actual-input-bound review",
+            "evidence": []
+          }
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "benchmark_ref": "private:benchmark",
+    "benchmark_comparison": {
+      "status": "not-run",
+      "reason": "Public portable adaptation requires new actual-input-bound review",
+      "evidence": []
+    },
+    "input_completeness": {
+      "status": "not-run",
+      "reason": "Public portable adaptation requires new actual-input-bound review",
+      "evidence": []
+    },
+    "technical": {
+      "status": "not-run",
+      "reason": "Public portable adaptation requires new actual-input-bound review",
+      "evidence": []
+    },
+    "playback": {
+      "status": "not-run",
+      "reason": "Public portable adaptation requires new actual-input-bound review",
+      "evidence": []
+    },
+    "audio_content": {
+      "status": "not-run",
+      "reason": "Public portable adaptation requires new actual-input-bound review",
+      "evidence": []
+    }
+  },
+  "evidence": {}
+}
