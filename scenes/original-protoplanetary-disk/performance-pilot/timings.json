@@ -1,0 +1,116 @@
+[
+  {
+    "name": "A-step1.6",
+    "seconds": 66.88679589800086,
+    "baseline_saved_scene": {
+      "samples": 512,
+      "adaptive_min_samples": 96,
+      "adaptive_threshold": 0.019999999552965164,
+      "volume_step_rate": 0.4000000059604645,
+      "volume_max_steps": 1024,
+      "max_bounces": 6,
+      "volume_bounces": 0,
+      "use_denoising": false
+    },
+    "changes": {
+      "volume_step_rate": 1.6,
+      "samples": 256,
+      "adaptive_min_samples": 64,
+      "adaptive_threshold": 0.02
+    },
+    "camera_location": [
+      9.0,
+      -13.0,
+      7.199999809265137
+    ],
+    "camera_rotation": [
+      1.1386185884475708,
+      0.145505890250206,
+      0.5387648344039917
+    ],
+    "resolution": [
+      1280,
+      720
+    ],
+    "source_sha256": "0831572d873e1d54458fabe39774ddae1bd4386883da495e00692261152fa4b0",
+    "historical_same_camera_baseline_seconds": 79.3788494370001,
+    "observed_speedup_vs_historical": 1.186764119454145,
+    "historical_time_reduction_percent": 15.737256999314031
+  },
+  {
+    "name": "B-step3.2",
+    "seconds": 60.23440100800144,
+    "baseline_saved_scene": {
+      "samples": 512,
+      "adaptive_min_samples": 96,
+      "adaptive_threshold": 0.019999999552965164,
+      "volume_step_rate": 0.4000000059604645,
+      "volume_max_steps": 1024,
+      "max_bounces": 6,
+      "volume_bounces": 0,
+      "use_denoising": false
+    },
+    "changes": {
+      "volume_step_rate": 3.2,
+      "samples": 256,
+      "adaptive_min_samples": 64,
+      "adaptive_threshold": 0.02
+    },
+    "camera_location": [
+      9.0,
+      -13.0,
+      7.199999809265137
+    ],
+    "camera_rotation": [
+      1.1386185884475708,
+      0.145505890250206,
+      0.5387648344039917
+    ],
+    "resolution": [
+      1280,
+      720
+    ],
+    "source_sha256": "0831572d873e1d54458fabe39774ddae1bd4386883da495e00692261152fa4b0",
+    "historical_same_camera_baseline_seconds": 79.3788494370001,
+    "observed_speedup_vs_historical": 1.3178324696290338,
+    "historical_time_reduction_percent": 24.117820508588828
+  },
+  {
+    "name": "C-step1.6-s128",
+    "seconds": 31.66158662899761,
+    "baseline_saved_scene": {
+      "samples": 512,
+      "adaptive_min_samples": 96,
+      "adaptive_threshold": 0.019999999552965164,
+      "volume_step_rate": 0.4000000059604645,
+      "volume_max_steps": 1024,
+      "max_bounces": 6,
+      "volume_bounces": 0,
+      "use_denoising": false
+    },
+    "changes": {
+      "volume_step_rate": 1.6,
+      "samples": 128,
+      "adaptive_min_samples": 32,
+      "adaptive_threshold": 0.03
+    },
+    "camera_location": [
+      9.0,
+      -13.0,
+      7.199999809265137
+    ],
+    "camera_rotation": [
+      1.1386185884475708,
+      0.145505890250206,
+      0.5387648344039917
+    ],
+    "resolution": [
+      1280,
+      720
+    ],
+    "source_sha256": "0831572d873e1d54458fabe39774ddae1bd4386883da495e00692261152fa4b0",
+    "historical_same_camera_baseline_seconds": 79.3788494370001,
+    "observed_speedup_vs_historical": 2.50710270357393,
+    "historical_time_reduction_percent": 60.1133213021358
+  }
+]

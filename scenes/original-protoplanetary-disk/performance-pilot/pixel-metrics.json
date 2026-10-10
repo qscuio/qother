@@ -1,0 +1,26 @@
+[
+  {
+    "name": "A-step1.6",
+    "masked_MAE_rgb_0_1": 0.013994703961907015,
+    "masked_lowpass_MAE": 0.007070028333187463,
+    "masked_mean_luma_ratio": 1.010932057881691,
+    "masked_high_frequency_rms": 0.019063372963434706,
+    "baseline_masked_high_frequency_rms": 0.01853496410514266
+  },
+  {
+    "name": "B-step3.2",
+    "masked_MAE_rgb_0_1": 0.01459045113123634,
+    "masked_lowpass_MAE": 0.008097305705452584,
+    "masked_mean_luma_ratio": 1.0159609898854822,
+    "masked_high_frequency_rms": 0.019076185538036187,
+    "baseline_masked_high_frequency_rms": 0.01853496410514266
+  },
+  {
+    "name": "C-step1.6-s128",
+    "masked_MAE_rgb_0_1": 0.0227050004030767,
+    "masked_lowpass_MAE": 0.007547415711169514,
+    "masked_mean_luma_ratio": 1.007865627320246,
+    "masked_high_frequency_rms": 0.02528453629456941,
+    "baseline_masked_high_frequency_rms": 0.01853496410514266
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "artifact": "Original protoplanetary disk technical camera test",
+  "status": "rendered and encoded",
+  "renderer": "Blender 4.3.2 CPU Cycles",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "duration_seconds": 2,
+  "actual_rendered_frames": 48,
+  "reused_actual_benchmark_frames": 3,
+  "new_batch_frames": 45,
+  "new_batch_render_seconds_total": 3711.570860663007,
+  "new_batch_frame_seconds_mean": 82.47935245917793,
+  "new_batch_frame_seconds_min": 77.23676862799948,
+  "new_batch_frame_seconds_max": 87.1126067030018,
+  "samples_max": 256,
+  "adaptive_min_samples": 64,
+  "seed": 46109,
+  "camera_orbit_degrees": 15,
+  "physical_evolution": false,
+  "world_state": "identical across all frames",
+  "audio": false,
+  "interpolation": false,
+  "denoising": false,
+  "complete_decode": {
+    "status": "passed",
+    "frames": 48,
+    "distinct_decoded_frames": 48
+  },
+  "adjacent_frame_scan": {
+    "status": "no flags under recorded heuristics",
+    "median_display_luma_rms_difference": 0.007603181526064873,
+    "maximum_display_luma_rms_difference": 0.00877279881387949,
+    "heuristics": {
+      "large_adjacent_rms_threshold": 0.03,
+      "global_transient_mean_luma_threshold": 0.01,
+      "freeze_check": "exact consecutive decoded pixel equality"
+    },
+    "flags": [],
+    "caveat": "Real camera motion, sampling grain and codec error all contribute; this is not a guarantee against subtle flicker."
+  },
+  "visual_sample_review": {
+    "decoded_frames": [
+      1,
+      24,
+      48
+    ],
+    "result": "No gross clipping or structure break; fine grain remains visible."
+  },
+  "browser_playback": {
+    "status": "blocked",
+    "reason": "Required local sockets unavailable in executor; existing cloud browser could not open local file URL. No alternate URL/upload bypass attempted.",
+    "presented_frame_telemetry_obtained": false
+  },
+  "final_cinematic_quality": "not established",
+  "remaining_limits": [
+    "visible fine grain",
+    "soft volume edge",
+    "limited material palette",
+    "full playback review unavailable"
+  ]
+}

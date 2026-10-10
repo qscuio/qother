@@ -47,11 +47,11 @@ SCENE_OUTPUT="$PWD/outputs/h10-v05" blender -b -t 8 --python-exit-code 1 --pytho
 SCENE_OUTPUT="$PWD/outputs/h10-v05" blender -b -t 8 --python-exit-code 1 --python scenes/original-protoplanetary-disk/experimental/measure_grain.py
 ```
 
-`historical-QA.json` 是原静态候选的历史检查，不宣称本仓库任何新渲染自动通过。细粒噪声、外缘偏软和色域较窄仍为已知限制。没有连续动态播放、旁白、视频或最终成片验收。
+`historical-QA.json` 是原静态候选的历史检查，不宣称本仓库任何新渲染自动通过。细粒噪声、外缘偏软和色域较窄仍为已知限制。历史静态验收不覆盖视频；后续48帧技术视频的实际结果见下方更新。连续动态播放、旁白和最终成片验收仍未通过。
 
 定性事实背景：[NASA Solar System Facts](https://science.nasa.gov/solar-system/solar-system-facts/)。[ESO1436f](https://www.eso.org/public/images/eso1436f/)仅提供斜视盘面的外观参考，没有贴入、复制或投影到模型。无外部位图纹理依赖。
 
-`experimental/render_camera_batch.py` 是正在验证的48帧相机批处理源代码。公开移植版为防止混入旧样本，要求新建 camera-motion-48/frames，禁用未验证的基准帧复用，实际重渲染全部48帧；可能耗时约一小时。发布时仅语法检查，未运行公开版完整批处理，不能称为动画通过。执行方法与上面相同，只替换脚本名。
+`experimental/render_camera_batch.py` 是实验性的48帧相机批处理源代码。公开移植版为防止混入旧样本，要求新建 camera-motion-48/frames，禁用未验证的基准帧复用，实际重渲染全部48帧；可能耗时约一小时。发布时仅语法检查，未运行公开版完整批处理，不能称为动画通过。执行方法与上面相同，只替换脚本名。
 
 噪声统计和编码工具也保留在 experimental：
 
@@ -61,3 +61,15 @@ python scenes/original-protoplanetary-disk/experimental/encode_camera_test.py --
 ```
 
 噪声工具的可选依赖见 experimental/requirements.txt（实测 NumPy 2.3.5、Pillow 12.3.0）；统计是PNG显示亮度差分，不是线性辐亮度误差。编码另需 FFmpeg/ffprobe 与 libx264；拒绝覆盖现有视频，检查48帧、1280×720、24fps、2秒。像素格式与帧数不证明源图确为3D，也不证明视觉播放通过；源头与播放仍需独立验证。公开编码工具仅语法检查，尚未执行完整48帧编码。
+
+
+## 2026-10-10 实测更新
+
+[48帧技术视频结果](experimental/RESULTS.md)及[机器可读结果](experimental/results.json)：原执行已渲染并编码48帧、1280×720、24fps、2秒，无声、无插帧、无去噪。全片解码及相邻帧粗异常扫描完成；浏览器连续播放受环境限制，未取得掉帧或呈现帧遥测。不是最终画质验收。公开版新目录/不覆盖防护保持不变；该历史执行不冒充公开版完整重跑。
+
+```sh
+python scenes/original-protoplanetary-disk/experimental/scan_motion_frames.py --movie outputs/h10-v05/camera-motion-48/H10-actual-3D-camera-test-2s.mp4 --output outputs/h10-motion-qa
+node scenes/original-protoplanetary-disk/experimental/qa_browser_playback.cjs --movie outputs/h10-v05/camera-motion-48/H10-actual-3D-camera-test-2s.mp4 --output outputs/h10-playback-qa --chromium /path/to/chromium
+```
+
+[三组性能试验](performance-pilot/README.md)另列代码、历史计时与像素指标；保持原画质默认值，不自动采用更快配置。

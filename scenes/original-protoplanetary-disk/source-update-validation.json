@@ -1,0 +1,39 @@
+{
+  "date_utc": "2026-10-10",
+  "files": [
+    {
+      "path": "experimental/scan_motion_frames.py",
+      "original_sha256": "ad0e231964964c5193b433cf584a0840fe29e21315c657ea6693f2859e36cc20",
+      "portable_sha256": "29536b892a3628435f0c331489616790ea6efd3c6e9349e36080a8b2af09178b"
+    },
+    {
+      "path": "experimental/qa_browser_playback.cjs",
+      "original_sha256": "a9a35bc594c26978d560f11df8fc537be811d97643eb2711585287123d2c4a2d",
+      "portable_sha256": "5747a5aa756a4a5e070276bc7fd06e35f39b9c8f98bc1121029b7e7e08a409ad"
+    },
+    {
+      "path": "performance-pilot/benchmark_volume_settings.py",
+      "public_safe_author_sha256": "16e7d716030daf97d0064ba2952fcae4798254336d4decd3e84cf4a394aa69aa",
+      "published_sha256": "16e7d716030daf97d0064ba2952fcae4798254336d4decd3e84cf4a394aa69aa"
+    },
+    {
+      "path": "performance-pilot/compare_volume_settings.py",
+      "public_safe_author_sha256": "69c2cf073befbcaa08e126666e167f99e9d1957ab22f941a5c5b97f48cf5e538",
+      "published_sha256": "281c7710e2ec1239db4dd59f339810b592d74689053a132dfb7140965a628d7e"
+    }
+  ],
+  "changes": [
+    "Existing four-stage static chain and five guarded experimental utilities unchanged.",
+    "New scan utility accepts explicit movie and fresh output; probes actual fps/duration and refuses overwrite.",
+    "Browser utility accepts explicit movie, fresh output and optional Chromium executable; no hardcoded system path; browser closed on test failure.",
+    "Comparison utility writes into explicit fresh output instead of overwriting render evidence.",
+    "Browser metadata records actual version and selected executable; loadeddata wait is bounded to 10 seconds."
+  ],
+  "validation": {
+    "scan": "Executed adapted utility on actual completed clip: full 48-frame decode and matching original metrics, no flags.",
+    "performance_comparison": "Recomputed from original pilot PNGs; verified exact JSON equality.",
+    "browser": "Syntax/help only; measured browser runtime remains blocked; no launch retried.",
+    "render_pilot": "AST syntax only during publication, no new rendering.",
+    "canonical_defaults": "unchanged"
+  }
+}
