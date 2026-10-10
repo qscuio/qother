@@ -12,6 +12,7 @@
 - [旧版地球形成脚本与三风格分镜（比较基线）](docs/episodes/001/README.md)
 - [已确认方向与待定事项](docs/decisions.md)
 - [统一制作流程与关卡](docs/production-workflow.md)
+- [可复现场景源码：原创三维盘与官方参考合成](scenes/README.md)
 - [画面与制作规范](docs/production-style.md)
 - [风格 Skills、角色分工与分镜体系](docs/style-system.md)
 - [人物动作素材：参考、逐动作生成与人工挑帧](docs/sprite-gen-adaptation.md)
@@ -47,3 +48,4 @@
 ### 手绘方法参考与署名
 
 感谢 **yang0** 的 [handraw-style](https://github.com/yang0/handraw-style) 与 **liulei / threerocks** 的 [hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles)。本项目选择性改编其风格拆分、材料与线条、版式及一致性检查方法，增强现有 skills；不是整库安装或已验证的生成服务。固定版本、取舍和完整许可见[手绘适配记录](docs/hand-drawn-adaptation.md)。yang0 使用带额外署名要求的 MIT 变体，不能称作标准 MIT。
+

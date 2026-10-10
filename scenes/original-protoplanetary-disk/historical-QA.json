@@ -1,0 +1,72 @@
+{
+  "shot_id": "H10",
+  "artifact_version": "original-disk-05",
+  "goal": "Read a forming central star and irregular flattened dust distribution as one three-dimensional scene.",
+  "scientific_scope": "Qualitative self-authored art. No fluid-dynamical simulation, calibrated physical scale, collapse rate, orbital speed or measured morphology.",
+  "source": "https://science.nasa.gov/solar-system/solar-system-facts/",
+  "fixed_seed": 46109,
+  "world_state_across_views": "unchanged",
+  "camera_change": "Different position, viewing angle and lens; explicitly not a time evolution.",
+  "external_reference_pixels_used": false,
+  "host": "Existing original full overlay retained without re-drawing; nominal 250px circle at (1622,790).",
+  "review_log": [
+    {
+      "version": "v1",
+      "result": "rejected",
+      "reason": "Opaque patterned surface looked like a solid wooden disk."
+    },
+    {
+      "version": "v2",
+      "result": "rejected",
+      "reason": "Volume had overly repetitive bands and a hard white central disc."
+    },
+    {
+      "version": "v3",
+      "result": "direction accepted internally for refinement",
+      "reason": "Irregular dust volume, clear oblique flattened structure; residual grain and star-disc edge required revision."
+    },
+    {
+      "version": "v4",
+      "result": "rejected after full-resolution inspection",
+      "fixes": [
+        "Broader density separation",
+        "Fine 3D dust substructure",
+        "Neutral-cool dust shadows",
+        "Smaller photosphere within fading 3D luminous envelope",
+        "Higher-sample render"
+      ],
+      "reason": "Emissive envelope read as a hard round luminous ball at 1080p."
+    },
+    {
+      "version": "v5",
+      "result": "passed as original static candidate, not final photoreal quality",
+      "fixes": [
+        "Removed visible spherical envelope",
+        "Retained small photosphere with fog glow only",
+        "Preserved inspected dusty density field"
+      ]
+    }
+  ],
+  "checks": {
+    "hero_full_resolution": "passed candidate inspection at 1920x1080: small luminous core, irregular continuous disk, no mature planets or regular gaps",
+    "second_actual_camera": "passed actual 1152x648 render: altered azimuth and elevation reveal different dusty near/far occlusion; world state unchanged",
+    "text_layout": "Historical private review passed; public no-host reproduction requires separate inspection.",
+    "no_mature_planets": "passed scene construction",
+    "no_external_image_planes": "passed scene construction",
+    "motion": "experimental benchmark only; no continuous playback quality pass",
+    "audio": "not-run"
+  },
+  "feasibility": {
+    "cycles_1920x1080_512_samples_seconds": 245.96,
+    "cycles_1152x648_256_samples_seconds": 91.69,
+    "eevee_480x270_seconds": 65.87,
+    "eevee_visual_result": "failed: soft, visibly blurred density detail; not accepted as shortcut",
+    "animation_batch": "not started",
+    "next_benchmark": "Actual 1280x720 Cycles 256-sample camera test, inspect actual first/middle/last before committing a bounded frame batch."
+  },
+  "remaining_visual_limits": [
+    "Fine-grain noise remains visible at full resolution",
+    "Outer volume edge remains soft",
+    "Material palette remains fairly narrow"
+  ]
+}

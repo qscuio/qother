@@ -1,0 +1,45 @@
+{
+  "scene": "H10 original protoplanetary disk static candidate",
+  "seed": 46109,
+  "blender": "4.3.2",
+  "geometry": "Closed warped disk volume plus central protostar and distant stellar mesh points; all self-authored procedural geometry and shaders",
+  "external_bitmaps_in_scene": 0,
+  "world_state": "identical in both camera views",
+  "simulation": false,
+  "scale": "not calibrated; illustrative, not to scale",
+  "dynamics": "none; no collapse or rotation simulation claimed",
+  "camera_views": {
+    "hero observer": {
+      "location": [
+        9.0,
+        -13.0,
+        7.199999809265137
+      ],
+      "rotation_euler": [
+        1.1386185884475708,
+        0.145505890250206,
+        0.5387648344039917
+      ],
+      "lens_mm": 39.0,
+      "shift_x": 0.02500000037252903,
+      "shift_y": 0.014999999664723873
+    },
+    "independent side observer": {
+      "location": [
+        -10.0,
+        -10.0,
+        5.300000190734863
+      ],
+      "rotation_euler": [
+        1.2122305631637573,
+        1.0835625374738811e-07,
+        -0.7853983640670776
+      ],
+      "lens_mm": 35.0,
+      "shift_x": 0.0,
+      "shift_y": 0.009999999776482582
+    }
+  },
+  "samples": 512,
+  "adaptive_threshold": 0.02
+}

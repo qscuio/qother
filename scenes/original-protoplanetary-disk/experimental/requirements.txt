@@ -1,0 +1,3 @@
+# Optional analyze_grain.py only; Blender scripts use bundled modules.
+numpy==2.3.5
+Pillow==12.3.0

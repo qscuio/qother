@@ -1,0 +1,48 @@
+{
+  "date_utc": "2026-10-10",
+  "portable_build": "passed: all four stages rebuilt final geometry in fresh output",
+  "settings": "exact JSON equality to historical expected-settings.json",
+  "smoke_render": [
+    {
+      "view": "hero",
+      "file": "smoke-H10-original-disk-clean.png",
+      "seconds": 1.6369270409995806,
+      "sha256": "4fa32abe15d43e6ca276a2b39afd23bd048e3a5ecd7616933a418ff2f8dd2c11",
+      "samples": 8,
+      "seed": 46109,
+      "blender": "4.3.2",
+      "smoke": true,
+      "camera_location": [
+        9.0,
+        -13.0,
+        7.199999809265137
+      ],
+      "world_state": "unchanged",
+      "visual_quality": "not evaluated by this program"
+    },
+    {
+      "view": "side",
+      "file": "smoke-H10-original-disk-second-view.png",
+      "seconds": 1.6319268159986677,
+      "sha256": "757c79112a5f65e1966260a77d4943d41f4a279ad0eb5eb11f76551e19d5225d",
+      "samples": 8,
+      "seed": 46109,
+      "blender": "4.3.2",
+      "smoke": true,
+      "camera_location": [
+        -10.0,
+        -10.0,
+        5.300000190734863
+      ],
+      "world_state": "unchanged",
+      "visual_quality": "not evaluated by this program"
+    }
+  ],
+  "compositors": "all 3 ran successfully on existing full-resolution source inputs with no host; no images included in commit",
+  "unit_tests": "3 Python tests; 4 Node syntax and 3 CLI checks passed",
+  "full_resolution_portable_rerender": "not-run; historical static source delivery has separate QA",
+  "continuous_motion": "not-run; experimental scripts only",
+  "audio": "not-run",
+  "visual_spot_check": "Inspected hero smoke and full-resolution-source no-host disk composite preview: coherent output, readable CJK and explicit no-host label; smoke is intentionally noisy and not a quality candidate.",
+  "ffmpeg_available": "7.1.5-0+deb13u1"
+}

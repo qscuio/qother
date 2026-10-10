@@ -1,0 +1,64 @@
+{
+  "artifact_version": "original-disk-05",
+  "blender": "4.3.2",
+  "seed": 46109,
+  "source_chain": [
+    {
+      "file": "authoring/build_scene.py",
+      "original_sha256": "1d23cc68a853818da635599b45c5c5e7dbb25e32bce35cb1c90ae48d8c54f8c5",
+      "portable_sha256": "0fce206b7db018658af47183fd703379b4fc1a8c2d17224014e487ae22bc09ee"
+    },
+    {
+      "file": "authoring/refine_volume.py",
+      "original_sha256": "a67bca4a45c836b389ad1c464159db5f1cd39962ab339cda62274f397e82f271",
+      "portable_sha256": "c5b99b584e814968abc25e1ec14632841582d954f4278cb1c27647efa291c69e"
+    },
+    {
+      "file": "authoring/refine_art.py",
+      "original_sha256": "f7417b80e941dd08a04f3adcab6bb79885026970786ef287bba5e57f7e395c04",
+      "portable_sha256": "852087da26af70bb75a6c79c5a7b1304224e9d5ed3e22641c65defda56863d87"
+    },
+    {
+      "file": "authoring/finalize_scene.py",
+      "original_sha256": "098350dc1d1fb804f5569efa4dc0434cec70e069ef8ec90220f05b24ecaf6630",
+      "portable_sha256": "3593e219e8797daec59d4af4fb9115c93988e4287af5175bdd99918c18e1fab4"
+    }
+  ],
+  "portability_changes": [
+    "Output directory obtained from SCENE_OUTPUT rather than source directory.",
+    "Preview renders are opt-in using SCENE_STAGE_RENDERS=1; normal pipeline builds geometry first, then renders selected final camera."
+  ],
+  "scientific_scope": "Qualitative procedural art, not a simulation or measured solar-birth reconstruction.",
+  "utility_sources": [
+    {
+      "file": "experimental/benchmark_motion.py",
+      "original_sha256": "c2f9642a39ac29eba5ea30fe9e4f016726140fb36283b1802971cdaf40544b7e",
+      "portable_sha256": "66b203cea24e4330898f61501e61f50ee1c9d9b1c182f1b11cca6e7bd4970268"
+    },
+    {
+      "file": "experimental/measure_grain.py",
+      "original_sha256": "bfda228e263fead8aa8c2bae3e3d41d87498c9c0923b3f78a56156e0a41955e1",
+      "portable_sha256": "a954c87662452f2400a28ce523390f806be6209626ebd68548a8354ccba1b1d5"
+    },
+    {
+      "file": "experimental/render_camera_batch.py",
+      "original_sha256": "af55770b5f0fe7217f159bc4be52086b41614d989eff33864cff0721da8d674e",
+      "portable_sha256": "315200dffb1b2e7d199ef0192d40a0d3c650fd45387eaf32c74c9c90257f270b"
+    },
+    {
+      "file": "experimental/analyze_grain.py",
+      "original_sha256": "9f3b81d34775c38f89decf5022ab264867665bdb0ac49c922d3485ff6526f030",
+      "portable_sha256": "c17c1dcae51b6983cbaa78eed32ffd937bae5b41226452998971c63f2f34523e"
+    },
+    {
+      "file": "experimental/encode_camera_test.py",
+      "original_sha256": "7fd65d046bf37e006ba24c16df3c9caef808ac0a6b4ac7a0a68090a9d989f629",
+      "portable_sha256": "97c7de5f959b425c6b29f738c8466fb34c8ae6d6ba2dfd1dcf800a281fa56946"
+    }
+  ],
+  "experimental_portability_changes": [
+    "Existing output directory is configurable.",
+    "Batch requires fresh frames directory and renders all frames; no unverified cached-frame reuse.",
+    "Encoder refuses overwriting video; reports source origin as expectation rather than claiming PNG format proves 3D provenance."
+  ]
+}

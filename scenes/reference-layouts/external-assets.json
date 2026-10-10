@@ -1,0 +1,44 @@
+{
+  "assets_embedded": false,
+  "host": {
+    "required": false,
+    "distribution": "Excluded; caller supplies local authorized transparent 1920x1080 PNG. Never commit composite outputs containing it."
+  },
+  "references": [
+    {
+      "files": [
+        "source-089.png",
+        "source-104.png"
+      ],
+      "source_page": "https://www.esa.int/ESA_Multimedia/Videos/2025/01/The_best_Milky_Way_animation_by_Gaia",
+      "video": "https://dlmultimedia.esa.int/download/public/videos/2025/01/009/orig-2501_009_AR_EN.mp4",
+      "timestamps_seconds": [
+        89,
+        104
+      ],
+      "credit": "ESA/Gaia/DPAC, Stefan Payne-Wardenaar",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+      "scope": "Gaia-supported artistic animation, not exterior photography; retain original solar marker. Audio is not used."
+    },
+    {
+      "file": "eso1303a.jpg",
+      "source_page": "https://www.eso.org/public/images/eso1303a/",
+      "credit": "ESO/F. Comeron",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "scope": "Lupus 3 observation, not the solar birth cloud",
+      "download": "https://cdn.eso.org/images/publicationjpg/eso1303a.jpg",
+      "variant": "Publication JPEG; not maximum-resolution original"
+    },
+    {
+      "file": "eso1436f.jpg",
+      "source_page": "https://www.eso.org/public/images/eso1436f/",
+      "credit": "ESO/L. Calçada",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "scope": "Artistic protoplanetary disk reference; its gaps and planets are not the early-Sun reconstruction",
+      "download": "https://cdn.eso.org/images/publicationjpg/eso1436f.jpg",
+      "variant": "Publication JPEG; not maximum-resolution original"
+    }
+  ],
+  "terms": "https://www.eso.org/public/outreach/copyright/",
+  "publication": "Source and credits only. Verify rights for any future adapted media publication; code publication grants no host rights."
+}
