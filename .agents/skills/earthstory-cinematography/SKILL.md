@@ -26,3 +26,7 @@ description: Design and review motivated shots, virtual camera movement and edit
 - 比较最低复杂度方案与拟选方案：运动或转场没有增加理解/必要情绪就删。无需固定镜数、固定秒数、每镜不同运镜或全片同一缓动。
 - 交付 why、参数、前后状态、科学风险及检查状态；未知参数标 provisional，不能编造镜头物理尺寸、已存在素材或已测旁白时长。
 - 新 skill 的行为回归见[测试场景](tests/behavioral-tests.md)。来源与实际读取范围见[研究记录](references/sources.md)。要学习具体导演/影片的可检验方法时读[案例索引](references/film-cases.md)，不用人名替代设计。
+
+## 制作规划补充
+
+需要把冻结稿组织成可审阅的声画方案时，读[制作 treatment 与声音规划](references/treatment-and-sound.md)：比较尚未锁定的声画路径，复用已有逐镜契约，不另起脚本或强制音乐节拍。涉及程序化画面复现与交付检查时，读[确定性与 QA 证据](references/determinism-and-qa.md)。两份参考只补方法，不安装工具、不授权视频制作。

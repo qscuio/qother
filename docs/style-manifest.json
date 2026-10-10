@@ -2,13 +2,13 @@
   "version": 1,
   "scope": "earth-history-series",
   "aspect_ratio": "16:9",
-  "guide_height_fraction": 0.2,
-  "voice_status": "deferred",
+  "guide_height_fraction": 0.23148148148148148,
+  "voice_status": "existing_male_standard_mandarin_quality_unvalidated",
   "styles": [
     {
       "id": "earthstory-paper-2d",
       "title": "纸感二维历史场景",
-      "status": "tentative-baseline",
+      "status": "historical-trial",
       "skill": ".agents/skills/earthstory-paper-2d/SKILL.md",
       "agent_brief": "docs/agents/earthstory-paper-2d.md"
     },
@@ -25,8 +25,31 @@
       "status": "proposed-unvalidated",
       "skill": ".agents/skills/earthstory-miniature-3d/SKILL.md",
       "agent_brief": "docs/agents/earthstory-miniature-3d.md"
+    },
+    {
+      "id": "earthstory-iso-infographic",
+      "title": "等距信息图与系统剖面",
+      "status": "proposed-unvalidated",
+      "skill": ".agents/skills/earthstory-iso-infographic/SKILL.md",
+      "agent_brief": "docs/agents/earthstory-iso-infographic.md"
     }
   ],
   "renderer_status": "not_established_by_this_package",
-  "agent_status": "role_briefs_only_not_deployed"
+  "agent_status": "role_briefs_only_not_deployed",
+  "current_profile": {
+    "source": "docs/production-style.md",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "guide_circle_diameter_px": 250,
+    "guide_bbox_top_left_px": [
+      1622,
+      790
+    ],
+    "other_resolutions": "review_layout_not_fixed_ratio",
+    "voice_cloning": "not_enabled_for_current_task_reassess_if_separately_authorized",
+    "layout_status": "host_reference_layout_not_full_keyframe_approval",
+    "cosmic_opening_style": "dark_scientific_or_light_atlas_both_unselected_unapproved"
+  }
 }

@@ -34,3 +34,5 @@ description: Design and critique 地球往事 documentary styleframes, visual hi
 保留轻量 sidecar：shot_id、脚本版本/来源、理解目标、视觉语法、色彩与文字角色、物体/相机变化、静帧路径、缺陷与检查状态、下一步允许范围。真实检查写 passed/failed；缺少图像或动态素材写 not-run。不要新增生产 schema 或将试验参数写成永久审美规则。
 
 首次建立或修改本 skill 时运行[行为回归](tests/behavioral-tests.md)；来源、许可和未迁移的规则见[研究记录](references/sources.md)。
+
+需要量化图表时，读[数据编码与标注参考](../earthstory-flat-vector/references/data-storytelling.md)，只迁移读图方法，不自动选定扁平风格。需要等距系统剖面时可比较 `$earthstory-iso-infographic`，它是未验证候选，不能满足明确要求的真实透视三维。程序化标注漂移或抽帧复现问题见[确定性与 QA 证据](../earthstory-cinematography/references/determinism-and-qa.md)。
