@@ -1,0 +1,23 @@
+{
+  "status": "ready for source review; original full render recorded separately",
+  "single_frame": {
+    "frame": 288,
+    "model_time": 15.968338673700904,
+    "render_and_save_seconds": 0.964717060996918,
+    "host_enabled": false,
+    "audio_used": false,
+    "subtitle_timing": "estimated, unverified"
+  },
+  "single_frame_sha256": "80211d7f1591ea60c26b3c6843dfaf95f2fc13e7667f82fd07fb2352b134e7d7",
+  "visual_check": "Frame 288 inspected: readable two-line subtitle and thin disk; no host. This does not verify temporal/audio quality.",
+  "output_guard": "pass; existing output unchanged",
+  "video_without_explicit_audio": "rejected before output creation",
+  "state_and_render_arithmetic": "AST equivalent to original V2 optimized functions apart from optional host gate",
+  "full_portable_encoding": "not-run",
+  "audio_transcript_verified": false,
+  "subtitle_alignment": "estimated; not verified",
+  "fullspeed_playback": "not-run",
+  "portable_verifier": "Executed against original video and explicit original WAV in a new directory: full decode, 551 frames, both stream starts and audio numeric checks passed; matches historical values",
+  "original_full_render": "551 actual frames, 22.958333 seconds, 490.462 seconds rendering/encoding; see recorded-original-qa.json",
+  "cheap_tests": "4 source/CLI/cue tests passed"
+}

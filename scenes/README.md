@@ -2,6 +2,7 @@
 
 这次提交实际运行代码，不含图像、音频、主持人素材、私人源包或大型 `.blend`。运行产物放在新目录，勿提交含私有素材的合成图或 SVG。
 
+- [P10形成段落V2预览](p10-formation-preview/README.md)：明确音频输入、可选主持人、估计字幕和实测QA；旁白及完整播放尚未核验。
 - [轻量空间运动：2.5D分层投影](lightweight-space-motion/README.md)：720p六秒技术样例、便携单帧入口与实际检查记录，保持原三维管线独立。
 - [原创原行星盘](original-protoplanetary-disk/README.md)：完整四阶段 Blender 建模链、双机位渲染、参数、源文件指纹、静态 QA 和实验性运镜基准。
 - [官方参考合成](reference-layouts/README.md)：此前实际使用的 ESA/Gaia、ESO 参考排版源码，外部文件由使用者按来源清单自行取得。这些是参考图合成，不是原创银河或云团三维模型。
@@ -13,4 +14,5 @@
 实测 Node 24.19.0，`@napi-rs/canvas` 0.1.100，`sharp` 0.35.4。在本目录运行 `npm install`（官方 npm 包）；本次发布未重新安装软件。中文字体需要本地 Noto Sans CJK SC；未提供字体二进制。不同字体/引擎版本可能改变字形或像素，不保证跨平台逐字节一致。
 
 `node test_sources.cjs` 检查 CLI 和语法；`python original-protoplanetary-disk/test_sources.py` 检查作者链指纹与 Python 语法。技术检查不替代视觉、动态播放或音频验收。
+
 

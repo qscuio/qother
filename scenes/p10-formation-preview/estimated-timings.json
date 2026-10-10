@@ -1,0 +1,29 @@
+{
+  "status": "estimated_pause_based_not_ASR_verified",
+  "audio_seconds": 22.456875,
+  "video_seconds": 22.958333333333332,
+  "audio_cues": [
+    0,
+    3.49,
+    9.62,
+    17.89,
+    22.456875
+  ],
+  "model_cues": [
+    0,
+    5,
+    13,
+    23,
+    28
+  ],
+  "interpolation": "monotone PCHIP",
+  "sentences": [
+    "约四十六亿年前，云团开始收缩。",
+    "它一边转动，一边向内聚拢，逐渐形成扁平的盘。",
+    "大部分物质汇向中央，孕育太阳；周围的物质则在盘中继续聚集。",
+    "太阳还在形成，行星的生长也已经开始。"
+  ],
+  "audio_speed": 1.0,
+  "audio_gain_db": -1,
+  "host": "optional static portrait; no lip sync"
+}

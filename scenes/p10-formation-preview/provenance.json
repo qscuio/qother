@@ -1,0 +1,28 @@
+{
+  "status": "original full render completed; portable full render not-run",
+  "scripts": [
+    {
+      "name": "scene_renderer.py",
+      "original_sha256": "7bfbe4464098e7c1875ec3ff867e714c583352fad55e60cb2d3b77489539755c",
+      "portable_sha256": "8aa0e7e376d20d3a24aea10c6a564d519751e3cadee7ae9811a522e955abe76c"
+    },
+    {
+      "name": "render_preview.py",
+      "original_sha256": "f8fb334d090eb2950b21ffdd860a735fa68581e6a9f6ceada74240b5fdd5e6b7",
+      "portable_sha256": "4a536a2b8cbca864f2e681675d49d9055a1509c6d83c421200c637444866b908"
+    },
+    {
+      "name": "verify_preview.py",
+      "original_sha256": "479ebe1426217b7ea73c1f675968279e5602703b57936f4b70552a8979e6e744",
+      "portable_sha256": "9963e2da86dac781404605e60631c4fa83fa64e58e96b47e94839922c22b86dd"
+    }
+  ],
+  "adaptations": [
+    "Explicit local audio input required for video; none bundled or uploaded.",
+    "Optional host disabled by default; no host asset loaded on import.",
+    "Configurable installed font; output must be new; ffmpeg -n.",
+    "Single frame CLI does not need audio; fixed unverified cues require matching audio duration.",
+    "V2 geometry, material state and optimized accumulation preserved; no automatic quality upgrades."
+  ],
+  "optimization_caution": "Hoisting preserves sampled pixels; bincount accumulation has one measured 1/255 channel difference in the three-point optimization pilot. Different accumulation rounding is not claimed byte-exact at all times."
+}
