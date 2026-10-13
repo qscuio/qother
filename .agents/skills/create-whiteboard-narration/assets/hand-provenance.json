@@ -1,0 +1,74 @@
+{
+  "fountain_pen": {
+    "tool": "built-in image_gen.imagegen",
+    "generated_at": "2026-10-13",
+    "file": "hand.png",
+    "reference_role": "Broad visual direction only; original AI-generated hand, not cropped from a reference.",
+    "width": 1254,
+    "height": 1254,
+    "nib_pivot": {
+      "x": 246,
+      "y": 129
+    },
+    "alpha": "RGBA, genuinely transparent background; generated alpha preserved without edits.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: isolated transparent PNG sprite for a whiteboard handwriting animation, an original hand and fountain pen cutout.\nPrimary request: A photorealistic adult right hand holding a dark brown fountain pen in a natural writing grip, with an ivory gold metal nib clearly exposed at the upper left. The pen nib is the leading upper-left endpoint of the subject. The right hand and forearm trail downward and right from the pen, with a soft cream/beige knitted sweater sleeve and long ribbed cuff. The forearm extends through the bottom edge of the frame, like the arm of someone writing on a vertical whiteboard.\nComposition: front-facing view of the writing hand, pen diagonal from upper-left nib to lower-right barrel. Wrist below hand, long forearm below wrist. Portrait-ish arrangement on a square canvas; nib near 24% horizontal and 18% vertical, hand centered around 45% horizontal, 38% vertical, sleeve extending down to bottom at 64% horizontal. Leave substantial transparent margin around all other edges so no pen, fingers, or side of sleeve are clipped.\nStyle: natural light warm skin with fine anatomical details and realistic skin texture; slender adult fingers, five anatomically correct fingers, natural short nails. Neutral soft studio lighting, crisp photographic cutout edges. Object has coherent modest self-shading but no background or cast shadow.\nConstraints: Create a new original non-identifiable hand. Actual fully transparent alpha background, no white rectangle or checkerboard pixels. No paper, no whiteboard, no marks, no letters or words, no watermarks, no logos, no jewelry, no extra fingers, no detached fingers, no extra hand, no amputated-looking wrist. The clean visible nib tip must remain unobstructed for precise writing-point animation."
+  },
+  "alternates": {
+    "generation_mode": "built-in image_gen__imagegen",
+    "generated_on": "2026-10-13",
+    "reference_role": "Broad visual direction only; original AI-generated hands, not reference cutouts.",
+    "postprocessing": "No raster image edits; exact generated PNG copied to project assets.",
+    "notes": [
+      "Both outputs are 1254 x 1254 RGBA despite square 1024 prompt.",
+      "True alpha transparency, background is not a drawn checkerboard. Subject interior alpha predominantly 252–254.",
+      "Tiny alpha=1 speckles exist outside main silhouette. Main silhouette alpha>16 is clean. Do not crop by raw nonzero-alpha bbox.",
+      "Natural right-hand writing grip. Forearm exits bottom-right. Nib anchors are visually estimated at tip and can be refined by compositor."
+    ],
+    "assets": [
+      {
+        "name": "hand_marker",
+        "prompt": "Use case: photorealistic-natural. Asset type: a single reusable transparent PNG cutout for a whiteboard handwriting animation. Generate an original realistic adult RIGHT hand holding one plain black felt-tip marker in a anatomically correct relaxed tripod writing grip. The hand is seen from a fixed camera directly above the writing plane, viewing mostly the back of the right hand. The marker tip points toward the upper left and touches an imaginary whiteboard plane; the marker runs diagonally from the tip at upper left through the grip toward lower right. The wrist and forearm extend down to the bottom edge. A neat very pale light-blue cotton shirt sleeve covers the forearm below the wrist; simple cuff, no cufflinks or logos. Square 1024x1024 composition; marker nib approximately at x=300 y=220; hand centered around x=550 y=420; forearm lower end approximately x=640. Full marker, all fingers, hand and wrist visible, with only the forearm cropped naturally at the bottom edge. Subject alone, isolated on genuine alpha transparency. Natural light skin texture, realistic tendons and knuckles, short clean nails, five anatomically correct fingers, believable finger occlusion around the marker, soft neutral studio light with subtle self-shading. Edges clean and antialiased for compositing over white. No ground plane, no background of any color, no checkerboard drawn into pixels, no cast shadow, no drawing, no paper, no text, no watermark, no jewelry, no other objects, no left hand, no extra fingers. Make this a photographic cutout, not an illustration or 3D render.",
+        "nib_anchor_pixels": {
+          "x": 359,
+          "y": 228
+        },
+        "nib_anchor_normalized": {
+          "x": 0.2862838915470494,
+          "y": 0.18181818181818182
+        },
+        "transparent_percent": 75.464,
+        "material": "light-blue shirt cuff and black felt-tip marker",
+        "width": 1254,
+        "height": 1254,
+        "channels": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "file": "hand_marker.png"
+      },
+      {
+        "name": "hand_pencil",
+        "prompt": "Use case: photorealistic-natural. Asset type: a single reusable transparent PNG cutout for a whiteboard handwriting animation. Generate an original realistic adult RIGHT hand holding one sharpened natural unpainted wood graphite pencil in an anatomically correct relaxed tripod writing grip. The hand is seen from a fixed camera directly above the writing plane, viewing mostly the back of the right hand. The sharp graphite pencil tip points toward the upper left and touches an imaginary drawing plane; the pencil runs diagonally from the tip at upper left through the grip toward lower right. The bare wrist and natural bare forearm extend down to the bottom edge, absolutely no sleeve, jewelry, tattoo or watch. Square 1024x1024 composition; pencil nib approximately at x=300 y=220; hand centered around x=550 y=420; forearm lower end approximately x=640. The whole pencil, all fingers, whole hand and wrist visible, with only the forearm cropped naturally at the bottom edge. Subject alone, isolated on genuine alpha transparency. Warm light skin with realistic skin pores, tendons and knuckles, short clean nails, five anatomically correct fingers, believable finger occlusion around the pencil. Soft neutral studio light with subtle self-shading. Edges clean and antialiased for compositing over white. No ground plane, no background of any color, no checkerboard drawn into pixels, no cast shadow, no drawing, no paper, no text, no watermark, no extra objects, no left hand, no extra fingers. Make this a photographic cutout, not an illustration or 3D render.",
+        "nib_anchor_pixels": {
+          "x": 288,
+          "y": 129
+        },
+        "nib_anchor_normalized": {
+          "x": 0.22966507177033493,
+          "y": 0.10287081339712918
+        },
+        "transparent_percent": 71.524,
+        "material": "bare wrist and unpainted wood pencil",
+        "width": 1254,
+        "height": 1254,
+        "channels": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "file": "hand_pencil.png"
+      }
+    ]
+  }
+}

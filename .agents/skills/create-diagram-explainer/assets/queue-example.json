@@ -1,0 +1,286 @@
+{
+  "title": "一个任务，怎样离开等待队列？",
+  "example_notice": "虚构教学示例：不代表具体产品或测量结果",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "audio_kind": "narration",
+  "scenes": [
+    {
+      "id": "queue-story",
+      "title": "到达 → 等待 → 许可 → 执行",
+      "narration": "在这个虚构例子里，一个任务先进入等待队列。任务已经到达，但工作单元还没有空位。工作单元发回许可，说明现在可以接收任务。任务离开队列进入工作单元，等待数量随之减少。",
+      "clauses": [
+        {
+          "id": "arrival",
+          "text": "在这个虚构例子里，一个任务先进入等待队列。",
+          "wav": "audio/arrival.wav",
+          "focus": [
+            "job",
+            "waiting"
+          ],
+          "preview_seconds": 4
+        },
+        {
+          "id": "wait",
+          "text": "任务已经到达，但工作单元还没有空位。",
+          "wav": "audio/wait.wav",
+          "focus": [
+            "job",
+            "worker"
+          ],
+          "preview_seconds": 4
+        },
+        {
+          "id": "grant",
+          "text": "工作单元发回许可，说明现在可以接收任务。",
+          "wav": "audio/grant.wav",
+          "focus": [
+            "worker",
+            "control"
+          ],
+          "preview_seconds": 4
+        },
+        {
+          "id": "depart",
+          "text": "任务离开队列进入工作单元，等待数量随之减少。",
+          "wav": "audio/depart.wav",
+          "focus": [
+            "job",
+            "waiting",
+            "worker"
+          ],
+          "preview_seconds": 4
+        }
+      ],
+      "elements": [
+        {
+          "id": "source",
+          "kind": "node",
+          "box": [
+            60,
+            260,
+            230,
+            170
+          ],
+          "label": "任务来源",
+          "visible": true
+        },
+        {
+          "id": "waiting",
+          "kind": "queue",
+          "box": [
+            450,
+            260,
+            300,
+            170
+          ],
+          "label": "等待队列",
+          "capacity": 4,
+          "count": 0,
+          "state": "等待",
+          "visible": true
+        },
+        {
+          "id": "worker",
+          "kind": "node",
+          "box": [
+            980,
+            260,
+            230,
+            170
+          ],
+          "label": "工作单元",
+          "state": "忙碌",
+          "visible": true
+        },
+        {
+          "id": "incoming",
+          "kind": "edge",
+          "from": "source",
+          "to": "waiting",
+          "flow": "data",
+          "points": [
+            [
+              290,
+              350
+            ],
+            [
+              562.5,
+              350
+            ]
+          ],
+          "label": "任务",
+          "visible": true
+        },
+        {
+          "id": "outgoing",
+          "kind": "edge",
+          "from": "waiting",
+          "to": "worker",
+          "flow": "data",
+          "points": [
+            [
+              562.5,
+              350
+            ],
+            [
+              1095,
+              350
+            ]
+          ],
+          "label": "任务",
+          "visible": false
+        },
+        {
+          "id": "control",
+          "kind": "edge",
+          "from": "worker",
+          "to": "waiting",
+          "flow": "control",
+          "points": [
+            [
+              1095,
+              260
+            ],
+            [
+              1095,
+              195
+            ],
+            [
+              600,
+              195
+            ],
+            [
+              600,
+              260
+            ]
+          ],
+          "label": "许可（反向控制）",
+          "visible": false
+        },
+        {
+          "id": "job",
+          "kind": "token",
+          "position": [
+            290,
+            350
+          ],
+          "label": "任务 A",
+          "visible": true
+        }
+      ],
+      "events": [
+        {
+          "id": "arrive",
+          "kind": "move",
+          "target": "job",
+          "edge": "incoming",
+          "at": {
+            "clause": "arrival",
+            "fraction": 0.2
+          },
+          "until": {
+            "clause": "arrival",
+            "fraction": 0.75
+          },
+          "arrive_queue": "waiting",
+          "meaning": "同一任务进入等待位置"
+        },
+        {
+          "id": "count-arrival",
+          "kind": "queue",
+          "target": "waiting",
+          "count": 1,
+          "at": {
+            "clause": "arrival",
+            "fraction": 0.75
+          },
+          "meaning": "到达后队列含一个任务，包括焦点任务"
+        },
+        {
+          "id": "show-control",
+          "kind": "reveal",
+          "target": "control",
+          "at": {
+            "clause": "grant",
+            "fraction": 0
+          },
+          "until": {
+            "clause": "grant",
+            "fraction": 0.3
+          },
+          "meaning": "控制信号从工作单元返回队列"
+        },
+        {
+          "id": "grant-state",
+          "kind": "state",
+          "target": "worker",
+          "value": "可接收",
+          "at": {
+            "clause": "grant",
+            "fraction": 0.4
+          },
+          "meaning": "许可已经到达，允许后续移动"
+        },
+        {
+          "id": "show-route",
+          "kind": "reveal",
+          "target": "outgoing",
+          "at": {
+            "clause": "grant",
+            "fraction": 0.5
+          },
+          "until": {
+            "clause": "grant",
+            "fraction": 0.8
+          },
+          "meaning": "显示正向任务路径"
+        },
+        {
+          "id": "leave",
+          "kind": "move",
+          "target": "job",
+          "edge": "outgoing",
+          "requires": [
+            {
+              "target": "worker",
+              "state": "可接收"
+            }
+          ],
+          "at": {
+            "clause": "depart",
+            "fraction": 0.1
+          },
+          "until": {
+            "clause": "depart",
+            "fraction": 0.65
+          },
+          "meaning": "许可之后，唯一的任务沿正向路径离开"
+        },
+        {
+          "id": "count-departure",
+          "kind": "queue",
+          "target": "waiting",
+          "count": 0,
+          "at": {
+            "clause": "depart",
+            "fraction": 0.1
+          },
+          "meaning": "任务出队时等待数量变成零"
+        },
+        {
+          "id": "process",
+          "kind": "state",
+          "target": "worker",
+          "value": "执行任务 A",
+          "at": {
+            "clause": "depart",
+            "fraction": 0.7
+          },
+          "meaning": "任务到达后进入执行状态"
+        }
+      ]
+    }
+  ]
+}

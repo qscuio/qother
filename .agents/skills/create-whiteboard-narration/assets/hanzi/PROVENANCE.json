@@ -1,0 +1,12 @@
+{
+  "source_project": "https://github.com/chanind/hanzi-writer-data",
+  "version": "2.0.1",
+  "data_base_url": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/",
+  "upstream_data": "https://github.com/skishore/makemeahanzi",
+  "license": "Arphic Public License",
+  "license_file": "ARPHICPL.TXT",
+  "fields_used": [
+    "medians"
+  ],
+  "file_modifications": "None; coordinate scaling is applied at render time."
+}

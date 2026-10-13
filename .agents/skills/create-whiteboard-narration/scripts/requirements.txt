@@ -1,0 +1,2 @@
+Pillow>=10
+# FFmpeg + FFprobe are separate system executables. No models or fonts auto-download.

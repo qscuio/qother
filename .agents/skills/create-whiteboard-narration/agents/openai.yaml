@@ -1,0 +1,5 @@
+interface:
+  display_name: 带手白板手绘口播
+  short_description: 制作可见手部逐笔绘制、分区上色并与实际旁白同步的白板视频
+  default_prompt: Use $create-whiteboard-narration to turn this explanation into a
+    visible-hand whiteboard video with stroke-by-stroke writing and synchronized narration.

@@ -52,4 +52,10 @@
 
 感谢 **yang0** 的 [handraw-style](https://github.com/yang0/handraw-style) 与 **liulei / threerocks** 的 [hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles)。本项目选择性改编其风格拆分、材料与线条、版式及一致性检查方法，增强现有 skills；不是整库安装或已验证的生成服务。固定版本、取舍和完整许可见[手绘适配记录](docs/hand-drawn-adaptation.md)。yang0 使用带额外署名要求的 MIT 变体，不能称作标准 MIT。
 
+## 可复用视频制作 Skills
+
+- [带手白板手绘口播](.agents/skills/create-whiteboard-narration/SKILL.md)：可见手部逐笔绘制、分区上色，并与实际旁白同步。
+- [流程图动态讲解](.agents/skills/create-diagram-explainer/SKILL.md)：无手部的动态图解，突出流程方向、因果与状态变化。
+
+两套技能均附可运行渲染脚本、通用示例、检查程序与来源说明。仓库副本省略个人技能服务自动生成的图标和服务专属 UI 元数据，核心工作流与渲染代码保持一致。
 

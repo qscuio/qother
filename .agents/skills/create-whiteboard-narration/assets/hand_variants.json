@@ -1,0 +1,32 @@
+{
+  "default": "cream_pen",
+  "variants": {
+    "cream_pen": {
+      "file": "hand.png",
+      "nib_anchor": [
+        246,
+        129
+      ],
+      "render_height": 760,
+      "description": "Cream knit cuff and brown/gold fountain pen"
+    },
+    "marker": {
+      "file": "hand_marker.png",
+      "nib_anchor": [
+        359,
+        228
+      ],
+      "render_height": 820,
+      "description": "Light-blue cuff and black marker"
+    },
+    "pencil": {
+      "file": "hand_pencil.png",
+      "nib_anchor": [
+        288,
+        129
+      ],
+      "render_height": 760,
+      "description": "Bare forearm and wooden pencil"
+    }
+  }
+}
