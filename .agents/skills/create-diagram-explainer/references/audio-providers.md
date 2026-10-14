@@ -30,3 +30,7 @@ Useful official references to verify when this route is selected:
 - https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
 
 Test a short sample and listen before batch generation. Label synthetic narration accurately; do not call a preset voice a recording by a real person. If dependency or model setup is missing, inspect available alternatives, then ask only for the setup/action that actually needs permission. Do not invent keys, silently download models, or add repeated approval gates for already-authorized ordinary rendering.
+
+## Shared pronunciation preparation
+
+Read [the repository pronunciation contract](../../../../pronunciation/README.md). Run its shared helper on canonical prose, keep `display.txt` for captions, and supply only `spoken.txt` to the authorized TTS input. Preserve the report privately. All initial MAC/VLAN/LIF-family/RIF engine inputs are pending. Record actual trial/review results for the exact profile; keep unverified terms pending. Production authorization comes from the user independently of pronunciation verification, so do not invent another approval wait or claim acceptance merely because production is authorized. A code test or an accepted voice timbre cannot validate a term's pronunciation.

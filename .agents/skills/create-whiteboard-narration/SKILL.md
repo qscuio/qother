@@ -16,6 +16,10 @@ Create an illustration-led scene that grows while the narration explains it. Kee
 5. Render a representative preview containing Chinese writing, illustration, paint, captions, and the hand exit. Use still/contact-sheet review first when it resolves the question without a movie. Inspect it yourself and fix it; request user feedback only when a meaningful creative choice is unresolved or they asked for a checkpoint. Do not impose repeated mandatory approvals.
 6. Run [production-contract.md](references/production-contract.md) before expensive production: accepted voice, unchanged master/script, reviewed scene samples and a verified delivery-size budget. Render the full piece, decode the final media, inspect timed frames and motion, and listen to the narration when playback is available. Use [quality-checks.md](references/quality-checks.md). Report review limitations honestly. Deliver the requested video and useful reusable source; do not upload or publish outside the authorized destination.
 
+## Shared technical pronunciation
+
+Use the repository's [versioned pronunciation lexicon](../../../pronunciation/README.md) before preparing technical speech. Keep canonical narration, captions and labels unchanged; generate separate `spoken_text` with `scripts/apply_pronunciation.py` from the repository root. Both skills share that one lexicon. Candidate engine spellings remain pending until actually auditioned for the selected voice/configuration; `--allow-pending` prepares a draft, never approves synthesis. If this skill is installed without the repository, locate the same lexicon/helper explicitly rather than creating a divergent replacement table.
+
 ## Reusable starter
 
 The bundled renderer is a small working, single-canvas engine for authored vector strokes. It is not a prompt-to-cartoon generator or a complete long-form production system. Extend the storyboard and artwork for the topic; for long work, render measured visual segments and mux the continuous narration master once after joining them. See the contract for limits and dependencies.

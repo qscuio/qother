@@ -37,3 +37,7 @@ These are schema examples, not measured timings for any bundled audio. Valid fin
 Listen to the selected voice and actual final audiovisual output when playback is available. Check pronunciation of names/abbreviations, audible clipping, awkward pauses, boundary accuracy, the final syllable and whether each drawing illustrates what is spoken. Loudness, correlations, hashes and successful decode cannot establish pleasant speech or correct pronunciation. Record listening as not performed if unavailable.
 
 AAC export changes encoded audio bytes. Preserve and fingerprint the source master; do not claim byte-identical MP4 audio. The renderer checks stream durations against the master with one-frame plus 30 ms encoder tolerance and fully decodes the encoded output. That technical check does not replace listening or establish that every phoneme is present.
+
+## Shared pronunciation preparation
+
+Read [the repository pronunciation contract](../../../../pronunciation/README.md). Run its shared helper on canonical prose, keep `display.txt` for captions, and supply only `spoken.txt` to the authorized TTS input. Preserve the report privately. All initial MAC/VLAN/LIF-family/RIF engine inputs are pending. Record actual trial/review results for the exact profile; keep unverified terms pending. Production authorization comes from the user independently of pronunciation verification, so do not invent another approval wait or claim acceptance merely because production is authorized. A code test or an accepted voice timbre cannot validate a term's pronunciation.

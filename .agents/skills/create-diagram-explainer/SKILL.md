@@ -22,6 +22,10 @@ Make the explanation and its changing diagram readable together on the same scre
 3. Prefer one coherent reviewed narration master, then obtain measured clause boundaries. Do not secretly resynthesize per drawing beat. Reuse it through --master/--timing; if an authorized provider requires paragraph/clause synthesis, document the joins and review the assembled master first. Measure the actual clause audio. Assemble the timeline from those sample counts before finalizing animation. A keyword positioned by a fraction of a clause is an estimate, not forced word alignment. Rebuild timing after any audio or narration change.
 4. Keep captions near the active diagram without covering it. Every narrated clause needs visual support, including the closing conclusion. If audio cannot be produced, report the blocker or offer an explicitly labeled silent preview; never deliver it as a completed narrated video.
 
+## Shared technical pronunciation
+
+Use the repository's [versioned pronunciation lexicon](../../../pronunciation/README.md) before preparing technical speech. Keep canonical narration, captions and labels unchanged; generate separate `spoken_text` with `scripts/apply_pronunciation.py` from the repository root. Both skills share that one lexicon. Candidate engine spellings remain pending until actually auditioned for the selected voice/configuration; `--allow-pending` prepares a draft, never approves synthesis. If this skill is installed without the repository, locate the same lexicon/helper explicitly rather than creating a divergent replacement table.
+
 ## Reusable implementation
 
 Read [project-contract.md](references/project-contract.md) before adapting `assets/queue-example.json`. The example is an invented queue system, not a claim about real hardware. It exercises reveal, queue occupancy, gating, control arrows, movement, and persistent object identity without topic-specific renderer functions.
