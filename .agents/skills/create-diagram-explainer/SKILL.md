@@ -18,8 +18,8 @@ Make the explanation and its changing diagram readable together on the same scre
 ## Build from actual narration
 
 1. Write the complete narration in short clauses and map each clause to its visible focus and event. Keep `narration` exactly equal to the concatenated caption clauses; put pronunciation substitutions in `spoken_text` only.
-2. Generate or obtain one representative spoken clause with an available, authorized audio route, check it, then produce the rest. Preserve the requested voice. For continuations of the originating Mandarin project, its established adult male direction may be reused; it is not a default for other users or projects.
-3. Measure the actual clause audio. Assemble the timeline from those sample counts before finalizing animation. A keyword positioned by a fraction of a clause is an estimate, not forced word alignment. Rebuild timing after any audio or narration change.
+2. Generate or obtain one representative spoken clause with an available, authorized audio route, check it, then produce the rest. Preserve the requested voice. Reuse the actual accepted project configuration; no historic preset or voice gender is a default. For an authorized cloned narrator, read [qwen-voice-clone.md](references/qwen-voice-clone.md) and use the existing local Qwen adapter. Keep the track dry and mono by default; a mono file can still sound spacious.
+3. Prefer one coherent reviewed narration master, then obtain measured clause boundaries. Do not secretly resynthesize per drawing beat. Reuse it through --master/--timing; if an authorized provider requires paragraph/clause synthesis, document the joins and review the assembled master first. Measure the actual clause audio. Assemble the timeline from those sample counts before finalizing animation. A keyword positioned by a fraction of a clause is an estimate, not forced word alignment. Rebuild timing after any audio or narration change.
 4. Keep captions near the active diagram without covering it. Every narrated clause needs visual support, including the closing conclusion. If audio cannot be produced, report the blocker or offer an explicitly labeled silent preview; never deliver it as a completed narrated video.
 
 ## Reusable implementation
@@ -33,14 +33,14 @@ python "$SKILL_DIR/scripts/diagram.py" validate project.json
 python "$SKILL_DIR/scripts/diagram.py" assemble project.json --out build
 python "$SKILL_DIR/scripts/diagram.py" render build/timeline.json --out explainer.mp4
 python "$SKILL_DIR/scripts/diagram.py" frames build/timeline.json --out qa
-PYTHONDONTWRITEBYTECODE=1 python "$SKILL_DIR/scripts/test_diagram.py"
+PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s "$SKILL_DIR/scripts" -p 'test_*.py'
 ```
 
 - `assemble` normally combines mono 16-bit PCM clause WAVs with 0.15 s lead/0.30 s tail per scene. If narration already has measured timing, add `--master existing.wav --timing timing.json` to preserve the master byte-for-byte, including padding and gaps. Both modes write a narration master, timeline, and SRT; see the contract for supplied timing.
 - `render` creates 1280×720, 24 fps H.264/AAC by default, with progressive line reveal, a warm paper/ink/accent palette, caption wrapping, and one state model per object. Size, rate, font, colors, text, and graph are configurable.
 - For layout-only work, `assemble --preview` creates an explicitly labeled silent timing preview. Render that timeline with `--preview`; it cannot pass as a narrated final.
 - The renderer is a small adaptable base, not a universal illustration system. Extend primitives for a topic only when needed and retain the timing, identity, and causal checks.
-- [audio-providers.md](references/audio-providers.md) covers provider-neutral inputs and the optional local Kokoro adapter. Use it only if that route is appropriate and its dependencies/model already exist or their setup is authorized.
+- [audio-providers.md](references/audio-providers.md) covers provider-neutral inputs, the optional local Qwen clone route and the legacy Kokoro adapter. Use it only if that route is appropriate and its dependencies/model already exist or their setup is authorized.
 
 ## Verify and deliver
 

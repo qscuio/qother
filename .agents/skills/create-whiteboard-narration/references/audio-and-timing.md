@@ -6,6 +6,8 @@ Reuse approved supplied narration when available. Preserve its words and master 
 
 Do not clone a person, create keys, install models, or transmit private source text to a new service without the relevant authorization. If no acceptable route is available, stop the dependent audio work and report the choice needed. Do not replace a rejected voice with another unreviewed full-length synthesis. A canceled video request stays canceled; improving this skill does not authorize another sample, TTS call, or render.
 
+For an authorized cloned narrator, read [qwen-voice-clone.md](qwen-voice-clone.md): existing local Qwen3 0.6B Base, matched reference transcript, input/configuration hashes, private output manifest and short audition. Keep the actual accepted project configuration; no personal recording, voice identity or acceptance is bundled with the skill. Default to dry mono with no artificial space effects, and investigate spacious sound even when the file is mono.
+
 ## One continuous narration master
 
 1. Establish a coherent final spoken script before visual segmentation, using any script-review checkpoint the user requested. Prefer one continuous synthesis where the chosen service supports the duration. If a real service limit forces paragraph-level synthesis, disclose that limitation, assemble and listen to a coherent master first, and record joins/edits. Never secretly synthesize one audio chunk per drawing beat.

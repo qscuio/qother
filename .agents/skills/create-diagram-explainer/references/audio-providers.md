@@ -2,9 +2,15 @@
 
 Use the user's chosen provider or an appropriate already-authorized route. The visual pipeline does not require a particular TTS vendor, an API key, or a voice gender. Human recordings and other synthetic voices can supply the same clause WAV contract.
 
-Produce one file per exact caption clause. Use `spoken_text` for pronunciation expansions while retaining `text` for displayed wording. Normalize all files to the same mono 16-bit PCM sample rate before assembly. Do not time-stretch speech just to match an early storyboard estimate; revise pacing and visual timing instead.
+Prefer a coherent accepted narration master with measured clause timing and the --master/--timing route. If using the legacy clause-assembly route for an authorized reason, produce one file per exact caption clause and review the assembled master before visual timing. Use `spoken_text` for pronunciation expansions while retaining `text` for displayed wording. Normalize all files to the same mono 16-bit PCM sample rate before assembly. Do not time-stretch speech just to match an early storyboard estimate; revise pacing and visual timing instead.
 
 `diagram.py assemble` measures the WAV sample counts, rejects silent/non-PCM inputs, and concatenates them with short lead/tail pauses. For an existing narration master with measured clause timing, use `--master` and `--timing` as documented in the project contract to preserve the original bytes, pauses, and boundaries instead. Caption boundaries are measured clause boundaries. Event fractions inside clauses are explicitly recorded as estimated interpolation, not measured word timestamps. For stricter sync, create shorter meaningful clauses or adapt the contract to externally verified word alignment and keep that method accurately labeled.
+
+## Authorized local Qwen clone route
+
+Read [qwen-voice-clone.md](qwen-voice-clone.md) for the exercised Qwen3-TTS 0.6B Base CPU/float32 path and scripts/qwen_narration.py. It needs an authorized reference, its matching transcript, an existing local model/runtime and an actual short audition. Reuse only a reviewed project configuration. The script preserves one mono master, source/settings hashes, a private manifest and honest pending review/timing states. Do not publish personal references, embeddings, source hashes or manifests.
+
+Default to dry mono without artificial reverb or widening. Channel count alone cannot establish dryness; investigate reference room sound, channel mixing, synthesis artifacts and actual playback before claiming a cause or fix. A canceled production stays canceled, and a skill update does not authorize a new audio/video sample. Never silently fall back to a rejected preset.
 
 ## Optional existing local Kokoro setup
 
