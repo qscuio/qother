@@ -7,6 +7,8 @@ from __future__ import annotations
 import argparse, bisect, json, math, shutil, subprocess, sys
 from pathlib import Path
 from PIL import Image, ImageChops, ImageDraw, ImageFont
+from scene_contract import block_items, inspect_style
+from production_preflight import sha256_file, delivery_budget, run as production_preflight
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_W, BASE_H = 1280, 720
@@ -69,6 +71,8 @@ def points(value, minimum=2):
 
 def text_strokes(item, hanzi_dir):
     x,y=map(float,item['at']);size=float(item.get('size',40));out=[]
+    if not all(math.isfinite(v) for v in (x,y,size)) or size<=0:raise ValueError('Text placement and size must be finite, with positive size')
+    if not isinstance(item['text'],str) or not item['text'].strip():raise ValueError('Handwriting text must be nonempty')
     for index,ch in enumerate(item['text']):
         if ch==' ': x+=size*.42; continue
         if ch in GLYPHS:
@@ -118,22 +122,28 @@ def expand(item, hanzi_dir, masks, name):
     raise ValueError(f'Unsupported command type: {kind}')
 
 def compile_scene(spec, duration, hanzi_dir):
+    if not math.isfinite(duration) or duration<=0:raise ValueError('Scene duration must be finite and positive')
+    if not isinstance(spec.get('blocks'),list) or not spec['blocks']:raise ValueError('Scene needs nonempty blocks')
     events=[];masks={};current=(-180.,800.);last=0.
     def append(kind,start,end,p,**extra):
-        if end<=start:raise ValueError('Nonpositive event duration')
+        if not all(math.isfinite(v) for v in (start,end)) or end<=start:raise ValueError('Event times must be finite and increasing')
         ll=[0.]
         for a,b in zip(p,p[1:]):ll.append(ll[-1]+distance(a,b))
         events.append(dict(kind=kind,start=start,end=end,points=p,lengths=ll,length=ll[-1],**extra))
     for bi,block in enumerate(spec['blocks']):
         start,end=float(block['start']),float(block['end'])
-        if start<last-1e-8 or end<=start or end>duration:raise ValueError('Blocks must be ordered, nonoverlapping, and inside audio duration')
+        if not all(math.isfinite(v) for v in (start,end)) or start<last-1e-8 or end<=start or end>duration:raise ValueError('Blocks must be ordered, nonoverlapping, and inside audio duration')
         if start>last:append('hold',last,start,[current,current],tag='hold')
         strokes=[]
-        for ii,item in enumerate(block['items']):strokes+=expand(item,hanzi_dir,masks,f'{bi}-{ii}')
+        for ii,item in enumerate(block_items(block)):
+            expanded=expand(item,hanzi_dir,masks,f'{bi}-{ii}')
+            for stroke in expanded:
+                if '_part_id' in item:stroke.update(part_id=item['_part_id'],phase=item['_phase'])
+            strokes+=expanded
         if not strokes: raise ValueError('Empty drawing block')
         weights=[];prior=current
         for s in strokes:
-            if s['width']<=0:raise ValueError('Stroke width must be positive')
+            if not math.isfinite(s['width']) or s['width']<=0:raise ValueError('Stroke width must be finite and positive')
             weights.append((max(.06,distance(prior,s['points'][0])/1600),max(.07,path_length(s['points'])/1300)));prior=s['points'][-1]
         scale=(end-start)/sum(sum(w) for w in weights);t=start
         for s,(lift,draw) in zip(strokes,weights):
@@ -142,20 +152,35 @@ def compile_scene(spec, duration, hanzi_dir):
         last=end
     exit_cfg=spec.get('exit',{'start':max(last,duration-.9),'end':duration-.4})
     start,end=float(exit_cfg['start']),float(exit_cfg['end'])
-    if start<last-1e-8 or end<=start or end>duration:raise ValueError('Exit must follow all drawing and finish before audio ends')
+    if not all(math.isfinite(v) for v in (start,end)) or start<last-1e-8 or end<=start or end>=duration:raise ValueError('Exit must follow all drawing and finish before audio ends')
     if start>last:append('hold',last,start,[current,current],tag='hold')
     off=(1450.,850.);append('exit',start,end,[current,off],tag='exit')
     if end<duration:append('hold',end,duration,[off,off],tag='hold')
     return events,masks,end
 
+def verify_draw_bounds(spec,events):
+    """Check expanded glyph/path bounds, rather than trusting a text origin alone."""
+    if 'style' not in spec:return
+    bottom=float(spec['style'].get('caption_lane_top',590))
+    for e in events:
+        if e['kind']!='draw' or e.get('fill_id'):continue
+        radius=e['width']/2
+        if any(x-radius<0 or x+radius>BASE_W or y-radius<0 or y+radius>bottom for x,y in e['points']):
+            raise ValueError(f"Expanded stroke {e['tag']} crosses the canvas or reserved caption lane")
+
+
 def event_samples(e,fps):
-    return max(0,math.ceil(e['end']*fps-1e-8)-math.ceil(e['start']*fps-1e-8))
+    # Exact event-start frames contain no new stroke/travel, so count interior samples.
+    first=math.floor(e['start']*fps+1e-8)+1
+    return max(0,math.ceil(e['end']*fps-1e-8)-first)
 def select_fps(events,requested):
-    candidates=[int(requested)] if requested!='auto' else [24,30,48,60,90,120]
+    candidates=[int(requested)] if requested!='auto' else [24,30,48,60]
     for fps in candidates:
         if fps<1 or fps>240:raise ValueError('FPS must be 1..240 or auto')
-        if all(event_samples(e,fps)>=2 for e in events if e['kind'] in ('draw','lift')):return fps
-    raise ValueError('Some strokes/lifts receive fewer than two frames. Lengthen blocks or simplify the artwork; auto FPS stops at 120.')
+        if all(event_samples(e,fps)>=2 for e in events if e['kind'] in ('draw','lift','exit')):return fps
+    bad=[e for e in events if e['kind'] in ('draw','lift','exit') and event_samples(e,candidates[-1])<2]
+    detail=', '.join(f"{e['kind']} {e['tag']} at {e['start']:.3f}s ({e['end']-e['start']:.4f}s)" for e in bad[:3])
+    raise ValueError(f'Undersampled motion at {candidates[-1]} fps: {detail}. Lengthen these blocks/transitions or simplify strokes/fill rows. Auto FPS is capped at 60; explicit FPS is never raised.')
 def along(e,f):
     f=max(0.,min(1.,f));d=e['length']*f;ls=e['lengths'];i=min(max(0,bisect.bisect_right(ls,d)-1),len(ls)-2)
     a,b=e['points'][i:i+2];u=(d-ls[i])/(ls[i+1]-ls[i] or 1)
@@ -182,6 +207,79 @@ def media_duration(path):
     proc=subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','json',str(path)],capture_output=True,text=True,check=True)
     return float(json.loads(proc.stdout)['format']['duration'])
 
+def validate_hand(raw, preset):
+    """Reject stale anchors/sizes; opacity near the anchor is only a geometric check."""
+    a=preset.get('nib_anchor',[])
+    if len(a)!=2 or not all(isinstance(v,(int,float)) and math.isfinite(v) for v in a):
+        raise ValueError('Hand nib_anchor must contain two finite coordinates')
+    if not (0<=a[0]<raw.width and 0<=a[1]<raw.height-1):
+        raise ValueError('Hand nib anchor must lie inside the actual asset, above its bottom edge')
+    if preset.get('source_size',list(raw.size))!=list(raw.size):
+        raise ValueError('Hand source_size is stale; recalibrate against the actual asset')
+    h=preset.get('render_height')
+    if not isinstance(h,(int,float)) or not math.isfinite(h) or h<=0:
+        raise ValueError('Hand render_height must be finite and positive')
+    x,y=map(round,a);radius=4
+    region=raw.getchannel('A').crop((max(0,x-radius),max(0,y-radius),min(raw.width,x+radius+1),min(raw.height,y+radius+1)))
+    if region.getextrema()[1]<32:
+        raise ValueError('Nib anchor is far from visible alpha; inspect and recalibrate the tip')
+    return {'status':'geometry_pass','source_size':list(raw.size),'nib_anchor':a,
+            'visual_tip_review':'not_performed','rotation_degrees':0}
+
+
+def opaque_edge_spans(raw):
+    """Conservative spans of source-cut pixels, including all four asset edges."""
+    alpha=raw.getchannel('A');w,h=raw.size;result=[]
+    for name,coords in (('top',[(x,0) for x in range(w)]),('bottom',[(x,h-1) for x in range(w)]),
+                        ('left',[(0,y) for y in range(h)]),('right',[(w-1,y) for y in range(h)])):
+        opaque=[p for p in coords if alpha.getpixel(p)>16]
+        if opaque:result.append((name,opaque[0],opaque[-1]))
+    return result
+
+
+def check_hand_edges(events,renderer,fps,duration):
+    violations=[];sx,sy=renderer.hand_scale;px,py=renderer.pivot
+    # Include exact event endpoints and middle as well as every delivered frame.
+    times={i/fps for i in range(math.ceil(duration*fps))}
+    for e in events:times.update((e['start'],(e['start']+e['end'])/2,e['end']))
+    for t in sorted(times):
+        if t>=renderer.exit_end:continue
+        _,(x,y),_=at(events,t)
+        for name,a,b in renderer.source_edges:
+            ax,ay=x+a[0]*sx-px,y+a[1]*sy-py
+            bx,by=x+b[0]*sx-px,y+b[1]*sy-py
+            # One-pixel margin covers interpolation around an otherwise just-hidden edge.
+            if max(ax,bx)>=-1 and min(ax,bx)<=BASE_W+1 and max(ay,by)>=-1 and min(ay,by)<=BASE_H+1:
+                violations.append({'time':round(t,6),'edge':name})
+                if len(violations)>=12:return violations
+    return violations
+
+
+def qa_sample_times(events,fps,duration):
+    """Use exact delivered frames around motion boundaries, never just scene midpoint."""
+    final=max(0,math.ceil(duration*fps)-1);indices={0,final}
+    for e in events:
+        if e['kind'] not in ('draw','lift','exit'):continue
+        first=math.ceil(e['start']*fps-1e-8);last=math.ceil(e['end']*fps-1e-8)-1
+        indices.update((first-1,first,(first+last)//2,last,last+1))
+    return [round(i/fps,9) for i in sorted(indices) if 0<=i<=final]
+
+
+def caption_layout(text,font):
+    """Measure every caption before an encode can start; cache this exact layout."""
+    if not isinstance(text,str) or not text.strip():raise ValueError('Empty caption')
+    measure=ImageDraw.Draw(Image.new('RGB',(1,1)));lines=[]
+    for paragraph in text.split('\n'):
+        current=''
+        for ch in paragraph:
+            if measure.textlength(current+ch,font=font)>1090:
+                lines.append(current);current=ch
+            else:current+=ch
+        lines.append(current)
+    if len(lines)>2:raise ValueError('Caption requires more than two lines; split into shorter measured clauses')
+    return {'lines':lines,'width':max(measure.textlength(line,font=font) for line in lines)+52,'height':43*len(lines)+12}
+
+
 class Renderer:
     def __init__(self,spec,events,masks,exit_end,hand,font=None,ss=1):
         self.events=events;self.ends=[e['end'] for e in events];self.exit_end=exit_end;self.ss=ss;self.next=0;self.last=-1
@@ -191,16 +289,21 @@ class Renderer:
         presets=json.loads((ROOT/'assets/hand_variants.json').read_text())['variants']
         if hand not in presets:raise ValueError('Unknown hand: '+hand)
         v=presets[hand];raw=Image.open(ROOT/'assets'/v['file']).convert('RGBA');a=v['nib_anchor']
+        self.calibration=validate_hand(raw,v)
+        self.source_edges=opaque_edge_spans(raw)
         # No rotation in this minimal renderer. Extend all source bottom-cut pixels offscreen.
         min_y=min(p[1] for e in events for p in e['points'])-7
         needed=math.ceil((BASE_H+20-min_y)/(1-a[1]/raw.height))
         height=max(v['render_height'],needed);scale=height/raw.height
         self.hand=raw.resize((round(raw.width*scale),height),Image.Resampling.LANCZOS)
         self.pivot=(a[0]*scale,a[1]*scale);self.crop_bottom_offset=(raw.height-a[1])*scale
+        self.hand_scale=(self.hand.width/raw.width,self.hand.height/raw.height)
+        self.pivot=(a[0]*self.hand_scale[0],a[1]*self.hand_scale[1])
         self.captions=spec.get('captions',[])
         self.font=ImageFont.truetype(find_font(font),28) if self.captions else None
         if self.captions and any(any(ord(ch)>127 for ch in c['text']) for c in self.captions):
             if not font and 'NotoSansCJK' not in find_font(None):raise ValueError('Non-ASCII captions need --font with the correct glyph coverage')
+        self.caption_layouts={c['text']:caption_layout(c['text'],self.font) for c in self.captions}
     def stroke(self,im,p,c,w):
         p=[(round(x*self.ss),round(y*self.ss)) for x,y in p];w=max(1,round(w*self.ss));d=ImageDraw.Draw(im)
         d.line(p,fill=c,width=w,joint='curve');r=w/2
@@ -209,6 +312,7 @@ class Renderer:
         _,p=along(e,u)
         if e.get('fill_id'):
             m=Image.new('L',ink.size);self.stroke(m,p,255,e['width']);m=ImageChops.darker(m,self.masks[e['fill_id']])
+            if e['color'][3]!=255:m=m.point(lambda alpha:round(alpha*e['color'][3]/255))
             patch=Image.new('RGBA',ink.size,e['color']);patch.putalpha(m);fills.alpha_composite(patch)
         else:self.stroke(ink,p,e['color'],e['width'])
     def frame(self,t,debug=False):
@@ -229,13 +333,8 @@ class Renderer:
         caption=next((c['text'] for c in self.captions if c['start']<=t<c['end']),'')
         d=ImageDraw.Draw(image)
         if caption:
-            lines=[];current=''
-            for ch in caption:
-                if d.textlength(current+ch,font=self.font)>1090:lines.append(current);current=ch
-                else:current+=ch
-            if current:lines.append(current)
-            if len(lines)>2:raise ValueError('Caption requires more than two lines; split into shorter measured clauses')
-            width=max(d.textlength(s,font=self.font) for s in lines)+52;height=43*len(lines)+12;x=(BASE_W-width)/2;y=BASE_H-20-height
+            layout=self.caption_layouts[caption];lines=layout['lines']
+            width,height=layout['width'],layout['height'];x=(BASE_W-width)/2;y=BASE_H-20-height
             d.rounded_rectangle((x,y,x+width,y+height),12,fill=(40,48,51,255))
             for i,s in enumerate(lines):d.text((BASE_W/2,y+6+i*43),s,font=self.font,fill='white',anchor='mt')
         if debug:
@@ -249,26 +348,51 @@ def verify_captions(spec,duration,production):
         raise ValueError('Final captions require caption_timing: manual_measured, provider_timestamps, or forced_alignment. Character interpolation is preview-only.')
     last=0
     for c in spec.get('captions',[]):
-        if not isinstance(c['text'],str) or not c['text']:raise ValueError('Empty caption')
+        if not isinstance(c['text'],str) or not c['text'].strip():raise ValueError('Empty caption')
         if not 0<=c['start']<c['end']<=duration+.0001 or c['start']<last:raise ValueError('Captions must be ordered, nonoverlapping, and within audio')
         last=c['end']
 
 def audit(events,renderer,fps,duration):
-    frame_count=math.ceil(duration*fps);motions=[e for e in events if e['kind'] in ('draw','lift')]
+    frame_count=math.ceil(duration*fps);motions=[e for e in events if e['kind'] in ('draw','lift','exit')]
     minimum=min((event_samples(e,fps) for e in motions),default=0)
     crop=min(at(events,i/fps)[1][1]+renderer.crop_bottom_offset for i in range(frame_count) if i/fps<renderer.exit_end)
-    return dict(duration=duration,fps=fps,frame_count=frame_count,draw_events=sum(e['kind']=='draw' for e in events),lift_events=sum(e['kind']=='lift' for e in events),minimum_motion_event_frames=minimum,minimum_bottom_crop_y=round(crop,3),crop_edge_offscreen=crop>BASE_H,nib_ink_geometry='same path endpoint; no independent optical tracking',hands='AI-generated transparent sprites, not filmed hands')
+    edge_violations=check_hand_edges(events,renderer,fps,duration)
+    return dict(hand_calibration=renderer.calibration,visible_cut_edges=edge_violations,all_cut_edges_offscreen=not edge_violations,qa_sample_times=qa_sample_times(events,fps,duration),duration=duration,fps=fps,frame_count=frame_count,draw_events=sum(e['kind']=='draw' for e in events),lift_events=sum(e['kind']=='lift' for e in events),minimum_motion_event_frames=minimum,minimum_bottom_crop_y=round(crop,3),crop_edge_offscreen=crop>BASE_H,nib_ink_geometry='same path endpoint; no independent optical tracking',hands='AI-generated transparent sprites, not filmed hands')
+
+def verify_media(path,fps,duration,has_audio):
+    """Inspect and fully decode the actual output, without claiming visual/listening QA."""
+    result=subprocess.run(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(path)],capture_output=True,text=True,check=True)
+    media=json.loads(result.stdout);streams=media.get('streams',[])
+    videos=[s for s in streams if s.get('codec_type')=='video']
+    audios=[s for s in streams if s.get('codec_type')=='audio']
+    if len(videos)!=1 or len(audios)!=int(has_audio):raise ValueError('Final media has unexpected video/audio stream count')
+    if any(s.get('codec_type')=='subtitle' for s in streams):raise ValueError('Captions are burned in; unexpected second subtitle track')
+    durations=[float(videos[0].get('duration',media['format']['duration']))]
+    if has_audio:durations.append(float(audios[0].get('duration',media['format']['duration'])))
+    if any(not math.isfinite(d) or abs(d-duration)>1/fps+.03 for d in durations) or max(durations)-min(durations)>1/fps+.03:
+        raise ValueError('Final audio/video duration differs from the master by more than one frame plus 30 ms encoder tolerance')
+    decode=['ffmpeg','-v','error','-xerror','-i',str(path),'-map','0:v:0']
+    if has_audio:decode+=['-map','0:a:0']
+    decoded=subprocess.run(decode+['-f','null','-'],capture_output=True,text=True,check=True)
+    if decoded.stderr.strip():raise ValueError('Final media decode reported errors: '+decoded.stderr.strip()[:500])
+    return {'status':'pass','full_decode':'pass','stream_durations':durations,
+            'size_bytes':path.stat().st_size,'sha256':sha256_file(path),
+            'visual_review':'not_performed','listening_review':'not_performed'}
+
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('storyboard',type=Path);parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--audio',type=Path);parser.add_argument('--silent-preview',action='store_true')
+    parser.add_argument('--project',type=Path,help='Reviewed production manifest; required for final videos >=60 seconds')
+    parser.add_argument('--max-output-mib',type=float,help='Delivery budget; constrains bitrate and checks actual final size')
+    parser.add_argument('--check-only',action='store_true',help='Validate and write audit/timeline, without creating any image, audio, or video')
     parser.add_argument('--hand',default='cream_pen');parser.add_argument('--hanzi-dir',type=Path,default=ROOT/'assets/hanzi')
     parser.add_argument('--font');parser.add_argument('--fps',default='auto');parser.add_argument('--width',type=int,default=1280);parser.add_argument('--height',type=int,default=720)
     parser.add_argument('--supersample',type=int,choices=[1,2],default=1);parser.add_argument('--still',type=float);parser.add_argument('--debug',action='store_true')
     args=parser.parse_args(argv)
     try:
-        if args.width%2 or args.height%2 or args.width*9!=args.height*16:raise ValueError('This starter supports even-sized 16:9 output. Adapt layout before changing aspect ratio.')
+        if args.width<=0 or args.height<=0 or args.width%2 or args.height%2 or args.width*9!=args.height*16:raise ValueError('This starter supports even-sized 16:9 output. Adapt layout before changing aspect ratio.')
         spec=json.loads(args.storyboard.read_text(encoding='utf-8'))
         if spec.get('version')!=1:raise ValueError('Storyboard version must be 1')
         audio=args.audio
@@ -279,21 +403,47 @@ def main(argv=None):
             duration=media_duration(audio)
         else:duration=float(spec['preview_duration'])
         if not math.isfinite(duration) or duration<=0:raise ValueError('Invalid duration')
+        audio_hash=sha256_file(audio) if audio is not None else None
+        project_report=None;delivery_limit=args.max_output_mib
+        final_video=audio is not None and not args.silent_preview and args.still is None
+        if final_video and duration>=60 and args.project is None:
+            raise ValueError('Final videos of 60 seconds or longer require --project with accepted voice, measured master, reviewed scenes, and delivery budget')
+        if args.project is not None:
+            project=json.loads(args.project.read_text(encoding='utf-8'))
+            project_report=production_preflight(project,args.project.parent,'render')
+            scene_paths={(args.project.parent/s['storyboard']['path']).resolve() for s in project['scenes']}
+            if args.storyboard.resolve() not in scene_paths:raise ValueError('Current storyboard is absent from reviewed project scenes')
+            master=(args.project.parent/project['narration']['master']['path']).resolve()
+            if audio is None or audio.resolve()!=master:raise ValueError('Use the reviewed continuous audio master from the project')
+            limit=project['delivery']['limit_mib'];delivery_limit=min(delivery_limit,limit) if delivery_limit is not None else limit
+        budget=delivery_budget(duration,delivery_limit,160 if audio is not None else 0) if delivery_limit is not None else None
         verify_captions(spec,duration,audio is not None and not args.silent_preview)
-        events,masks,exit_end=compile_scene(spec,duration,args.hanzi_dir);fps=select_fps(events,args.fps)
+        style_report=inspect_style(spec)
+        if style_report['issues']:raise ValueError('Style contract failed: '+'; '.join(style_report['issues']))
+        events,masks,exit_end=compile_scene(spec,duration,args.hanzi_dir)
+        verify_draw_bounds(spec,events);fps=select_fps(events,args.fps)
         renderer=Renderer(spec,events,masks,exit_end,args.hand,args.font,args.supersample)
         report=audit(events,renderer,fps,duration)
-        report.update(mode='motion_preview' if args.silent_preview else 'narrated_video',caption_timing=spec.get('caption_timing','none'))
-        if not report['crop_edge_offscreen']:raise ValueError('Hand crop edge enters frame; adjust hand asset or path layout')
+        report.update(input_hashes={'storyboard':sha256_file(args.storyboard),'audio_master':audio_hash,'renderer':sha256_file(Path(__file__)),'scene_contract':sha256_file(ROOT/'scripts/scene_contract.py'),'hand_config':sha256_file(ROOT/'assets/hand_variants.json'),'hand_asset':sha256_file(ROOT/'assets'/json.loads((ROOT/'assets/hand_variants.json').read_text())['variants'][args.hand]['file'])},production_preflight=project_report,delivery_budget=budget,media_verification={'status':'not_performed'},style=style_report,visual_review='not_performed',listening_review='not_performed',mode='motion_preview' if args.silent_preview else 'narrated_video',caption_timing=spec.get('caption_timing','none'))
+        if not report['crop_edge_offscreen'] or not report['all_cut_edges_offscreen']:raise ValueError('Hand crop edge enters frame; adjust hand asset or path layout')
         args.output.parent.mkdir(parents=True,exist_ok=True)
-        if args.still is not None:
+        if args.check_only:
+            report['mode']='validation_only'
+        elif args.still is not None:
+            report['mode']='still_preview'
             if not 0<=args.still<=duration:raise ValueError('Still time lies outside timeline')
             renderer.frame(args.still,args.debug).resize((args.width,args.height),Image.Resampling.LANCZOS).save(args.output)
         else:
             if not shutil.which('ffmpeg'):raise ValueError('Install or provide FFmpeg before encoding')
             cmd=['ffmpeg','-y','-hide_banner','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24','-s',f'{args.width}x{args.height}','-r',str(fps),'-i','-']
             if audio is not None:cmd+=['-i',str(audio)]
-            cmd+=['-c:v','libx264','-preset','veryfast','-crf','19','-pix_fmt','yuv420p']
+            cmd+=['-map','0:v:0']
+            if audio is not None:cmd+=['-map','1:a:0']
+            cmd+=['-c:v','libx264','-preset','veryfast','-pix_fmt','yuv420p']
+            if budget:
+                rate=str(budget['video_target_kbps'])+'k'
+                cmd+=['-b:v',rate,'-maxrate',rate,'-bufsize',str(budget['video_target_kbps']*2)+'k']
+            else:cmd+=['-crf','19']
             if audio is not None:cmd+=['-c:a','aac','-b:a','160k','-ar','48000']
             cmd+=['-t',str(duration),'-movflags','+faststart',str(args.output)]
             proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)
@@ -306,11 +456,18 @@ def main(argv=None):
                 proc.stdin.close()
                 code=proc.wait()
             if code:raise ValueError(f'FFmpeg failed with exit {code}')
-        args.output.with_suffix('.timeline.json').write_text(json.dumps(events,ensure_ascii=False,indent=2),encoding='utf-8')
-        args.output.with_suffix('.audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+            report['media_verification']=verify_media(args.output,fps,duration,audio is not None)
+            if audio is not None and sha256_file(audio)!=audio_hash:raise ValueError('Audio master changed during rendering; output is not approved')
+            if budget and args.output.stat().st_size>budget['limit_bytes']:
+                raise ValueError('Encoded video exceeds delivery budget; lower bitrate/resolution or choose an approved destination with more capacity')
+        timeline_path=args.output.with_suffix('.timeline.json')
+        audit_path=args.output if args.check_only else args.output.with_suffix('.audit.json')
+        report['artifacts']={'audit':str(audit_path),'timeline':str(timeline_path)}
+        timeline_path.write_text(json.dumps(events,ensure_ascii=False,indent=2),encoding='utf-8')
+        audit_path.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
         print(json.dumps({'output':str(args.output),**report},ensure_ascii=False))
         return 0
-    except (ValueError,KeyError,FileNotFoundError,subprocess.CalledProcessError) as exc:
+    except (ValueError,KeyError,TypeError,OSError,subprocess.CalledProcessError) as exc:
         print(f'ERROR: {exc}',file=sys.stderr);return 2
 
 if __name__=='__main__':raise SystemExit(main())

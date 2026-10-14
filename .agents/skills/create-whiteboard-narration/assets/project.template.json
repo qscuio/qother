@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "style_id": "warm-flat-envelope-v1",
+  "rejected_voices": [],
+  "narration": {
+    "source": "synthesized",
+    "voice": {
+      "provider": null,
+      "model": null,
+      "id": null,
+      "acceptance": {
+        "status": "pending",
+        "user_evidence": null,
+        "sample": {
+          "path": "voice-audition.wav",
+          "sha256": null
+        },
+        "configuration_sha256": null
+      },
+      "settings": {}
+    },
+    "master": {
+      "path": "narration-master.wav",
+      "sha256": null
+    },
+    "script": {
+      "path": "narration-script.txt",
+      "sha256": null
+    },
+    "duration_seconds": null,
+    "continuous_master": true,
+    "visual_edit_audio_policy": "preserve_master",
+    "timing_method": null,
+    "edits": [],
+    "beats": []
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "storyboard": {
+        "path": "storyboard.json",
+        "sha256": null
+      },
+      "narration_quote": null,
+      "explains": null,
+      "visual_review": {
+        "status": "pending",
+        "reviewer": null,
+        "evidence": null,
+        "sample": {
+          "path": "scene-01-contact-sheet.png",
+          "sha256": null
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "destination": null,
+    "limit_mib": null,
+    "audio_kbps": 160
+  }
+}

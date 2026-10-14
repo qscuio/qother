@@ -39,12 +39,12 @@ def main():
     reports={}
     for hand in ('cream_pen','marker','pencil'):
         r=wb.Renderer(spec,events,masks,end,hand);reports[hand]=wb.audit(events,r,fps,10)
-        assert reports[hand]['crop_edge_offscreen']
+        assert reports[hand]['crop_edge_offscreen'] and reports[hand]['all_cut_edges_offscreen']
     if args.output_dir:
         args.output_dir.mkdir(parents=True,exist_ok=True)
         for hand in reports:
             for t in (1.0,5.0,9.5):
                 wb.Renderer(spec,events,masks,end,hand).frame(t).save(args.output_dir/f'{hand}-{t:.1f}.png')
         (args.output_dir/'self-test.json').write_text(json.dumps(reports,indent=2))
-    print(json.dumps({'status':'PASS','fps':fps,'events':len(events),'checks':['isolated characters','nib/ink endpoint','pen lifts add no ink','partial fill only','polygon clipping','missing Hanzi rejection','undersampled motion rejection','unmeasured caption rejection','all hand crop edges offscreen']},indent=2))
+    print(json.dumps({'status':'PASS','fps':fps,'events':len(events),'checks':['isolated characters','nib/ink endpoint','pen lifts add no ink','partial fill only','polygon clipping','missing Hanzi rejection','undersampled motion rejection','unmeasured caption rejection','all four source-cut edges offscreen for all hands']},indent=2))
 if __name__=='__main__':main()

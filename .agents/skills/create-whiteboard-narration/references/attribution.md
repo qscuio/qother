@@ -22,4 +22,8 @@ https://github.com/notofonts/noto-cjk
 Visual/workflow inspiration was the visible-hand narrative whiteboard style in the public project:
 https://github.com/threerocks/sweety-handdraw-video
 
-The project was consulted for broad semantic-part drawing, anchor calibration, caption placement, and speech-led pacing. No upstream renderer code, reference screenshot, or hand asset is included here. This implementation permits both per-object outline/fill and whole-scene outline-then-fill with consistent ordering. Do not describe this skill as that author's official skill or imply endorsement. If future work copies upstream code or substantial text, inspect and preserve the current license/attribution requirements first.
+The October 2026 improvement pass consulted version 1.2.3 at commit 5206ec0d17f9b353e400b64b9c51ad69e721e02a for semantic-part order, same-order fills, anchor/transition checks, continuous-master identity, style/scene acceptance and separate QA gates. These capabilities were implemented independently for authored vectors; its raster skeleton Chinese tracing was not adopted. The bundled real Hanzi medians remain unchanged.
+
+Pinned reference: https://github.com/threerocks/sweety-handdraw-video/tree/5206ec0d17f9b353e400b64b9c51ad69e721e02a/skills/sweety-handdraw-video
+
+Upstream code/documentation are MIT-licensed; generated hand assets, voice outputs and external services have separate rights/terms. No upstream dependency tree or asset was vendored. No upstream renderer code, reference screenshot, or hand asset is included here. This implementation permits both per-object outline/fill and whole-scene outline-then-fill with consistent ordering. Do not describe this skill as that author's official skill or imply endorsement. If future work copies upstream code or substantial text, inspect and preserve the current license/attribution requirements first.

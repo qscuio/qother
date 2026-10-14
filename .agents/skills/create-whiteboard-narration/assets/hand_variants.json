@@ -8,7 +8,11 @@
         129
       ],
       "render_height": 760,
-      "description": "Cream knit cuff and brown/gold fountain pen"
+      "description": "Cream knit cuff and brown/gold fountain pen",
+      "source_size": [
+        1254,
+        1254
+      ]
     },
     "marker": {
       "file": "hand_marker.png",
@@ -17,7 +21,11 @@
         228
       ],
       "render_height": 820,
-      "description": "Light-blue cuff and black marker"
+      "description": "Light-blue cuff and black marker",
+      "source_size": [
+        1254,
+        1254
+      ]
     },
     "pencil": {
       "file": "hand_pencil.png",
@@ -26,7 +34,11 @@
         129
       ],
       "render_height": 760,
-      "description": "Bare forearm and wooden pencil"
+      "description": "Bare forearm and wooden pencil",
+      "source_size": [
+        1254,
+        1254
+      ]
     }
   }
 }
