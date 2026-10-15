@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "language": "zh-CN",
   "purpose": "Technical narration pronunciation preferences; display spellings remain canonical.",
   "entries": [
@@ -87,6 +87,20 @@
       "tts": {
         "engine": "qwen3-tts",
         "input": "riff",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "Ethernet",
+      "aliases": [],
+      "oral_reading": "E zer net",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "E zer net",
         "audition": {
           "status": "pending",
           "profile": null,

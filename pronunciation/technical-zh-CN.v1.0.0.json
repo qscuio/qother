@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "purpose": "Technical narration pronunciation preferences; display spellings remain canonical.",
+  "entries": [
+    {
+      "display": "MAC",
+      "aliases": [],
+      "oral_reading": "麦克",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "麦克",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "VLAN",
+      "aliases": [],
+      "oral_reading": "V-lan，V 加单词 lan，不逐字母拼读",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "V lan",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "In-LIF",
+      "aliases": [
+        "In‐LIF",
+        "In‑LIF"
+      ],
+      "oral_reading": "in leaf",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "in leaf",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "Out-LIF",
+      "aliases": [
+        "Out‐LIF",
+        "Out‑LIF"
+      ],
+      "oral_reading": "out leaf",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "out leaf",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "LIF",
+      "aliases": [],
+      "oral_reading": "leaf",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "leaf",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "RIF",
+      "aliases": [],
+      "oral_reading": "riff",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "riff",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    }
+  ]
+}
