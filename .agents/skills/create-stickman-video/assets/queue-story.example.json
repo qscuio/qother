@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "title": "排队为什么能让交接有序",
+  "source_summary": "虚构的单服务窗口教学情境：按先来后到交接令牌。不是具体芯片实现，也不宣称所有队列都使用该策略。",
+  "ratio": "16:9",
+  "duration_s": 15,
+  "style": "classic-light",
+  "language": "zh-CN",
+  "characters": {
+    "guide": "A black 2D stick figure with a hollow round head, no facial features, connected single-line body, exactly two arms and two legs, stable medium line weight and proportions. Only the current limb pose is visible; no clothing or body fill."
+  },
+  "voice_lock": "One adult Mandarin narrator, neutral standard Mandarin accent, warm mid register, clear calm delivery, measured pace, dry close recording; unchanged identity and treatment across clips.",
+  "palette": [
+    "black",
+    "white",
+    "warm orange"
+  ],
+  "approval": {
+    "status": "draft",
+    "digest": ""
+  },
+  "clips": [
+    {
+      "id": "q01",
+      "duration_s": 7.5,
+      "environment": "Flat pure white field, black line-art queue markers and service tray; a single orange token. No written labels.",
+      "composition": "Wide 16:9 lateral staging: queue on left, service on right, clear negative space above, all actions inside frame.",
+      "characters": [
+        "guide"
+      ],
+      "opening_state": {
+        "present": [
+          "guide"
+        ],
+        "guide": "left of queue",
+        "token": "on entry tray"
+      },
+      "closing_state": {
+        "present": [
+          "guide"
+        ],
+        "guide": "beside queue",
+        "token": "in guide right hand"
+      },
+      "transition": {
+        "kind": "continuous",
+        "reason": "opening"
+      },
+      "narration": "在这个例子里，先到的人，先把令牌交给窗口。",
+      "beats": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.5,
+          "action": "建立横向队列：讲解角色指向入口托盘中的橙色令牌，物体不移动。",
+          "camera": "locked wide camera",
+          "sfx": "none"
+        },
+        {
+          "start_s": 2.5,
+          "end_s": 5.0,
+          "action": "角色走到托盘前，右手接触并握住令牌，托盘上不再出现副本。",
+          "camera": "locked wide camera",
+          "sfx": "none"
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 7.5,
+          "action": "角色持令牌停在队列旁，让观众看清持有者。",
+          "camera": "locked wide camera",
+          "sfx": "none"
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "duration_s": 7.5,
+      "environment": "Flat pure white field, black line-art queue markers and service tray; a single orange token. No written labels.",
+      "composition": "Wide 16:9 lateral staging: queue on left, service on right, clear negative space above, all actions inside frame.",
+      "characters": [
+        "guide"
+      ],
+      "opening_state": {
+        "present": [
+          "guide"
+        ],
+        "guide": "beside queue",
+        "token": "in guide right hand"
+      },
+      "closing_state": {
+        "present": [
+          "guide"
+        ],
+        "guide": "beside service desk",
+        "token": "on service tray"
+      },
+      "transition": {
+        "kind": "continuous",
+        "reason": "Preserve guide and token ownership across the cut."
+      },
+      "narration": "后到的人先等待。这样，每次交接都有明确的顺序。",
+      "beats": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.5,
+          "action": "承接前镜持有状态，角色转向右侧窗口，令牌仍在右手。",
+          "camera": "locked wide camera",
+          "sfx": "none"
+        },
+        {
+          "start_s": 2.5,
+          "end_s": 5.0,
+          "action": "角色走向窗口，把令牌放到服务托盘，右手松开并离开。",
+          "camera": "locked wide camera",
+          "sfx": "none"
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 7.5,
+          "action": "角色退到托盘旁，令牌保持静止，以一次清楚交接结束。",
+          "camera": "locked wide camera",
+          "sfx": "none"
+        }
+      ]
+    }
+  ]
+}

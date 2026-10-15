@@ -1,0 +1,4 @@
+interface:
+  display_name: "火柴人动画导演"
+  short_description: "Plan consistent stickman stories and timed video prompts"
+  default_prompt: "Use $create-stickman-video to turn this source into a timed stickman storyboard and provider-neutral prompt package."

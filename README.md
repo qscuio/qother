@@ -57,9 +57,12 @@
 - [带手白板手绘口播](.agents/skills/create-whiteboard-narration/SKILL.md)：可见手部逐笔绘制、分区上色，并与实际旁白同步。
 - [流程图动态讲解](.agents/skills/create-diagram-explainer/SKILL.md)：无手部的动态图解，突出流程方向、因果与状态变化。
 
-两套技能均附可运行渲染脚本、通用示例、检查程序与来源说明。仓库副本省略个人技能服务自动生成的图标和服务专属 UI 元数据，核心工作流与渲染代码保持一致。
+上述两套技能均附可运行渲染脚本、通用示例、检查程序与来源说明。仓库副本省略个人技能服务自动生成的图标和服务专属 UI 元数据，核心工作流与渲染代码保持一致。
 
+
+- [火柴人动画导演](.agents/skills/create-stickman-video/SKILL.md)：角色一致性、动作节拍、转场和独立提示词包。附离线校验/编译脚本，尚不包含视频生成引擎；[集成说明与边界](docs/stickman-video-adaptation.md)。
 
 ### 技术旁白发音词典
 
 [统一发音词典与安全替代工具](pronunciation/README.md)：脚本、字幕保留 MAC、VLAN、In-LIF、Out-LIF、LIF、RIF 等标准拼写；配音单独生成发音稿。两套视频技能共用一份版本化词典。当前引擎候选均待实际试听，代码检查不等于发音通过。
+
