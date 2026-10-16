@@ -25,25 +25,25 @@ class PronunciationTests(unittest.TestCase):
                          'ea1ccf5a3435fbf5ba2efafd0b9b796ddfad59d5cc76d877f522c0a7afb270e8')
         previous = p.load_lexicon(previous_path)
         self.assertEqual(previous['version'], '1.0.0')
-        self.assertEqual(self.lexicon['version'], '1.2.0')
+        self.assertEqual(self.lexicon['version'], '1.3.0')
         self.assertEqual(self.lexicon['schema_version'], previous['schema_version'])
         self.assertEqual(self.lexicon['entries'][:6], previous['entries'])
         old_result = p.prepare_spoken_text('Ethernet MAC', previous, allow_pending=True)
         self.assertEqual(old_result['spoken_text'], 'Ethernet 麦克')
         self.assertEqual(old_result['lexicon_version'], '1.0.0')
 
-    def test_ten_terms_and_exact_candidate_inputs(self):
+    def test_eleven_terms_and_exact_candidate_inputs(self):
         expected = {'MAC': '麦克', 'VLAN': 'V lan', 'In-LIF': 'in leaf',
                     'Out-LIF': 'out leaf', 'LIF': 'leaf', 'RIF': 'riff',
-                    'Ethernet': 'E zer net', 'RAM': 'ram', 'DRAM': 'dee ram', 'SRAM': 'ess ram'}
+                    'Ethernet': 'E zer net', 'RAM': 'ram', 'DRAM': 'D ram', 'SRAM': 'S ram', 'E2E': 'E to E'}
         self.assertEqual({e['display']: e['tts']['input'] for e in self.lexicon['entries']}, expected)
-        text = 'Ethernet帧的MAC地址属于VLAN。In-LIF和Out-LIF，以及LIF、RIF。RAM、DRAM和SRAM。'
+        text = 'Ethernet帧的MAC地址属于VLAN。In-LIF和Out-LIF，以及LIF、RIF。RAM、DRAM和SRAM。E2E。'
         result = self.prepare(text)
         self.assertEqual(result['display_text'], text)
-        self.assertEqual(result['spoken_text'], 'E zer net帧的麦克地址属于V lan。in leaf和out leaf，以及leaf、riff。ram、dee ram和ess ram。')
+        self.assertEqual(result['spoken_text'], 'E zer net帧的麦克地址属于V lan。in leaf和out leaf，以及leaf、riff。ram、D ram和S ram。E to E。')
         self.assertEqual(result['pending_terms'], sorted(expected))
-        self.assertEqual(len(result['replacements']), 10)
-        self.assertEqual(result['lexicon_version'], '1.2.0')
+        self.assertEqual(len(result['replacements']), 11)
+        self.assertEqual(result['lexicon_version'], '1.3.0')
         self.assertFalse(result['audio_generated'])
         for change in result['replacements']:
             self.assertEqual(text[change['start']:change['end']], change['matched'])
@@ -195,7 +195,7 @@ class PronunciationTests(unittest.TestCase):
             report = json.loads((out / 'pronunciation-report.json').read_text())
             self.assertEqual(len(report['lexicon_sha256']), 64)
             self.assertEqual(report['lexicon_sha256'], hashlib.sha256(p.DEFAULT_LEXICON.read_bytes()).hexdigest())
-            self.assertEqual(report['lexicon_version'], '1.2.0')
+            self.assertEqual(report['lexicon_version'], '1.3.0')
             self.assertEqual(report['pending_terms'], ['Ethernet', 'In-LIF', 'MAC'])
             self.assertFalse(report['audio_generated'])
             with self.assertRaisesRegex(ValueError, 'already exists'): p.main([*argv, '--allow-pending'])
@@ -235,14 +235,14 @@ class PronunciationTests(unittest.TestCase):
             self.assertFalse(report['audio_generated'])
 
     def test_memory_words_exact_candidates_and_order(self):
-        expected = {'RAM': 'ram', 'DRAM': 'dee ram', 'SRAM': 'ess ram'}
+        expected = {'RAM': 'ram', 'DRAM': 'D ram', 'SRAM': 'S ram'}
         for term, spoken in expected.items():
             entry = next(e for e in self.lexicon['entries'] if e['display'] == term)
             self.assertEqual(entry['aliases'], [])
             self.assertEqual(entry['tts'], {'engine': 'qwen3-tts', 'input': spoken,
                 'audition': {'status': 'pending', 'profile': None, 'evidence': None}})
         result = self.prepare('DRAM/SRAM/RAM，片上SRAM与外部DRAM。')
-        self.assertEqual(result['spoken_text'], 'dee ram/ess ram/ram，片上ess ram与外部dee ram。')
+        self.assertEqual(result['spoken_text'], 'D ram/S ram/ram，片上S ram与外部D ram。')
         self.assertEqual([c['display'] for c in result['replacements']], ['DRAM', 'SRAM', 'RAM', 'SRAM', 'DRAM'])
         self.assertEqual(result['pending_terms'], ['DRAM', 'RAM', 'SRAM'])
 
@@ -253,7 +253,7 @@ class PronunciationTests(unittest.TestCase):
         self.assertEqual(result['replacements'], [])
 
     def test_english_terms_and_admission_are_not_translated(self):
-        text = 'tag、标签、access control、访问控制、接纳、admission、admission control、接纳控制。'
+        text = 'tag、标签、access control、访问控制、接纳、admission、admission control、接纳控制、credit、信用、fabric、Fabric、织物、交换网络。'
         result = self.prepare(text)
         self.assertEqual(result['display_text'], text)
         self.assertEqual(result['spoken_text'], text)
@@ -261,7 +261,81 @@ class PronunciationTests(unittest.TestCase):
         self.assertEqual(result['pronunciation_status'], 'no_pending_replacements')
         self.assertFalse(result['audio_generated'])
         # Unchanged text is not an audition or proof of term semantics.
-        self.assertEqual([e['display'] for e in self.lexicon['entries'][-3:]], ['RAM', 'DRAM', 'SRAM'])
+        self.assertEqual([e['display'] for e in self.lexicon['entries'][-4:]], ['RAM', 'DRAM', 'SRAM', 'E2E'])
+
+    def test_v1_2_0_snapshot_and_cli_pin(self):
+        previous_path = p.DEFAULT_LEXICON.with_name('technical-zh-CN.v1.2.0.json')
+        self.assertEqual(hashlib.sha256(previous_path.read_bytes()).hexdigest(),
+                         '033777aedf9b292bcd524a60efe19b72e04d7be00bc0072d3ab7e6f80219a42b')
+        previous = p.load_lexicon(previous_path)
+        self.assertEqual(previous['version'], '1.2.0')
+        self.assertEqual(self.lexicon['schema_version'], previous['schema_version'])
+        for old_entry in previous['entries']:
+            if old_entry['display'] in {'DRAM', 'SRAM'}:
+                continue
+            self.assertEqual(next(e for e in self.lexicon['entries'] if e['display'] == old_entry['display']), old_entry)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); src = root / 'canonical.txt'; out = root / 'out'
+            original = 'RAM DRAM SRAM E2E\r\n'.encode('utf-8')
+            src.write_bytes(original)
+            with contextlib.redirect_stdout(io.StringIO()):
+                p.main(['--text', str(src), '--out', str(out), '--lexicon', str(previous_path), '--allow-pending'])
+            self.assertEqual((out / 'display.txt').read_bytes(), original)
+            self.assertEqual((out / 'spoken.txt').read_bytes(), 'ram dee ram ess ram E2E\r\n'.encode('utf-8'))
+            report = json.loads((out / 'pronunciation-report.json').read_text(encoding='utf-8'))
+            self.assertEqual(report['lexicon_version'], '1.2.0')
+            self.assertEqual(report['pending_terms'], ['DRAM', 'RAM', 'SRAM'])
+            self.assertFalse(report['audio_generated'])
+
+    def test_e2e_candidate_first_use_and_case(self):
+        entry = next(e for e in self.lexicon['entries'] if e['display'] == 'E2E')
+        self.assertEqual(entry['aliases'], [])
+        self.assertEqual(entry['tts'], {'engine': 'qwen3-tts', 'input': 'E to E',
+            'audition': {'status': 'pending', 'profile': None, 'evidence': None}})
+        text = 'E2E（end-to-end），再看E2E。'
+        result = self.prepare(text)
+        self.assertEqual(result['display_text'], text)
+        self.assertEqual(result['spoken_text'], 'E to E（end-to-end），再看E to E。')
+        self.assertEqual(result['pending_terms'], ['E2E'])
+        self.assertEqual(len(result['replacements']), 2)
+        # Expansion is authored explicitly on first use, never invented by this helper.
+        self.assertEqual(self.prepare('E2E和E2E')['spoken_text'], 'E to E和E to E')
+        other = 'e2e E2e e2E EerE E 2 E E-to-E end-to-end PRE2E E2E2 E2E_ID'
+        self.assertEqual(self.prepare(other)['spoken_text'], other)
+        self.assertEqual(self.prepare(other)['replacements'], [])
+
+    def test_schema_allows_e2e_but_not_phrases_or_chinese_aliases(self):
+        self.assertIs(p.validate_lexicon(self.lexicon), self.lexicon)
+        for spelling in ('E to E', 'E2E ', 'E2E\n', 'E_2_E', '端到端', 'access control'):
+            for field in ('display', 'aliases'):
+                with self.subTest(spelling=repr(spelling), field=field):
+                    altered = copy.deepcopy(self.lexicon)
+                    altered['entries'][-1][field] = [spelling] if field == 'aliases' else spelling
+                    with self.assertRaisesRegex(ValueError, 'explicit technical tokens'):
+                        p.validate_lexicon(altered)
+
+    def test_public_candidates_remain_pending(self):
+        for entry in self.lexicon['entries']:
+            with self.subTest(term=entry['display']):
+                self.assertEqual(entry['tts']['audition'],
+                                 {'status': 'pending', 'profile': None, 'evidence': None})
+
+    def test_revised_memory_input_invalidates_old_acceptance(self):
+        previous = p.load_lexicon(p.DEFAULT_LEXICON.with_name('technical-zh-CN.v1.2.0.json'))
+        old_inputs = {e['display']: e['tts']['input'] for e in previous['entries']}
+        for term in ('DRAM', 'SRAM'):
+            altered = copy.deepcopy(self.lexicon)
+            entry = next(e for e in altered['entries'] if e['display'] == term)
+            self.assertNotEqual(entry['tts']['input'], old_inputs[term])
+            with self.subTest(term=term):
+                entry['tts']['audition'] = {'status': 'accepted', 'profile': 'synthetic-fixture-profile',
+                    'evidence': 'synthetic-fixture-review', 'input': old_inputs[term],
+                    'engine': entry['tts']['engine']}
+                with self.assertRaises(p.PendingPronunciationError):
+                    p.prepare_spoken_text(term, altered, profile='synthetic-fixture-profile')
+                result = p.prepare_spoken_text(term, altered, allow_pending=True,
+                                               profile='synthetic-fixture-profile')
+                self.assertEqual(result['pending_terms'], [term])
 
     def test_input_lexicon_is_not_mutated(self):
         before = copy.deepcopy(self.lexicon)

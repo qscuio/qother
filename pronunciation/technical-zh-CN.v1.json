@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "language": "zh-CN",
   "purpose": "Technical narration pronunciation preferences; display spellings remain canonical.",
   "entries": [
@@ -128,7 +128,7 @@
       "oral_reading": "D 加单词 ram，不把 R/A/M 逐字母拼读",
       "tts": {
         "engine": "qwen3-tts",
-        "input": "dee ram",
+        "input": "D ram",
         "audition": {
           "status": "pending",
           "profile": null,
@@ -142,7 +142,21 @@
       "oral_reading": "S 加单词 ram，不把 R/A/M 逐字母拼读",
       "tts": {
         "engine": "qwen3-tts",
-        "input": "ess ram",
+        "input": "S ram",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "E2E",
+      "aliases": [],
+      "oral_reading": "E to E；首次解释为 end-to-end，不把数字 2 读成中文 er",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "E to E",
         "audition": {
           "status": "pending",
           "profile": null,
