@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "language": "zh-CN",
   "purpose": "Technical narration pronunciation preferences; display spellings remain canonical.",
   "entries": [
@@ -101,6 +101,48 @@
       "tts": {
         "engine": "qwen3-tts",
         "input": "E zer net",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "RAM",
+      "aliases": [],
+      "oral_reading": "ram，RAM 整体按单词读，不逐字母拼读",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "ram",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "DRAM",
+      "aliases": [],
+      "oral_reading": "D 加单词 ram，不把 R/A/M 逐字母拼读",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "dee ram",
+        "audition": {
+          "status": "pending",
+          "profile": null,
+          "evidence": null
+        }
+      }
+    },
+    {
+      "display": "SRAM",
+      "aliases": [],
+      "oral_reading": "S 加单词 ram，不把 R/A/M 逐字母拼读",
+      "tts": {
+        "engine": "qwen3-tts",
+        "input": "ess ram",
         "audition": {
           "status": "pending",
           "profile": null,
