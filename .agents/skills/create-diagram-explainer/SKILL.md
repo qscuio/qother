@@ -15,6 +15,10 @@ Make the explanation and its changing diagram readable together on the same scre
 - Let narration introduce objects, then reveal the relevant strokes and animate the causal change. Use real queue/count/state changes, not decorative particles. Preserve chronology, full script coverage, and one visible instance of each focal identity unless actual copying is explained.
 - Read [visual-and-scientific-qa.md](references/visual-and-scientific-qa.md) for style, layout, and final review.
 
+## SRT-driven theme routing
+
+Reuse supplied SRT only when it matches the current narration master; retain its timing and bind cue IDs to semantic events. For a visible-hand warm-paper illustration, use the adjacent create-whiteboard-narration skill and its SRT theme. In this hand-free diagram workflow, retain technical labels and causal state changes; a paper palette is optional and never replaces those mechanisms.
+
 ## Build from actual narration
 
 1. Write the complete narration in short clauses and map each clause to its visible focus and event. Keep `narration` exactly equal to the concatenated caption clauses; put pronunciation substitutions in `spoken_text` only.
@@ -53,3 +57,4 @@ Run validation, inspect early/middle/late decoded frames plus frames around each
 Deliver the requested playable video and, when useful, narration/storyboard, SRT, timing, source, dependency versions, source citations, and concise QA results. State any unperformed checks. Do not include environments, caches, credentials, model weights, or unnecessary intermediates. Publishing to a third-party host or GitHub is a separate action requiring the appropriate user authorization; this skill does not publish automatically.
 
 Originality and dependencies: [provenance.md](references/provenance.md).
+

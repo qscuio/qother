@@ -299,6 +299,10 @@ class Renderer:
         self.pivot=(a[0]*scale,a[1]*scale);self.crop_bottom_offset=(raw.height-a[1])*scale
         self.hand_scale=(self.hand.width/raw.width,self.hand.height/raw.height)
         self.pivot=(a[0]*self.hand_scale[0],a[1]*self.hand_scale[1])
+        self.paper=spec.get('background', [255,255,255])
+        if not isinstance(self.paper,list) or len(self.paper)!=3 or any(type(v) is not int or not 0<=v<=255 for v in self.paper):
+            raise ValueError('background must be three RGB integers')
+        self.paper=tuple(self.paper)+(255,)
         self.captions=spec.get('captions',[])
         self.font=ImageFont.truetype(find_font(font),28) if self.captions else None
         if self.captions and any(any(ord(ch)>127 for ch in c['text']) for c in self.captions):
@@ -324,7 +328,7 @@ class Renderer:
             self.next+=1
         ink,fills=self.ink.copy(),self.fills.copy();e,nib,u=at(self.events,t)
         if e['kind']=='draw':self.paint(e,u,ink,fills)
-        image=Image.new('RGBA',ink.size,'white');image.alpha_composite(fills);image.alpha_composite(ink)
+        image=Image.new('RGBA',ink.size,self.paper);image.alpha_composite(fills);image.alpha_composite(ink)
         image=image.resize((BASE_W,BASE_H),Image.Resampling.LANCZOS)
         if t<self.exit_end:
             x,y=nib;px,py=self.pivot
@@ -471,3 +475,4 @@ def main(argv=None):
         print(f'ERROR: {exc}',file=sys.stderr);return 2
 
 if __name__=='__main__':raise SystemExit(main())
+

@@ -1,0 +1,172 @@
+{
+  "duration_ms": 12000,
+  "caption_timing": "preview_only",
+  "beats": [
+    {
+      "id": "arrival",
+      "narrative_role": "首先出现待处理的小包",
+      "cue_ids": [
+        1
+      ],
+      "start_ms": 200,
+      "end_ms": 6500,
+      "parts": [
+        {
+          "id": "envelope",
+          "outline": [
+            {
+              "type": "path",
+              "points": [
+                [
+                  210,
+                  270
+                ],
+                [
+                  460,
+                  270
+                ],
+                [
+                  460,
+                  440
+                ],
+                [
+                  210,
+                  440
+                ]
+              ],
+              "closed": true,
+              "width": 5,
+              "tag": "envelope-outline"
+            },
+            {
+              "type": "path",
+              "points": [
+                [
+                  210,
+                  270
+                ],
+                [
+                  335,
+                  360
+                ],
+                [
+                  460,
+                  270
+                ]
+              ],
+              "width": 4,
+              "tag": "envelope-flap"
+            },
+            {
+              "type": "path",
+              "points": [
+                [
+                  210,
+                  440
+                ],
+                [
+                  295,
+                  365
+                ]
+              ],
+              "width": 3
+            },
+            {
+              "type": "path",
+              "points": [
+                [
+                  460,
+                  440
+                ],
+                [
+                  375,
+                  365
+                ]
+              ],
+              "width": 3
+            }
+          ],
+          "fills": [
+            {
+              "type": "fill",
+              "polygon": [
+                [
+                  210,
+                  270
+                ],
+                [
+                  460,
+                  270
+                ],
+                [
+                  460,
+                  440
+                ],
+                [
+                  210,
+                  440
+                ]
+              ],
+              "color": [
+                190,
+                220,
+                235,
+                255
+              ],
+              "spacing": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forward",
+      "narrative_role": "方向箭头说明下一步转发方向",
+      "cue_ids": [
+        2
+      ],
+      "start_ms": 6800,
+      "end_ms": 10000,
+      "parts": [
+        {
+          "id": "arrow",
+          "outline": [
+            {
+              "type": "path",
+              "points": [
+                [
+                  520,
+                  350
+                ],
+                [
+                  700,
+                  350
+                ]
+              ],
+              "width": 4
+            },
+            {
+              "type": "path",
+              "points": [
+                [
+                  680,
+                  333
+                ],
+                [
+                  700,
+                  350
+                ],
+                [
+                  680,
+                  367
+                ]
+              ],
+              "width": 4
+            }
+          ],
+          "fills": []
+        }
+      ]
+    }
+  ]
+}
