@@ -7,6 +7,12 @@ description: Create narrated dynamic diagram explainers with progressive origina
 
 Make the explanation and its changing diagram readable together on the same screen. This is a diagram-animation style, even when its strokes look hand-drawn. Do not call it realistic hand-drawing or add a decorative hand overlay.
 
+## Shared direction and quality process
+
+Before storyboarding a new video or materially revising one, read the repository's [direction and quality contract](../../../docs/video-production/direction-quality.md). Use it with this style's existing production/timing/visual contracts, not as a replacement renderer or a second timeline. Reuse existing storyboard, evidence index, measured audio timing and review artifacts; record their paths in the brief. If installed separately, bundle or explicitly locate that shared reference and its optional review validator; do not silently invent a divergent copy.
+
+Preserve the current project's accepted voice and narration master, complete script coverage, canonical Chinese text and captions. Unless the current brief says otherwise, keep 1280×720 landscape at 24 fps with dry mono narration. In unattended mode, resolve ordinary creative gates internally without repeated user approval; missing authorization and required permissions still block dependent actions. This direction layer does not authorize publication or changes to frozen production jobs.
+
 ## Choose the story and visual contract
 
 - Establish the audience, central question, approximate duration, output format, language, and voice from the request or task context. About two minutes should follow one clear causal thread; scene count is flexible.

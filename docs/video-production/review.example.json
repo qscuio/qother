@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "artifact": "EXAMPLE ONLY: output/explainer.mp4; bind actual SHA-256 before real review",
+  "author": "example-maker",
+  "reviewer": "example-cold-reviewer",
+  "review_kind": "cold",
+  "decision": "conditional",
+  "limitations": "这是未执行的示例。先绑定实际文件、按 brief 填齐必需检查，再真实观看、试听和核查；不能用示例证明成品通过。",
+  "checks": [
+    {"id": "story-and-hierarchy", "required": true, "status": "not_run", "evidence": [], "limitation": "尚未查看分镜、风格帧或无声总览；需复述因果并核查焦点和中文可读性。"},
+    {"id": "facts-and-coverage", "required": true, "status": "not_run", "evidence": [], "limitation": "尚未比对证据索引与完整脚本/字幕。"},
+    {"id": "decoded-media-and-timing", "required": true, "status": "not_run", "evidence": [], "limitation": "尚未解码核验尺寸、帧率、时长、语义事件及尾句。"},
+    {"id": "continuous-motion-view", "required": true, "status": "not_run", "evidence": [], "limitation": "尚未连续观看；静帧不能证明动作连续。"},
+    {"id": "narration-listen", "required": true, "status": "not_run", "evidence": [], "limitation": "尚未实际试听；响度统计或ASR不能代替发音与自然度检查。"},
+    {"id": "license-and-private-export", "required": true, "status": "not_run", "evidence": [], "limitation": "尚未检查素材许可和交付包的隐私边界。"}
+  ],
+  "issues": []
+}

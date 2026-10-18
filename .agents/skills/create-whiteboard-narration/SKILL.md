@@ -7,6 +7,12 @@ description: Create narrated whiteboard videos with a visible writing hand, genu
 
 Create an illustration-led scene that grows while the narration explains it. Keep the visible nib attached to the newly appearing stroke. The three bundled hand sprites are original AI-generated images, not filmed hands.
 
+## Shared direction and quality process
+
+Before storyboarding a new video or materially revising one, read the repository's [direction and quality contract](../../../docs/video-production/direction-quality.md). Use it with this style's existing production/timing/visual contracts, not as a replacement renderer or a second timeline. Reuse existing storyboard, evidence index, measured audio timing and review artifacts; record their paths in the brief. If installed separately, bundle or explicitly locate that shared reference and its optional review validator; do not silently invent a divergent copy.
+
+Preserve the current project's accepted voice and narration master, complete script coverage, canonical Chinese text and captions. Unless the current brief says otherwise, keep 1280×720 landscape at 24 fps with dry mono narration. In unattended mode, resolve ordinary creative gates internally without repeated user approval; missing authorization and required permissions still block dependent actions. This direction layer does not authorize publication or changes to frozen production jobs.
+
 ## Workflow
 
 1. Establish the topic, audience, source facts, language, voice, duration, output destination, and any existing audio. Reuse choices already given. Default to 1280×720, 16:9, white background, cream-sleeve fountain pen. Choose language and voice from the current request or accepted source audio; no historic TTS preset is a default. Do not infer permission to clone a voice, buy a service, or publish externally.
