@@ -37,3 +37,7 @@ description: Design and review motivated shots, virtual camera movement and edit
 
 需要把冻结稿组织成可审阅的声画方案时，读[制作 treatment 与声音规划](references/treatment-and-sound.md)：比较尚未锁定的声画路径，复用已有逐镜契约，不另起脚本或强制音乐节拍。涉及程序化画面复现与交付检查时，读[确定性与 QA 证据](references/determinism-and-qa.md)。两份参考只补方法，不安装工具、不授权视频制作。
 
+
+## 跨风格导演质量接口
+
+分镜或大改前读[导演与质量契约](../../../docs/video-production/direction-quality.md)，以其中参考对比、风格帧、实测声音、短链路和独立冷审方法补充现有 shot sidecar；阶段顺序仍用统一制作流程，不另起时间轴。把观众实际看见的关系、动机和阅读停留写到当前镜头；稳定技术布局与静止均可成立，无通用快切或不停运动要求。对参考只记录实际观看范围，动态/听觉未观察项如实保留。只更新方法不改冻结脚本、声音或运行任务。

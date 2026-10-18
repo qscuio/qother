@@ -38,3 +38,12 @@ Separate four outcomes: direction reviewed, prompt contract passed, footage insp
 Deliver only what exists: a reviewed storyboard/prompt package now, or actual playable footage after a separately verified generation and assembly path. Report blockers and unperformed checks. Keep private narration/audio, character references, credentials and raw source documents out of public method commits.
 
 Adaptation source, fixed revision and MIT notice: [provenance.md](references/provenance.md).
+
+## Shared direction quality and stickman checks
+
+Before storyboarding or materially revising a video, read the repository [direction and quality contract](../../../docs/video-production/direction-quality.md). Apply it through the existing project/prompt contract and review records; do not add a competing timeline or pretend the offline compiler is a renderer. If installed separately, locate or bundle that same reference rather than inventing a divergent copy. Preserve this project's accepted voice and output contract; the shared 1280×720 landscape, 24 fps, dry mono baseline only fills unspecified new-project choices.
+
+- Composition and meaning: stage the actor, goal and relevant prop as a readable silhouette. At the action peak, hands, prop and destination must remain distinguishable from other limbs, labels and captions. Record whether an enacted mechanism is evidence or an explicitly fictional analogy.
+- Motion and continuity: for each interaction inspect intent → contact → movement → release → consequence. Track one owner and one visible instance per prop unless copying is explained; no extra limbs, foot sliding or identity reset across cuts. Reaction holds and locked staging may carry meaning; do not force fast cuts or idle movement.
+- Timing: bind physical beats and reaction/readability holds to the accepted measured narration when available. Compiler beat durations remain plans until checked against real speech and footage; a provider's clip length cannot silently truncate the script or its last consequence.
+- QA evidence: when an authorized media path exists, use a short representative clip containing contact/release and a join, then inspect action peaks, join frames and continuous motion with audio. Record generated source versions and assembly settings; a repeated prompt or seed does not guarantee identical generated frames. Deterministic frame access applies to controlled assembly, not an unverified provider promise. Missing footage/listening stays not-run; review the actual final edit independently before claiming acceptance.

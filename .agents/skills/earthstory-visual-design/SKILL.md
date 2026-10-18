@@ -45,3 +45,7 @@ description: Design and critique 地球往事 documentary styleframes, visual hi
 
 明确比较手绘材料、墨线或图谱排版时，读[手绘语法](references/hand-drawn-grammar.md)。按既有风格分支选择，不自动把手绘铺到真实三维镜头，也不因参考库有许多编号就创建同等数量的 agents。
 
+
+## 跨风格导演质量接口
+
+分镜或大改前读[导演与质量契约](../../../docs/video-production/direction-quality.md)，把 brief、参考对比、代表性风格帧及冷审方法落入既有审阅包，不另起风格批准状态、schema 或时间轴。逐项比较主题层级、因果可追踪、焦点、中文阅读、转场动机和声画关系；参考未实际取得/观看就标未比对。按选定 style skill 的具体检查验收，不把二维、三维和手绘混成单一装饰语法。静帧通过只覆盖真实已看的版本与范围，后续动态、音频和独立终审仍需证据；冻结任务不因文档更新而改变。
