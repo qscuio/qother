@@ -14,6 +14,7 @@ description: 创作、构思、续写和修订小说、短篇故事及影视剧�
 - 小说：读 [小说技法](references/fiction-craft.md)，产出有叙述视角、具体行动与语言质感的正文。
 - 剧本：读 [剧本路线](references/screenplay.md)，产出场景、可表演动作、对白及必要转场，不把剧情梗概分行冒充剧本。
 - 多章续写、连续性检查、重要修订：另读 [状态与审校](references/continuity-review.md)。小修只使用与之相关的规则，不创建庞大资料库。
+- 科幻/奇幻机制、神话改编或长篇/连载情节设计：按需读 [机制与长线因果](references/speculative-plotting.md) 的相关段落；不把它变成所有短作的前置问卷。
 - 需要了解借鉴边界时读 [来源](references/sources.md)；日常写作不需要访问上游项目。
 
 ## 按操作工作
