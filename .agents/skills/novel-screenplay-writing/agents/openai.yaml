@@ -1,0 +1,6 @@
+interface:
+  display_name: 小说与剧本创作
+  short_description: 构思、续写和修订小说或剧本，维护人物、剧情与连续性
+  default_prompt: 使用 $novel-screenplay-writing 创作或修订我的小说或剧本，保持人物动机、场景推进和前后连续性。
+policy:
+  allow_implicit_invocation: true
